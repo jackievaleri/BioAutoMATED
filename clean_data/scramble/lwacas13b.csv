@@ -1,0 +1,546 @@
+,id,seq,len,type,avg_norm_max,ab_bel_quartile,target
+0,dengue_34,ctcgttctcggagcatcatgtttcgatc,28,dengue,1.0,1,1.0
+1,dengue_8,gcatagccctgtgctgtgatagtggatc,28,dengue,0.998591899,1,0.998591899
+2,dengue_24,gtcgaactgtgacctgttctcgttcgta,28,dengue,0.9978605490000001,1,0.9978605490000001
+3,dengue_22,tgtttcggtaatggcttcctgcatgagc,28,dengue,0.992781688,1,0.992781688
+4,dengue_84,cgcggcattgcaatttgttcttcctcga,28,dengue,0.982197585,1,0.982197585
+5,dengue_10,cgtcatgagttgagtcggttcgttctgc,28,dengue,0.982101676,1,0.982101676
+6,dengue_9,tggccgatggtgactctgaccgtttgat,28,dengue,0.981567891,1,0.981567891
+7,dengue_81,tccccctcctagagttagttgcccctgg,28,dengue,0.9753485409999999,1,0.9753485409999999
+8,dengue_87,ggcccatcgagctgtactcgtacgttgt,28,dengue,0.974492186,1,0.974492186
+9,dengue_35,tctttaggcctttcgctagttaccttcg,28,dengue,0.972090153,1,0.972090153
+10,dengue_23,gaagtcgagtaggggctttcttttccct,28,dengue,0.969600114,1,0.969600114
+11,dengue_19,ggtgtcatggtatctctaagtgtgtcga,28,dengue,0.968974012,1,0.968974012
+12,dengue_82,tccgctgtattctgcgcagtcctactgc,28,dengue,0.9663539390000001,1,0.9663539390000001
+13,dengue_20,ttctagcggtggagactcgttttaaggt,28,dengue,0.966149908,1,0.966149908
+14,dengue_26,ggtgtgttccccctttgccttggtgaaa,28,dengue,0.9653021740000001,1,0.9653021740000001
+15,dengue_18,gctaggtttctgtcaggtgtaggtactt,28,dengue,0.962979886,1,0.962979886
+16,dengue_88,gcgctttaccggacctgcaggctgagtt,28,dengue,0.961427024,1,0.961427024
+17,dengue_58,actatctgcgagtgttatgaacagagtt,28,dengue,0.956906015,1,0.956906015
+18,dengue_16,aggcctttgggtgttttgtttaaggagc,28,dengue,0.951130647,0,0.951130647
+19,dengue_80,acaccgtctcgtgtccttcgcttgcgac,28,dengue,0.948988323,0,0.948988323
+20,dengue_91,gtccataccgtgctgccaggggtacgtt,28,dengue,0.944640094,0,0.944640094
+21,dengue_28,tttctggttaggttcgtaccgtaccgtt,28,dengue,0.940436267,0,0.940436267
+22,dengue_27,ctctcttacgtggtattttaggctccgg,28,dengue,0.939990488,0,0.939990488
+23,dengue_55,gccaactactctaagttatttgtacgga,28,dengue,0.9392911079999999,0,0.9392911079999999
+24,dengue_57,ttatcacaaggtgtcgtgcagaatcagc,28,dengue,0.9364415,0,0.9364415
+25,dengue_78,ctgtgtgctttcagtcgccgtcctacct,28,dengue,0.9352884379999999,0,0.9352884379999999
+26,dengue_32,tctttgcgagaatagctctatcgtgtgc,28,dengue,0.9332262170000001,0,0.9332262170000001
+27,dengue_83,cttttagctagcggacttatccgctccg,28,dengue,0.932154336,0,0.932154336
+28,dengue_15,ggcttcaatgtgtcagggctggttgttt,28,dengue,0.931338931,0,0.931338931
+29,dengue_60,atactggactctcgcgtcgattgatagt,28,dengue,0.930615843,0,0.930615843
+30,dengue_13,gagacttttccggcggctgggtatttct,28,dengue,0.930263099,0,0.930263099
+31,dengue_71,gccgcccgtggtctatttttgtgtctcc,28,dengue,0.927686132,0,0.927686132
+32,dengue_17,gtgtgttgctgtattcgtagagtcgact,28,dengue,0.9271289979999999,0,0.9271289979999999
+33,dengue_61,acgaggacgctgtatttatgtctgcctc,28,dengue,0.920075922,0,0.920075922
+34,dengue_42,gaaggttgactcctttttgggacctggt,28,dengue,0.919099232,0,0.919099232
+35,dengue_85,gtctgggcaagcctgttctttcaccagt,28,dengue,0.9116352209999999,0,0.9116352209999999
+36,dengue_40,ctgatgggtattgttagtcatcctgttt,28,dengue,0.90806504,0,0.90806504
+37,dengue_68,cctaccaggtgttccagccactttgttt,28,dengue,0.903891027,0,0.903891027
+38,dengue_30,ggagatttgcattcctcgggcttcttta,28,dengue,0.902224296,0,0.902224296
+39,dengue_94,cggtgtacacgatgcctcactgttctgg,28,dengue,0.898449365,0,0.898449365
+40,dengue_31,tcgtgttcatacgtgcaacacctgttgt,28,dengue,0.891305769,0,0.891305769
+41,dengue_70,ctctcaggcctctcggttgttgatcgtc,28,dengue,0.88811132,0,0.88811132
+42,dengue_66,cttggtgtactcttaccattgacctgac,28,dengue,0.8835644490000001,0,0.8835644490000001
+43,dengue_7,actgggttgggtgttttgcatacgacca,28,dengue,0.8824695790000001,0,0.8824695790000001
+44,dengue_47,atttttgcggaaggcgtatttcgtttct,28,dengue,0.86886668,0,0.86886668
+45,dengue_0,ggatcgtttgcacgttaacggtattcag,28,dengue,0.864365787,0,0.864365787
+46,dengue_69,ccgttcgttcatactttggcgcgtactc,28,dengue,0.86228812,0,0.86228812
+47,dengue_11,tcgcactattgtcctccggtatggtgtg,28,dengue,0.860253918,0,0.860253918
+48,dengue_92,cggcttctagggccgcaacatgtgtgct,28,dengue,0.8598408270000001,0,0.8598408270000001
+49,dengue_37,ttgtatgtgtctgcccttatttcgcaga,28,dengue,0.851840158,0,0.851840158
+50,dengue_41,tgcgaaccgtgtcatttgggggttttta,28,dengue,0.844086624,0,0.844086624
+51,dengue_39,cggtaatgtgtgtccttgtgattatcct,28,dengue,0.843773034,0,0.843773034
+52,dengue_75,ttcccgtcttccttacgcggtctgtgta,28,dengue,0.827562635,0,0.827562635
+53,dengue_74,gtgcttcgtgtctagtccctagcctgct,28,dengue,0.813210785,0,0.813210785
+54,dengue_38,ggcgatttatctttcttactttgcggta,28,dengue,0.8119513979999999,0,0.8119513979999999
+55,dengue_25,gtcttgtgtctcatcattgagaccggct,28,dengue,0.8030631220000001,0,0.8030631220000001
+56,dengue_50,ttcacatgctggttgagtggctactgtt,28,dengue,0.797794239,0,0.797794239
+57,dengue_72,tctctcgctctggtcgggtctctatgat,28,dengue,0.779991106,0,0.779991106
+58,dengue_48,ggtgtttttgtttagtgctcatcactag,28,dengue,0.7766468670000001,0,0.7766468670000001
+59,dengue_1,atcgaacgggttgttaagtgcgccttag,28,dengue,0.7730871029999999,0,0.7730871029999999
+60,dengue_46,cattgcatttcgcgtattcgtgtcttgg,28,dengue,0.760946186,0,0.760946186
+61,dengue_90,tgccataccggtctgctgtagtgagcgg,28,dengue,0.714317581,0,0.714317581
+62,dengue_45,cctgctagtgtttacggttttctggtcg,28,dengue,0.690647841,0,0.690647841
+63,dengue_3,ttcgggtcgttagaagattctcgggatt,28,dengue,0.6755078859999999,0,0.6755078859999999
+64,dengue_29,tgaccactcggaatgttgtttttggctt,28,dengue,0.672354387,0,0.672354387
+65,dengue_6,ttcacatgacttgctgcatagtgagggt,28,dengue,0.668354591,0,0.668354591
+66,dengue_56,gagatcctggttaacacgatgttagatc,28,dengue,0.66568854,0,0.66568854
+67,dengue_54,cactcctagattgggtgccgtaaatgaa,28,dengue,0.634067342,0,0.634067342
+68,dengue_14,gactgcgttagtcccgtgtttagggtgt,28,dengue,0.632685463,0,0.632685463
+69,dengue_67,gtccgtgcgtacctataagtctctctgt,28,dengue,0.611851681,0,0.611851681
+70,dengue_33,tcgtttcctctgagtctctggaccgaat,28,dengue,0.602917786,0,0.602917786
+71,dengue_51,actgtgtgtgtgaatctgtaggctttcc,28,dengue,0.600862749,0,0.600862749
+72,dengue_36,ttttacgcctcacttgtagtgttcttgg,28,dengue,0.5744741529999999,0,0.5744741529999999
+73,dengue_12,ctctcgtggtccgttataccgtgatggt,28,dengue,0.5730714410000001,0,0.5730714410000001
+74,dengue_63,tctaaaatcgtattgcctcgtaccggtc,28,dengue,0.560860479,0,0.560860479
+75,dengue_65,ttactcctaccaaggctgggcttcttat,28,dengue,0.560621605,0,0.560621605
+76,dengue_43,gcagttgcttggtatgttgacttcgctg,28,dengue,0.551557675,0,0.551557675
+77,dengue_89,tgtagaggcgtcctgactcctcagtggg,28,dengue,0.526024357,0,0.526024357
+78,dengue_2,agctggatagtgttcgacgtatcaggtt,28,dengue,0.510704079,0,0.510704079
+79,dengue_59,gcgatgaggcttacatatttgactgaat,28,dengue,0.48390490700000005,0,0.48390490700000005
+80,dengue_62,ccttaaggatggtcttcactgtcctagt,28,dengue,0.445575834,0,0.445575834
+81,dengue_4,gacacattttgtcagtgatcggtggatg,28,dengue,0.444963741,0,0.444963741
+82,dengue_79,tccttgtggctaaactggccccgtttcc,28,dengue,0.42977241899999996,0,0.42977241899999996
+83,dengue_21,tattttgaactggcgaactggggctttg,28,dengue,0.38983875799999995,0,0.38983875799999995
+84,dengue_52,ctgttgttctatacgaggctgcaatggg,28,dengue,0.35726457799999994,0,0.35726457799999994
+85,dengue_93,tggtggcatgcgtgacacttctgcagct,28,dengue,0.351107371,0,0.351107371
+86,dengue_64,gtatccacgaacgtgtttcttttccaga,28,dengue,0.293123081,0,0.293123081
+87,dengue_53,ggagttaatgttgtgtgccctaaacagc,28,dengue,0.262059376,0,0.262059376
+88,dengue_5,ctgtacgtgggccagctggattaattta,28,dengue,0.24579437699999998,0,0.24579437699999998
+89,dengue_86,gcttccttggaaggttccttgcgaatcg,28,dengue,0.20999737100000002,0,0.20999737100000002
+90,dengue_49,cgtattatggcgatgttatgctctgtgt,28,dengue,0.163749528,0,0.163749528
+91,dengue_44,atgtcgtgtcgctcattgtgtgacgttc,28,dengue,0.076164233,0,0.076164233
+92,dengue_76,gttcctctttcgagccggccatgctttt,28,dengue,0.075958766,0,0.075958766
+93,dengue_73,gcatagtgcgtcttctcttggctcgtct,28,dengue,0.073633244,0,0.073633244
+94,dengue_77,cttgcagcccgttgtcctctcctatggt,28,dengue,0.037306404,0,0.037306404
+95,dengue_95,gcatctctgcctatgtcggagttcgacc,28,dengue,0.026772231,0,0.026772231
+96,Ebola_GP_guide_46,gcgggttgtcctaaacccggggaccgtg,28,Ebola_GP_guide,1.0,0,1.0
+97,Ebola_GP_guide_44,gccgacggagacttgggtagtcgcacgc,28,Ebola_GP_guide,0.009449563000000001,0,0.009449563000000001
+98,Ebola_GP_guide_85,acgaaagcctggtagctgtgttaactta,28,Ebola_GP_guide,1.1983817620000001,0,1.1983817620000001
+99,Ebola_GP_guide_32,ggagtcgtacctaatcgtcgcgttccct,28,Ebola_GP_guide,3.7935270489999997,1,3.7935270489999997
+100,Ebola_GP_guide_61,ggttccgtctggtttggtgatgtttcct,28,Ebola_GP_guide,6.342664777,1,6.342664777
+101,Ebola_GP_guide_30,agcttacctccatggggtctagcgtttc,28,Ebola_GP_guide,3.3440822110000004,1,3.3440822110000004
+102,Ebola_GP_guide_73,ctatcaatggtgtttgtcatattgcggc,28,Ebola_GP_guide,1.6866288680000001,0,1.6866288680000001
+103,Ebola_GP_guide_43,ccgagagttcggagggatgtcggctacc,28,Ebola_GP_guide,1.144342074,0,1.144342074
+104,Ebola_GP_guide_7,cacagtcagaatggcttatcaacttaaa,28,Ebola_GP_guide,-0.045239783,0,-0.045239783
+105,Ebola_GP_guide_31,gctccttttactctggcaggggccatac,28,Ebola_GP_guide,1.411764706,0,1.411764706
+106,Ebola_GP_guide_34,aggctcttgacaaccggtctggcacgct,28,Ebola_GP_guide,9.756201276,1,9.756201276
+107,Ebola_GP_guide_48,tgggcggcgccagtccggaatggatcct,28,Ebola_GP_guide,5.7393101820000005,1,5.7393101820000005
+108,Ebola_GP_guide_13,gtccgaagcctgatttaacgaactagtg,28,Ebola_GP_guide,5.4591897000000005,1,5.4591897000000005
+109,Ebola_GP_guide_90,gaaacatctcttctaagcgctgtaattg,28,Ebola_GP_guide,1.523387668,0,1.523387668
+110,Ebola_GP_guide_58,gtctgttgttctccggggtgattttcgg,28,Ebola_GP_guide,1.0212615170000001,0,1.0212615170000001
+111,Ebola_GP_guide_22,tttaatcggattgcgtgtgtcgtctcca,28,Ebola_GP_guide,8.905386251,1,8.905386251
+112,Ebola_GP_guide_20,atgttcttgccagttgcacttgttactg,28,Ebola_GP_guide,11.70458304,1,11.70458304
+113,Ebola_GP_guide_42,gttggtgcgactcagcaagatggcggcc,28,Ebola_GP_guide,13.06803685,1,13.06803685
+114,Ebola_GP_guide_49,aggggggtggcgacttgctctcaattgc,28,Ebola_GP_guide,21.76553272,1,21.76553272
+115,Ebola_GP_guide_25,cgagtgtactttccctgactcgttcttg,28,Ebola_GP_guide,23.63288448,1,23.63288448
+116,Ebola_GP_guide_8,aaaatgcgtccaagtacactatttgtta,28,Ebola_GP_guide,16.43916844,1,16.43916844
+117,Ebola_GP_guide_6,tacgcttgactatagagtaccaaaacca,28,Ebola_GP_guide,1.754429483,0,1.754429483
+118,Ebola_GP_guide_59,tcgtcgtctgtgatggtgcttttccgtg,28,Ebola_GP_guide,-0.46314670399999996,0,-0.46314670399999996
+119,Ebola_GP_guide_36,agtagttgggccgccctcactcgaaacg,28,Ebola_GP_guide,13.11552091,1,13.11552091
+120,Ebola_GP_guide_78,tttccggggtttgctgataaattatatg,28,Ebola_GP_guide,11.61764706,1,11.61764706
+121,Ebola_GP_guide_1,tacctgatgtccgggtataacctacaaa,28,Ebola_GP_guide,19.60494921,1,19.60494921
+122,Ebola_GP_guide_35,gacttgcgacttaagcgacgatctcccg,28,Ebola_GP_guide,32.99102292,1,32.99102292
+123,Ebola_GP_guide_60,gtctgttttgggagctccgtgtcttttg,28,Ebola_GP_guide,2.016891094,0,2.016891094
+124,Ebola_GP_guide_72,tcaggttttaagtttttgggtagcctca,28,Ebola_GP_guide,4.029766123,1,4.029766123
+125,Ebola_GP_guide_55,tggcttcgtgacttggtgtgcaggttag,28,Ebola_GP_guide,-0.354004252,0,-0.354004252
+126,Ebola_GP_guide_81,gattaatttacgaggctgtaagtcttag,28,Ebola_GP_guide,0.18403023899999998,0,0.18403023899999998
+127,Ebola_GP_guide_45,gcaggggcgcgtcctgtccatgaaacgg,28,Ebola_GP_guide,0.495983936,0,0.495983936
+128,Ebola_GP_guide_23,acgcggttacccttgtttctcatgtgtt,28,Ebola_GP_guide,21.81526104,1,21.81526104
+129,Ebola_GP_guide_66,tgtgttgtgaattttgtgtttgggcctt,28,Ebola_GP_guide,25.67280888,1,25.67280888
+130,Ebola_GP_guide_33,cggactcgctcctgcactagttggactg,28,Ebola_GP_guide,2.405150012,0,2.405150012
+131,Ebola_GP_guide_57,ttttcttcggggtagggtggtccgtcgt,28,Ebola_GP_guide,1.240845736,0,1.240845736
+132,Ebola_GP_guide_11,tggataaagcaactaacattactcgtcg,28,Ebola_GP_guide,11.95806756,1,11.95806756
+133,Ebola_GP_guide_21,cgcaccattgtaattggttggtttcttc,28,Ebola_GP_guide,2.2683675880000003,0,2.2683675880000003
+134,Ebola_GP_guide_70,ctatgggtgtcgcttatgtttgatgtct,28,Ebola_GP_guide,21.27675408,1,21.27675408
+135,Ebola_GP_guide_82,gggtcataaataatttttaagcttgccg,28,Ebola_GP_guide,13.97696669,1,13.97696669
+136,ssRNA1_guide_58,tctaactcggattgagcacacaatccgt,28,ssRNA1_guide,1.0,0,1.0
+137,ssRNA1_guide_69,gacatcagtcgcggaaaaccataaacag,28,ssRNA1_guide,659.6538462,1,659.6538462
+138,ssRNA1_guide_10,tcccttaccgggctaacgtgatagccat,28,ssRNA1_guide,19.25384615,1,19.25384615
+139,ssRNA1_guide_70,gtagaaaatcagcagcatgccgcaagaa,28,ssRNA1_guide,423.9384615,1,423.9384615
+140,ssRNA1_guide_22,ggtttcgaacataaagtcataccgcttt,28,ssRNA1_guide,189.5384615,1,189.5384615
+141,ssRNA1_guide_45,tgcacccagacccgataggcttctgagg,28,ssRNA1_guide,81.18461538,1,81.18461538
+142,ssRNA1_guide_33,agtggcatggacatcgcgttgttcgctt,28,ssRNA1_guide,439.0153846,1,439.0153846
+143,ssRNA1_guide_46,atgatatgctgacacgtcgctccccggg,28,ssRNA1_guide,75.46153846,1,75.46153846
+144,ssRNA1_guide_5,agaccggcgatgtaccacggcactgagt,28,ssRNA1_guide,111.8923077,1,111.8923077
+145,ssRNA1_guide_44,tccgcctggaggctaaagggatccgtcc,28,ssRNA1_guide,56.73846154,1,56.73846154
+146,ssRNA1_guide_94,ggtccgactgttaggtgtgatgactctt,28,ssRNA1_guide,3.1615384619999998,1,3.1615384619999998
+147,ssRNA1_guide_4,ccttgacggccaaggtgcaatcacggtc,28,ssRNA1_guide,94.66153846,1,94.66153846
+148,ssRNA1_guide_6,tgggctcgagcacttctacgggcccgaa,28,ssRNA1_guide,77.00769231,1,77.00769231
+149,ssRNA1_guide_7,atttatgacgacggcttagcccggcgcc,28,ssRNA1_guide,-7.9,0,-7.9
+150,ssRNA1_guide_28,acgtcaaaacttggttcggggtttacac,28,ssRNA1_guide,-32.68461538,0,-32.68461538
+151,ssRNA1_guide_29,ttcctacatcggttaggacctagaggtg,28,ssRNA1_guide,441.9846154,1,441.9846154
+152,ssRNA1_guide_32,ggtgtgaactggttcgaatcccttgatc,28,ssRNA1_guide,127.3230769,1,127.3230769
+153,ssRNA1_guide_16,taaagttcctgttatcgctctaaaagca,28,ssRNA1_guide,-14.95384615,0,-14.95384615
+154,ssRNA1_guide_35,ttgctcaggtcgagggcatgaccattgt,28,ssRNA1_guide,212.2,1,212.2
+155,ssRNA1_guide_71,tgagaacacattgaaaaaggacaaggcc,28,ssRNA1_guide,1101.8153849999999,1,1101.8153849999999
+156,ssRNA1_guide_43,aggcagtgcagcttagcatgtgccctca,28,ssRNA1_guide,92.02307692,1,92.02307692
+157,ssRNA1_guide_92,gtttttaccgtttcattggcggggtcga,28,ssRNA1_guide,225.9307692,1,225.9307692
+158,ssRNA1_guide_1,ttgccaccagggacgagagtgcttcccc,28,ssRNA1_guide,481.04615379999996,1,481.04615379999996
+159,ssRNA1_guide_9,ggaagtatgcccttactgtgagacgtcc,28,ssRNA1_guide,-1.4615384619999998,0,-1.4615384619999998
+160,ssRNA1_guide_90,ttttaacagtttggcaggccttgggtgg,28,ssRNA1_guide,1.653846154,1,1.653846154
+161,ssRNA1_guide_8,cggccaccatagcgctgcttgtatgaag,28,ssRNA1_guide,165.08461540000002,1,165.08461540000002
+162,ssRNA1_guide_21,ttcttacgcaaagttaaatcttccggat,28,ssRNA1_guide,132.67692309999998,1,132.67692309999998
+163,ssRNA1_guide_11,cgatctaggcttgtaccaaggttctcac,28,ssRNA1_guide,250.93846150000002,1,250.93846150000002
+164,ssRNA1_guide_81,cggattgtggtatattaaagcggtagca,28,ssRNA1_guide,179.4,1,179.4
+165,ssRNA1_guide_25,gaatgtaattgcaaacttgtctaccgtg,28,ssRNA1_guide,180.4846154,1,180.4846154
+166,ssRNA1_guide_18,atgccctagccactttctattatttgaa,28,ssRNA1_guide,878.2692308000001,1,878.2692308000001
+167,ssRNA1_guide_2,ccccagttaagtctcccgatgggtagcc,28,ssRNA1_guide,801.9538462,1,801.9538462
+168,ssRNA1_guide_84,acaagtagggagttgttgattggagttt,28,ssRNA1_guide,36.48461538,1,36.48461538
+169,ssRNA1_guide_20,tcaattttgagcataattcgatttcacc,28,ssRNA1_guide,401.9307692,1,401.9307692
+170,ssRNA1_guide_65,atacaatacgaaccatcaaagatgggac,28,ssRNA1_guide,431.72307689999997,1,431.72307689999997
+171,ssRNA1_guide_64,ctgataaacggaactgcagaacctataa,28,ssRNA1_guide,599.6,1,599.6
+172,ssRNA1_guide_47,tcgtgattgccgtgtgccgacataccac,28,ssRNA1_guide,10.72307692,1,10.72307692
+173,ssRNA1_guide_60,atcccgtagcctgtacacaacaaggata,28,ssRNA1_guide,1594.453846,1,1594.453846
+174,ssRNA1_guide_12,aaggcccagattatccctcttggatagt,28,ssRNA1_guide,224.1,1,224.1
+175,ssRNA1_guide_40,tgatgagttaccgggcgagattccgcat,28,ssRNA1_guide,125.46923079999999,1,125.46923079999999
+176,ssRNA1_guide_38,agtactggtaccttcgagtggtcgcgat,28,ssRNA1_guide,226.3307692,1,226.3307692
+177,ssRNA1_guide_52,gatccgtcagagaggccatccttctcat,28,ssRNA1_guide,1027.769231,1,1027.769231
+178,ssRNA1_guide_74,ctaataagagtacagacggctaagaggc,28,ssRNA1_guide,1049.084615,1,1049.084615
+179,ssRNA1_guide_80,agtttggtggtctacggaagaacaaatg,28,ssRNA1_guide,240.6692308,1,240.6692308
+180,ssRNA1_guide_17,acatactgtctacatttttagtaacacg,28,ssRNA1_guide,3209.676923,1,3209.676923
+181,ssRNA1_guide_23,gtgtcttgagcctaaatgttaccacaat,28,ssRNA1_guide,22.88461538,1,22.88461538
+182,ssRNA1_guide_77,gaaaatagaatgggacgtgaagagcctt,28,ssRNA1_guide,2888.330769,1,2888.330769
+183,ssRNA1_guide_91,ggcagtttggttagctgttttacgcgtt,28,ssRNA1_guide,2.807692308,1,2.807692308
+184,ssRNA1_guide_89,atggttggaagtgcgtatgtttgtggcc,28,ssRNA1_guide,-2.138461538,0,-2.138461538
+185,ssRNA1_guide_26,acacgtatggtcaggttataggtacttc,28,ssRNA1_guide,1020.615385,1,1020.615385
+186,ssRNA1_guide_95,cggagattatgtccggttcggtttcgtt,28,ssRNA1_guide,240.33846150000002,1,240.33846150000002
+187,ssRNA1_guide_59,gaaacttaatgcgcagacctcgttcaca,28,ssRNA1_guide,4739.284615,1,4739.284615
+188,ssRNA1_guide_83,agtgatgataatggtttgaggtataggc,28,ssRNA1_guide,4749.630768999999,1,4749.630768999999
+189,ssRNA1_guide_82,aaggttagtgaggacaatggtcgtgtta,28,ssRNA1_guide,96.25384615,1,96.25384615
+190,ssRNA1_guide_36,catggtgatgcctctgcggaattctgag,28,ssRNA1_guide,380.0615385,1,380.0615385
+191,ssRNA1_guide_53,ttgcaaccaccaagccttgctcatgtga,28,ssRNA1_guide,2218.3076920000003,1,2218.3076920000003
+192,ssRNA1_guide_54,agcttgccaactcacagctgacgattcg,28,ssRNA1_guide,842.6769231000001,1,842.6769231000001
+193,ssRNA1_guide_55,aacccacgttttggacttagggcctaaa,28,ssRNA1_guide,4.961538462,1,4.961538462
+194,ssRNA1_guide_96,ggtttgtgtccgtaggcttttgctatgc,28,ssRNA1_guide,-9.869230769,0,-9.869230769
+195,ssRNA1_guide_66,acgcaaagactattccagaataggaaca,28,ssRNA1_guide,460.54615379999996,1,460.54615379999996
+196,ssRNA1_guide_31,ctggttatactttcagtgacggagtccg,28,ssRNA1_guide,-0.030769231,0,-0.030769231
+197,ssRNA1_guide_78,gacgtaggacctgaagatgagggaatta,28,ssRNA1_guide,2183.176923,1,2183.176923
+198,ssRNA1_guide_49,tggggccccgaaacccagttagctgatt,28,ssRNA1_guide,105.7,1,105.7
+199,ssRNA1_guide_68,gaacaaagagaaagcctaacaccgatgt,28,ssRNA1_guide,992.6,1,992.6
+200,ssRNA1_guide_67,tcaaaatagaaggtcagaatccgacaac,28,ssRNA1_guide,-1.292307692,0,-1.292307692
+201,ssRNA1_guide_48,gacattgacccagcagctggttatcgct,28,ssRNA1_guide,-2.8384615380000002,0,-2.8384615380000002
+202,ssRNA1_guide_93,tgcgggattcggagtttcatgttgcttc,28,ssRNA1_guide,5504.215385,1,5504.215385
+203,ssRNA1_guide_24,gtttctttgcacaaaggatgtgaaccta,28,ssRNA1_guide,173.3307692,1,173.3307692
+204,ssRNA1_guide_76,ttgaaacgggaatatagcgagcaggaaa,28,ssRNA1_guide,3425.6615380000003,1,3425.6615380000003
+205,ssRNA1_guide_30,tttctgtcgcaaatcggatggtgctgca,28,ssRNA1_guide,538.4307692000001,1,538.4307692000001
+206,ssRNA1_guide_79,cgttgatgccagaaagggatgtggtaaa,28,ssRNA1_guide,1.869230769,1,1.869230769
+207,ssRNA1_guide_42,aagggcgtgccacatggccagtttatgc,28,ssRNA1_guide,142.91538459999998,1,142.91538459999998
+208,ssRNA1_guide_34,ctgttggaaacgcctatttgagtcgtgg,28,ssRNA1_guide,-2.861538462,0,-2.861538462
+209,ssRNA1_guide_14,ggcgaatagttacgttcatcaccatgct,28,ssRNA1_guide,106.5230769,1,106.5230769
+210,ssRNA1_guide_56,ctcagtaccatactacgtcgggatttaa,28,ssRNA1_guide,194.8846154,1,194.8846154
+211,ssRNA1_guide_86,aatcgttggcgtggagttttagtggtga,28,ssRNA1_guide,1096.992308,1,1096.992308
+212,ssRNA1_guide_88,ggggcgtatctgtggtgttagagttatc,28,ssRNA1_guide,139.3307692,1,139.3307692
+213,ssRNA1_guide_13,tgtaagcttcatcgccgacagttatacg,28,ssRNA1_guide,15.96153846,1,15.96153846
+214,ssRNA1_guide_57,agttcgtcttcactaaagaatggcccga,28,ssRNA1_guide,249.52307689999998,1,249.52307689999998
+215,ssRNA1_guide_15,tattacaggacaatctctttgagatcaa,28,ssRNA1_guide,-17.05384615,0,-17.05384615
+216,ssRNA1_guide_73,gaagtcaggagcggaaccttaagtcaaa,28,ssRNA1_guide,5492.138462,1,5492.138462
+217,ssRNA1_guide_72,caggcataatacggctaaaagcggaata,28,ssRNA1_guide,74.72307692,1,74.72307692
+218,ssRNA1_guide_3,ctaccgactattcgcgagcctatgccag,28,ssRNA1_guide,97.56923077,1,97.56923077
+219,therm_21,tcttgtttatatacattcttggacgagt,28,therm,1.0,1,1.0
+220,therm_23,tattagtgagtttgactctactgcagtt,28,therm,0.996239909,1,0.996239909
+221,therm_13,ttcagtagaatcacaatcctgttttaat,28,therm,0.9927077440000001,1,0.9927077440000001
+222,therm_20,tgtattccattctttattagacgtagta,28,therm,0.984903668,1,0.984903668
+223,therm_22,cgaaacgcttctagattagtgtttttta,28,therm,0.9843753270000001,1,0.9843753270000001
+224,therm_17,attcgactcagtagatttagatttatgc,28,therm,0.9681370090000001,1,0.9681370090000001
+225,therm_16,cttatattcatcgtagttaatctaaggt,28,therm,0.962359308,1,0.962359308
+226,therm_7,atatactcagcttaaatatacttatccg,28,therm,0.952047381,1,0.952047381
+227,therm_36,tgatcaaggacaatcaagtttgaacctt,28,therm,0.950306586,1,0.950306586
+228,therm_3,tgtttcacccttcaaattcaaatcaaaa,28,therm,0.9391743309999999,1,0.9391743309999999
+229,therm_15,ttgacaattcggtttcattaatattcaa,28,therm,0.937471299,1,0.937471299
+230,therm_8,gatccttataccagtttaatctaatata,28,therm,0.918818525,0,0.918818525
+231,therm_34,atttataccataattctggagatgcaga,28,therm,0.910411594,0,0.910411594
+232,therm_28,gctcctggtatctaaaatattgggtaat,28,therm,0.902828362,0,0.902828362
+233,therm_12,caatctatctttataaacaatttagtcg,28,therm,0.9005352870000001,0,0.9005352870000001
+234,therm_25,gaagtcttcttaacttctggggtgtatt,28,therm,0.900394688,0,0.900394688
+235,therm_5,tacaatttgaatatcaaaataactccct,28,therm,0.899741595,0,0.899741595
+236,therm_27,ctacatgggattgtacggatttttacat,28,therm,0.892827978,0,0.892827978
+237,therm_18,gtttcatgaataagatctgatcttttca,28,therm,0.87729434,0,0.87729434
+238,therm_6,tagattaaagatactcttatacaccatc,28,therm,0.8765306559999999,0,0.8765306559999999
+239,therm_66,ttccccggaatcataagatatgatgcct,28,therm,0.87488393,0,0.87488393
+240,therm_41,catattttgttagcgttcaagatgtcac,28,therm,0.867663828,0,0.867663828
+241,therm_19,ttatttcttattaatagtgggccacatt,28,therm,0.858197517,0,0.858197517
+242,therm_68,atcagctctaatgtggactaatcttcgc,28,therm,0.857501266,0,0.857501266
+243,therm_42,atcattgacgctatgagttggttcgcta,28,therm,0.8523159690000001,0,0.8523159690000001
+244,therm_31,tttaataaaaggagtctccagcgcttaa,28,therm,0.8483323359999999,0,0.8483323359999999
+245,therm_67,acacgttgaagatttccgactatatccg,28,therm,0.842870225,0,0.842870225
+246,therm_37,aactgttaagtcttgcaattacactatg,28,therm,0.8360001020000001,0,0.8360001020000001
+247,therm_11,acggattttacatctcacattaattcat,28,therm,0.834551294,0,0.834551294
+248,therm_24,atcctggtctcatttgtcggatatagta,28,therm,0.828845411,0,0.828845411
+249,therm_43,tgaatttacatagttcctgtgactggtg,28,therm,0.828729425,0,0.828729425
+250,therm_26,gggattcgtcgtaaacttttgttactgt,28,therm,0.824742758,0,0.824742758
+251,therm_59,cccgcatcaaagatccttcattcttttg,28,therm,0.818063135,0,0.818063135
+252,therm_30,ccgaatgacttaatcaaggttaattttg,28,therm,0.811025778,0,0.811025778
+253,therm_57,ctttccctattcccatgtattgaaactt,28,therm,0.799828449,0,0.799828449
+254,therm_48,cttgtcatcggttttctaacgttagtat,28,therm,0.7703745190000001,0,0.7703745190000001
+255,therm_65,tgactacgaaaactctttcatgggtatc,28,therm,0.7703037140000001,0,0.7703037140000001
+256,therm_79,ctaacctactttgattctcctatatggc,28,therm,0.765566512,0,0.765566512
+257,therm_77,taatccctttagtgctttcagttaccta,28,therm,0.765464687,0,0.765464687
+258,therm_35,aggcgttcgactagaaaaattttaacta,28,therm,0.74191186,0,0.74191186
+259,therm_80,aaccctttcaacttatttttgcagttcg,28,therm,0.7407226709999999,0,0.7407226709999999
+260,therm_14,ccttaggttatctattaatatataagct,28,therm,0.717260879,0,0.717260879
+261,therm_54,ttcacttaatcgatccttcttttatgac,28,therm,0.7163869409999999,0,0.7163869409999999
+262,therm_38,aggtttaatttcgcctaaaagtatcgta,28,therm,0.714840692,0,0.714840692
+263,therm_40,cgattaatgtggcaagccatttatctta,28,therm,0.710234648,0,0.710234648
+264,therm_85,tcacatctttttgacatcagattcttct,28,therm,0.6994085409999999,0,0.6994085409999999
+265,therm_63,acacagaggtcttatctgtactctctta,28,therm,0.690949686,0,0.690949686
+266,therm_69,gtctcatgataactcgttagctgacatc,28,therm,0.6807682429999999,0,0.6807682429999999
+267,therm_82,cttgttctattgttatctcacaatctca,28,therm,0.6674936260000001,0,0.6674936260000001
+268,therm_49,ttttgcatgctattcttttctagagcct,28,therm,0.661019675,0,0.661019675
+269,therm_46,ggctttgattttttggtgattctctagt,28,therm,0.654551119,0,0.654551119
+270,therm_32,acaagacgtttattataatagaaccctt,28,therm,0.648957849,0,0.648957849
+271,therm_86,tatagtgtcgtaaatccctttacttttc,28,therm,0.647771357,0,0.647771357
+272,therm_76,acatgcttcatgatctcccattgctttt,28,therm,0.624619085,0,0.624619085
+273,therm_4,tcattaaatctacgaaatcataatacct,28,therm,0.624423191,0,0.624423191
+274,therm_44,gactgttttcttgatctgtttatggaag,28,therm,0.621470279,0,0.621470279
+275,therm_0,tctaagtatatgactccactaataacct,28,therm,0.607940089,0,0.607940089
+276,therm_64,ttcagcttaattctgaatgttccaacag,28,therm,0.577352939,0,0.577352939
+277,therm_81,tgcacaattacttcttatttcctgactt,28,therm,0.569734305,0,0.569734305
+278,therm_88,ctcattacggatttttacatttttctca,28,therm,0.557109073,0,0.557109073
+279,therm_45,tatttgtcatgtgtggaagctttttttg,28,therm,0.55414436,0,0.55414436
+280,therm_55,cttgcttatccgtataatttcatcagct,28,therm,0.545140305,0,0.545140305
+281,therm_87,tatacattcctctttctgatgattttca,28,therm,0.543786578,0,0.543786578
+282,therm_92,tctgtatgctctttctccttttttctaa,28,therm,0.503721991,0,0.503721991
+283,therm_91,gtttttcttatagcttttccactctttc,28,therm,0.502032782,0,0.502032782
+284,therm_89,tgtcacttatttcttaattatctcgttc,28,therm,0.49066046399999996,0,0.49066046399999996
+285,therm_72,tatgtcgccatatatagtctccgatgtt,28,therm,0.487151226,0,0.487151226
+286,therm_95,ttttctctttcaccaattttatgtcttt,28,therm,0.484143693,0,0.484143693
+287,therm_52,ccgatgagcttttcctttatatatcttt,28,therm,0.480287509,0,0.480287509
+288,therm_60,attaatgcttccctgcacgatccttatc,28,therm,0.462428765,0,0.462428765
+289,therm_61,tccattcctttttggtacgcctaccaaa,28,therm,0.45677278200000004,0,0.45677278200000004
+290,therm_53,atccttcgttgccttatgattaatttca,28,therm,0.451924315,0,0.451924315
+291,therm_73,tcgttcgtatcgaactatatttgtgcct,28,therm,0.433318408,0,0.433318408
+292,therm_50,cgtattttcgtactatctcgattttgtc,28,therm,0.415815375,0,0.415815375
+293,therm_56,actcaaaattcgttatttgtccatcctt,28,therm,0.401575785,0,0.401575785
+294,therm_70,tgccgtgtcaagctactttgattccaat,28,therm,0.39424205799999995,0,0.39424205799999995
+295,therm_71,gcgtatggtcctattttcgtcaactata,28,therm,0.39229963700000003,0,0.39229963700000003
+296,therm_51,tttatatgtacgcgttttcatgcctttc,28,therm,0.35860380299999994,0,0.35860380299999994
+297,therm_90,ccgctatctgctttatttttttatacct,28,therm,0.353929315,0,0.353929315
+298,therm_58,gtcttctccaccaaactacttttcttag,28,therm,0.328335614,0,0.328335614
+299,therm_1,aaccttgtaatagccaatctcaattcta,28,therm,0.328334602,0,0.328334602
+300,therm_9,atcaacatcactatagtttagtacttta,28,therm,0.324362096,0,0.324362096
+301,therm_83,ctcttgtccttacttgaaattccattat,28,therm,0.322319199,0,0.322319199
+302,therm_62,attgtcaccctatctaccgtgtctgtta,28,therm,0.301633981,0,0.301633981
+303,therm_47,gctgagtactttttcggtttttatcgta,28,therm,0.294565941,0,0.294565941
+304,therm_10,ttcaacaatttccactctatgtttagaa,28,therm,0.28595232600000003,0,0.28595232600000003
+305,therm_94,tcttttgtctattcccacattttttttt,28,therm,0.274854125,0,0.274854125
+306,therm_39,atatgaacaaatgtttattgcgcttact,28,therm,0.249673791,0,0.249673791
+307,therm_74,gccctggattattcacttgatcaatttt,28,therm,0.22795077100000002,0,0.22795077100000002
+308,therm_33,agttcacgcaaaataagctagttcaatt,28,therm,0.222210833,0,0.222210833
+309,therm_75,tgcatttcatttcgaaactgacttctct,28,therm,0.20762531,0,0.20762531
+310,therm_78,tataatctctcgatttgtccgtttaacc,28,therm,0.144773265,0,0.144773265
+311,therm_93,cattttatctttttgttctatctctcct,28,therm,0.137154631,0,0.137154631
+312,therm_29,tggttaagagtctaatacttcggatata,28,therm,0.132656481,0,0.132656481
+313,therm_2,ctccagaaattataacatttcatcaatg,28,therm,0.12130439300000001,0,0.12130439300000001
+314,therm_84,atacctctattcttatctatgtatactg,28,therm,0.06557871700000001,0,0.06557871700000001
+315,zika_32,tttgtgagggtcttcgttctacgtactc,28,zika,1.0,0,1.0
+316,zika_31,actttctttgatcccctgtggagtcgtg,28,zika,0.986751943,0,0.986751943
+317,zika_34,tgaaattttgctccggtttggcctcgct,28,zika,0.986247639,0,0.986247639
+318,zika_35,ttatggttgccgcctttattggccgcga,28,zika,0.983653535,0,0.983653535
+319,zika_19,ttaccttttcttcctgcgatagcttcga,28,zika,0.979801114,0,0.979801114
+320,zika_13,ggcgttgtacctcctgtttatcttagtg,28,zika,0.973902893,0,0.973902893
+321,zika_21,ctcaccttagggtattgttcgttattcc,28,zika,0.9673311379999999,0,0.9673311379999999
+322,zika_23,tgtcgcggcaccttttttcttaaaccct,28,zika,0.9645467440000001,0,0.9645467440000001
+323,zika_17,tttcgatgatatcctttttcgcccggct,28,zika,0.962805558,0,0.962805558
+324,zika_24,agtcttgcctgttctatctagccccgat,28,zika,0.959510091,0,0.959510091
+325,zika_20,ttttcgatagcgtttattctgtgcccat,28,zika,0.9589572740000001,0,0.9589572740000001
+326,zika_22,cctaacactcttttgtgccttttggtac,28,zika,0.95646734,0,0.95646734
+327,zika_18,gctttttagctacgttgatcatccttcc,28,zika,0.95567873,0,0.95567873
+328,zika_27,aggcccctattcgggtcctaaagtgctt,28,zika,0.955287997,0,0.955287997
+329,zika_47,cagcctataccatcctgacgtcccctta,28,zika,0.946670818,0,0.946670818
+330,zika_44,ggactgaccaatccttatgccatccatg,28,zika,0.94560956,0,0.94560956
+331,zika_73,tccacatcgtactcgcagcccaccgact,28,zika,0.9418631890000001,0,0.9418631890000001
+332,zika_14,gtagtttttgtccatccacctttggtgt,28,zika,0.937430874,0,0.937430874
+333,zika_60,attcgcggcatccctagacggagggtac,28,zika,0.935966473,0,0.935966473
+334,zika_43,cctgtcacatttacgccacgtgcaaagc,28,zika,0.935140256,0,0.935140256
+335,zika_70,cagctctacacttacccatcggacaccg,28,zika,0.9317744640000001,0,0.9317744640000001
+336,zika_28,gacttgaccactttccgtgactatgtgc,28,zika,0.930176935,0,0.930176935
+337,zika_94,tcatctctccacaacagcgggcctcgat,28,zika,0.929542512,0,0.929542512
+338,zika_66,gaccccgcatggcgttgaaccaccacgc,28,zika,0.929123198,0,0.929123198
+339,zika_91,gttctacttcactctccgatacgcccca,28,zika,0.928538415,0,0.928538415
+340,zika_6,gtgtttccctcatatgtcgtggttgtct,28,zika,0.927503857,0,0.927503857
+341,zika_4,agtggttgactccccttggggtttttgt,28,zika,0.9252463329999999,0,0.9252463329999999
+342,zika_93,tcctaagctaagccccccggctctatta,28,zika,0.925027838,0,0.925027838
+343,zika_92,agctgagtcccatgatactcccccttcc,28,zika,0.923454378,0,0.923454378
+344,zika_71,tcacacgagcacttaaggccccccttac,28,zika,0.917563302,0,0.917563302
+345,zika_25,catctgacgagtcgtccttttgctatgc,28,zika,0.914956036,0,0.914956036
+346,zika_69,cgaccccattaatacaaccgcggtccgc,28,zika,0.914084315,0,0.914084315
+347,zika_8,cttggttggcgggtacttcgttattttt,28,zika,0.912595093,0,0.912595093
+348,zika_15,gggactccttttatgcggttctcttact,28,zika,0.911108128,0,0.911108128
+349,zika_26,tcgcgcagagtcaatagcttctgctctc,28,zika,0.908787424,0,0.908787424
+350,zika_56,gcctctgccaggacgctagatgtgttct,28,zika,0.9058533559999999,0,0.9058533559999999
+351,zika_1,ttttggcgttttgggtgtcgctgactag,28,zika,0.904758252,0,0.904758252
+352,zika_42,caccggagatccccattatctgtctaca,28,zika,0.9017391929999999,0,0.9017391929999999
+353,zika_7,ttctattcggagcctttgtcgtgttggt,28,zika,0.901297315,0,0.901297315
+354,zika_82,tcaattccctccgtcccccgccaaattc,28,zika,0.8993064209999999,0,0.8993064209999999
+355,zika_59,gtttcgacgggcacacctccgatcggca,28,zika,0.89915073,0,0.89915073
+356,zika_30,ttattcctgttaactcggccgctggtct,28,zika,0.892310088,0,0.892310088
+357,zika_76,ccccgtcattacgaccagcgacaccttc,28,zika,0.8916060920000001,0,0.8916060920000001
+358,zika_3,tgtagttatcgtcgcggttcgctgtttg,28,zika,0.891130368,0,0.891130368
+359,zika_58,gcgggataccccatggtagctcgtactc,28,zika,0.886847727,0,0.886847727
+360,zika_55,gttgcattcaagcagttccgggcgctct,28,zika,0.885851528,0,0.885851528
+361,zika_90,actactctcctctacgacgtacctccct,28,zika,0.8842156409999999,0,0.8842156409999999
+362,zika_87,tcaatcctcattgaccgcctctcgccct,28,zika,0.8755070779999999,0,0.8755070779999999
+363,zika_86,tctacgatccacttttcccgcctccacc,28,zika,0.868277207,0,0.868277207
+364,zika_46,cccacgatctgttcgccattaaccgaac,28,zika,0.863891148,0,0.863891148
+365,zika_57,gcacactttcatcccgtgggagggtcat,28,zika,0.848893632,0,0.848893632
+366,zika_54,ggacgcttcccgtatagttgtctccctg,28,zika,0.8437704840000001,0,0.8437704840000001
+367,zika_83,tcgatattccacctctcccctcactcgc,28,zika,0.838213355,0,0.838213355
+368,zika_75,ttctcgcaaccattagcccgacccaccc,28,zika,0.8380975270000001,0,0.8380975270000001
+369,zika_89,tgcccattaccttgcacccccttaacct,28,zika,0.819580784,0,0.819580784
+370,zika_53,aacctgtttccttcctcagcgtcctgcg,28,zika,0.816766305,0,0.816766305
+371,zika_61,gcgaccatccaggaacggggttacgagt,28,zika,0.809187821,0,0.809187821
+372,zika_64,tcggggtagcccgccagtagcacaccgt,28,zika,0.80482019,0,0.80482019
+373,zika_65,gtctggagccaggagcgcctcaaccacc,28,zika,0.79672988,0,0.79672988
+374,zika_0,gttcagtctgtgttgctgggtagccgtt,28,zika,0.787420363,0,0.787420363
+375,zika_62,agtggcagcagatagactggcaccccgc,28,zika,0.781920773,0,0.781920773
+376,zika_9,tatctgtgctaggtggtgttgtttgtcc,28,zika,0.7754866579999999,0,0.7754866579999999
+377,zika_50,gtagcactacaataggctcttcctcctc,28,zika,0.7616534420000001,0,0.7616534420000001
+378,zika_79,cacttatgccccaccacagtctggttca,28,zika,0.743232973,0,0.743232973
+379,zika_63,ctcccagacaggcgggtcggctacgata,28,zika,0.732442884,0,0.732442884
+380,zika_33,gtctgttgtcgcagctgctgttctgtta,28,zika,0.691493046,0,0.691493046
+381,zika_51,catgctctcgtttcgatagactccatgc,28,zika,0.6870776540000001,0,0.6870776540000001
+382,zika_5,gctaggttgttcgtgtttcatctttcgg,28,zika,0.6638378970000001,0,0.6638378970000001
+383,zika_85,ttataccagcaccccccccgttttcctt,28,zika,0.659544727,0,0.659544727
+384,zika_37,ccattttatgctcgttagcaggctgcag,28,zika,0.652598786,0,0.652598786
+385,zika_52,gtccgcgtgcttatttcctcgattccaa,28,zika,0.648583904,0,0.648583904
+386,zika_78,gatccgccgaccgtcatctctatacacc,28,zika,0.616470116,0,0.616470116
+387,zika_38,tgattacatcctgggcctgagtccatga,28,zika,0.613689859,0,0.613689859
+388,zika_77,caactcgtctacgacacctgtgtcaccc,28,zika,0.612951641,0,0.612951641
+389,zika_29,tttttagttagtcgcctgtcccgatacg,28,zika,0.585071981,0,0.585071981
+390,zika_2,ggtggacttttgggctctcgtttgagtt,28,zika,0.526553839,0,0.526553839
+391,zika_72,caagggtccccccacctccaacttgcta,28,zika,0.5253444110000001,0,0.5253444110000001
+392,zika_40,cggagctccataagctttaagcttcctg,28,zika,0.524645304,0,0.524645304
+393,zika_12,tcaagtcgcggtctttttgtgctgcgtt,28,zika,0.508151045,0,0.508151045
+394,zika_16,ttaggactctctccctttggttttgcta,28,zika,0.474850768,0,0.474850768
+395,zika_49,tacaatttccgttcccgcaaccatcctg,28,zika,0.43444133700000004,0,0.43444133700000004
+396,zika_68,ccgcctcccggaagctaacagactacgt,28,zika,0.424584268,0,0.424584268
+397,zika_36,cgcgctaaatggttggatggtcctctct,28,zika,0.37953831899999996,0,0.37953831899999996
+398,zika_84,ccgtctattcctttccccaatctgcacc,28,zika,0.313759845,0,0.313759845
+399,zika_41,tctttctccccaaaaagaggttcttccg,28,zika,0.287337817,0,0.287337817
+400,zika_81,agagatattctgcctcctccacccctcc,28,zika,0.281212452,0,0.281212452
+401,zika_88,atcccctagtatcgactttccctccgac,28,zika,0.27922343899999996,0,0.27922343899999996
+402,zika_48,ctgcccgacccagcatcctatctatgtt,28,zika,0.234553555,0,0.234553555
+403,zika_80,ctcacatcctgccagatttacgctccac,28,zika,0.196191052,0,0.196191052
+404,zika_74,cgatccccccgctatcaatatcaccgac,28,zika,0.17673226399999997,0,0.17673226399999997
+405,zika_45,cccacttctcgtattaagggtcaaccat,28,zika,0.130264032,0,0.130264032
+406,zika_10,gcgttcgagttgttttgcgttatgactg,28,zika,0.11782639800000001,0,0.11782639800000001
+407,zika_39,tcccggaaaacgtcatatgagcttgtct,28,zika,0.064619062,0,0.064619062
+408,zika_11,tgggtgtctaggtcttactcgtctattg,28,zika,0.062479622,0,0.062479622
+409,zika_67,caaacggcgacccgactattaggcgtcc,28,zika,0.042401829,0,0.042401829
+410,Acyl old model top predicted guide 1/Acyl new model top predicted guide 1/Acyl median model top predicted guide 7,cttcgcataaacccgccgggaataagcc,28,acryl,715749.5625,1,715749.5625
+411,Acyl old model top predicted guide 2/Acyl new model top predicted guide 4,ggaacgctatgtgcgaggacgccccccg,28,acryl,24320.25,0,24320.25
+412,Acyl old model top predicted guide 3/Acyl new model top predicted guide 8,atccacggcagctggcgaatcatcggac,28,acryl,776821.0,1,776821.0
+413,Acyl old model top predicted guide 4/Acyl new model top predicted guide 7,ggcaccccagaatgccccggaaaaactt,28,acryl,25598.75,0,25598.75
+414,Acyl old model top predicted guide 5/Acyl median model worst predicted guide 1,cacgggacaagaaaccatccacgggact,28,acryl,671802.75,1,671802.75
+415,Acyl old model top predicted guide 6/Acyl new model top predicted guide 3,agccggggaatgtagagaccgaacccgg,28,acryl,411398.125,1,411398.125
+416,Acyl old model top predicted guide 7,gtgacagacgaggggcggtggtccacac,28,acryl,799669.5,1,799669.5
+417,Acyl old model top predicted guide 8,cggcggacggttaccgtgcgttcgaacc,28,acryl,41247.5,0,41247.5
+418,Acyl old model top predicted guide 9,cgccgtggaaaaccatggacccttgcaa,28,acryl,153817.75,1,153817.75
+419,Acyl old model top predicted guide 10,caacgtcgtcctaacccgacgcatcaag,28,acryl,121850.75,1,121850.75
+420,Acyl old model worst predicted guide 1,cagaggcccggcagacagtggcctggtc,28,acryl,184871.5,1,184871.5
+421,Acyl old model worst predicted guide 2/Acyl new model worst predicted guide 10/Acyl quartile model top predicted guide 5,aggagtcgcggaggagtcccggaccccg,28,acryl,97734.08333,1,97734.08333
+422,Acyl old model worst predicted guide 3,cggaagacgcggccctacgagcgaattc,28,acryl,84001.75,1,84001.75
+423,Acyl old model worst predicted guide 4,aacgctagataaggcttccgcccagatc,28,acryl,26083.25,0,26083.25
+424,Acyl old model worst predicted guide 5,gaatctcaccgccgcgcagacatcgata,28,acryl,27591.5,0,27591.5
+425,Acyl old model worst predicted guide 6/Acyl median model worst predicted guide 2,cgtcgcctccatagcgaggacgggcggg,28,acryl,729331.0,1,729331.0
+426,Acyl old model worst predicted guide 7,tggcaacggcgcccctgacggcagatgg,28,acryl,759240.25,1,759240.25
+427,Acyl old model worst predicted guide 8,taaaccccggggaccctagccatcgtaa,28,acryl,756318.0,1,756318.0
+428,Acyl old model worst predicted guide 9,gcgggcgtgggacacggcagccgccatg,28,acryl,745764.25,1,745764.25
+429,Acyl old model worst predicted guide 10,aacgacgagacgcattctaaccctgggc,28,acryl,104812.25,1,104812.25
+430,Acyl new model top predicted guide 2,gcagatcatctccgggaacagtgtcccc,28,acryl,384281.0,1,384281.0
+431,Acyl new model top predicted guide 5,aacccggatcgagctggcagacccaact,28,acryl,38035.0,0,38035.0
+432,Acyl new model top predicted guide 6,ccagcactggtagtccctaagaccggca,28,acryl,25250.75,0,25250.75
+433,Acyl new model top predicted guide 9,gagagccgctctgtgtacacgctgccgc,28,acryl,534565.0,1,534565.0
+434,Acyl new model top predicted guide 10,cgacccgatccacctacaatgtgcgcgg,28,acryl,389422.75,1,389422.75
+435,Acyl new model worst predicted guide 1,cgcgccagagtgaaggcgcacggataca,28,acryl,35157.5,0,35157.5
+436,Acyl new model worst predicted guide 2,ccagccggtaccggaagggccgtcgcgt,28,acryl,21598.5,0,21598.5
+437,Acyl new model worst predicted guide 3/Acyl quartile model worst predicted guide 7,gggagcgctccaaggacgcagacgtgtg,28,acryl,179727.125,1,179727.125
+438,Acyl new model worst predicted guide 4,cggtgcagactaaatgcggcgccccgcg,28,acryl,701246.75,1,701246.75
+439,Acyl new model worst predicted guide 5,cacgggtacggggtgacgagccgcacag,28,acryl,133898.75,1,133898.75
+440,Acyl new model worst predicted guide 6/Acyl median model worst predicted guide 9/Acyl quartile model worst predicted guide 5,acatacgcggcaacaagtgccgtcaggc,28,acryl,49560.08333,0,49560.08333
+441,Acyl new model worst predicted guide 7,gtccggcgcgctcagactcaggggctgg,28,acryl,153633.5,1,153633.5
+442,Acyl new model worst predicted guide 8,ggcgattcgggagggatcacccgaacgg,28,acryl,122087.5,1,122087.5
+443,Acyl new model worst predicted guide 9,ctagggcgtcggggcgcaacgcgagcac,28,acryl,33476.0,0,33476.0
+444,Acyl median model top predicted guide 1,gaaacccaccggcactgaggacgggatg,28,acryl,219377.5,1,219377.5
+445,Acyl median model top predicted guide 2,tacgaagcacggctcgcgcaccgtgagc,28,acryl,27346.0,0,27346.0
+446,Acyl median model top predicted guide 3,ggtccgaagccccagcgcctgtagccct,28,acryl,624787.75,1,624787.75
+447,Acyl median model top predicted guide 4,cacggggaaccccagcagcttaggggca,28,acryl,45891.5,0,45891.5
+448,Acyl median model top predicted guide 5/Acyl quartile model top predicted guide 7,ggtggacccaaagggcagctggcgaccc,28,acryl,53740.125,1,53740.125
+449,Acyl median model top predicted guide 6,acgcaggccgttgaccgaggcgaaggca,28,acryl,218550.0,1,218550.0
+450,Acyl median model top predicted guide 8,cagaccacgaagtccgagtccgcgacat,28,acryl,157315.25,1,157315.25
+451,Acyl median model top predicted guide 9/Acyl quartile model top predicted guide 1,ggcagagcccacgatgacgagcggatcc,28,acryl,39875.75,0,39875.75
+452,Acyl median model top predicted guide 10,tagcccggggcgcaaggcacgtacaact,28,acryl,85926.25,1,85926.25
+453,Acyl median model worst predicted guide 3/Acyl quartile model worst predicted guide 6,acctccaggctgcgggcgcctattcccg,28,acryl,30287.25,0,30287.25
+454,Acyl median model worst predicted guide 4,aggagaggcacaacatccacgtacgccg,28,acryl,633958.25,1,633958.25
+455,Acyl median model worst predicted guide 5,agtggcttaacgccatcccgaagaacgg,28,acryl,144756.5,1,144756.5
+456,Acyl median model worst predicted guide 6,tcccggagcctagagagtcgggcgggcc,28,acryl,222100.75,1,222100.75
+457,Acyl median model worst predicted guide 7/Acyl quartile model worst predicted guide 9,actatactccccaaggagcggccgtgtc,28,acryl,30321.875,0,30321.875
+458,Acyl median model worst predicted guide 8,ccaagcgttcagccagaaggatggacct,28,acryl,240404.25,1,240404.25
+459,Acyl median model worst predicted guide 10.5,tccgtcgaagcggaactgctcaagccat,28,acryl,196910.5,1,196910.5
+460,Acyl quartile model top predicted guide 3,tactgccacgtggcgccaacgcaacgaa,28,acryl,98768.75,1,98768.75
+461,Acyl quartile model top predicted guide 4,aggtccgagccaagagggcggtccggcc,28,acryl,55916.0,1,55916.0
+462,Acyl quartile model top predicted guide 6,gtgccggtcgcccaagcgtacacaaacc,28,acryl,536926.75,1,536926.75
+463,Acyl quartile model top predicted guide 8,ggcgaggcacccgcctcagacaaagagg,28,acryl,25853.0,0,25853.0
+464,Acyl quartile model top predicted guide 9,tgccatgcccgcgccatcctccggtgag,28,acryl,108941.5,1,108941.5
+465,Acyl quartile model top predicted guide 10,cgcggcgggcggccattacagcctgaca,28,acryl,46716.25,1,46716.25
+466,Acyl quartile model worst predicted guide 1,agagcgggcgcgggcgttagacaccatg,28,acryl,115938.75,1,115938.75
+467,Acyl quartile model worst predicted guide 2,ccccataccggtgacaggcaggcggcgt,28,acryl,425390.0,1,425390.0
+468,Acyl quartile model worst predicted guide 3,aaaaccccctcgatgcgagcactggata,28,acryl,70605.0,1,70605.0
+469,Acyl quartile model worst predicted guide 4,cagcgttaagtacgccgccaagacgctc,28,acryl,34699.5,0,34699.5
+470,Acyl quartile model worst predicted guide 8,gccacacgcttgacgaggctatccaaca,28,acryl,42597.5,1,42597.5
+471,Acyl quartile model worst predicted guide 10,gggctagggctagctagaacggccgcga,28,acryl,148915.0,1,148915.0
+472,APML short top predicted guide 1,gcacttagagttatgtcccgtgtctgcc,28,acryl,28574.75,0,28574.75
+473,APML short top predicted guide 2,cagcgggggtccctaggttgctatacat,28,acryl,29207.75,0,29207.75
+474,APML short top predicted guide 3,actagctgagtaagcctgggtgtgacct,28,acryl,20611.0,0,20611.0
+475,APML short top predicted guide 4,gtgctgctcagcggagaactgtggagag,28,acryl,33093.5,0,33093.5
+476,APML short top predicted guide 5,tctagcgcgacctggcacgtgtggttta,28,acryl,35954.5,0,35954.5
+477,APML short top predicted guide 6,tggcagactctgtcttcgagcataccgt,28,acryl,42077.25,0,42077.25
+478,APML short top predicted guide 7,ggaagtgattctccgctgggatcacggt,28,acryl,38908.0,0,38908.0
+479,APML short top predicted guide 8,taaccactgcggggccgtcattatggtg,28,acryl,50517.0,1,50517.0
+480,APML short top predicted guide 9,gcacgctagagttgctaaccgtgggtcg,28,acryl,29775.0,0,29775.0
+481,APML short top predicted guide 10,acgccgctggtttcaggataatgctgcg,28,acryl,48608.0,0,48608.0
+482,APML short top predicted guide 11,tgttctgctcggaaacaaccggtgactg,28,acryl,49285.25,0,49285.25
+483,APML short top predicted guide 12,gggaggggtcgtcaatattcgcccgatg,28,acryl,36969.75,0,36969.75
+484,APML short top predicted guide 13,gcccgttgctagcgttgttacgcatggt,28,acryl,19608.0,0,19608.0
+485,APML short top predicted guide 14,cgtcaactcttggccgggacgtgtttgt,28,acryl,22512.0,0,22512.0
+486,APML short top predicted guide 15,tcgtggcatctcagggctgggtctgcaa,28,acryl,23566.5,0,23566.5
+487,APML short top predicted guide 16,cggggcgttccagatctgtagagcattg,28,acryl,24200.25,0,24200.25
+488,APML short top predicted guide 17,agggttgcgcgagtcacggccacattgc,28,acryl,40584.25,0,40584.25
+489,APML short top predicted guide 18,aatgtcctcgggaggctcagttggagga,28,acryl,40864.5,0,40864.5
+490,APML short top predicted guide 19,ggccatgcgtctttctggcgttgccaat,28,acryl,41257.75,0,41257.75
+491,APML short top predicted guide 20,aggagtgagtcctgccgagactgcttgg,28,acryl,34904.25,0,34904.25
+492,APML short top predicted guide 21,atgcacagttggcttcactggcgcggag,28,acryl,24465.25,0,24465.25
+493,APML short top predicted guide 22,tggtcgatttcgctggcgaagtatccac,28,acryl,22863.75,0,22863.75
+494,APML short top predicted guide 23,cagacggccagtgtttgttctgcgtctg,28,acryl,12113.75,0,12113.75
+495,thermonuclease top predicted guide 1,ataacgcatgctactaattcaatagtta,28,acryl,368538.0,1,368538.0
+496,thermonuclease top predicted guide 2,gttctggttatatcataatctactatgg,28,acryl,440910.0,1,440910.0
+497,thermonuclease top predicted guide 3,tatattgtttccagagtagattgggctt,28,acryl,435722.25,1,435722.25
+498,thermonuclease top predicted guide 4,tttattcctggatctcgttcattttact,28,acryl,401067.5,1,401067.5
+499,thermonuclease top predicted guide 5,ttgtttttctgaataatcgactgttacg,28,acryl,445793.25,1,445793.25
+500,thermonuclease top predicted guide 6,tcgatttttctatcattagatcgatggg,28,acryl,464260.0,1,464260.0
+501,thermonuclease top predicted guide 7,gttatcggttattgaccgtcgttagatt,28,acryl,464943.75,1,464943.75
+502,thermonuclease top predicted guide 8,caactttaaaccaaaaatttatgttcca,28,acryl,454100.0,1,454100.0
+503,thermonuclease top predicted guide 9,agtctttactgattcaagcgtattactg,28,acryl,439953.5,1,439953.5
+504,thermonuclease top predicted guide 10,ccctataaagaagtgttctttggggttc,28,acryl,433392.0,1,433392.0
+505,thermonuclease bottom predicted guide 1,attcattatttagcagtcttctcctgta,28,acryl,37214.5,0,37214.5
+506,thermonuclease bottom predicted guide 2,ccacaaaatgtctgcttttattctttca,28,acryl,366295.0,1,366295.0
+507,thermonuclease bottom predicted guide 3,ggtctcgtgagtggttttttttacattt,28,acryl,447545.5,1,447545.5
+508,thermonuclease bottom predicted guide 4,tagttgttttcattcagtatagctcctt,28,acryl,217867.0,1,217867.0
+509,thermonuclease bottom predicted guide 5,ttatttgtctgtagccgcaaacttgctt,28,acryl,298962.75,1,298962.75
+510,thermonuclease bottom predicted guide 6,tttctccttgttttcctatttatcttta,28,acryl,173169.75,1,173169.75
+511,thermonuclease bottom predicted guide 7,aggatttcattcttttcggagattagct,28,acryl,168055.25,1,168055.25
+512,thermonuclease bottom predicted guide 8,ccgattaatttgggttttagtgtgtttt,28,acryl,389114.25,1,389114.25
+513,thermonuclease bottom predicted guide 9,ttctcttgaaagcattaagatacatgtt,28,acryl,356974.5,1,356974.5
+514,thermonuclease bottom predicted guide 10,tgcttcccgtattactacttcaagtcac,28,acryl,127415.75,1,127415.75
+515,thermonuclease random predicted guide 1,taacctaatatgactgggaacgtttaac,28,acryl,516094.75,1,516094.75
+516,thermonuclease random predicted guide 2,ctctcatacgctatgttatcagttaacc,28,acryl,471842.0,1,471842.0
+517,thermonuclease random predicted guide 3,tattacaacaggtgattttataatctgc,28,acryl,370382.75,1,370382.75
+518,thermonuclease random predicted guide 4,cttttgtgatattcactcggtcttttta,28,acryl,57522.0,1,57522.0
+519,thermonuclease random predicted guide 5,agcatgtccatctctcaacttctctatt,28,acryl,221263.75,1,221263.75
+520,thermonuclease random predicted guide 6,tttatgtcaacacttttctaaaatagtg,28,acryl,300604.25,1,300604.25
+521,thermonuclease random predicted guide 7,tttttgatattttatagcgatgccataa,28,acryl,141511.5,1,141511.5
+522,thermonuclease random predicted guide 8,tcggagattgtattgttcttacactatt,28,acryl,317610.75,1,317610.75
+523,thermonuclease random predicted guide 9,ttttcctctcagtgttcagtctttaatg,28,acryl,199540.5,1,199540.5
+524,thermonuclease random predicted guide 10,actcttttatttacttcagtgccatgat,28,acryl,209662.5,1,209662.5
+525,APML long top predicted guide 1,gctcgcagctttgttgctggggcgccag,28,acryl,30492.75,1,30492.75
+526,APML long top predicted guide 2,acttggcccggcgcccacctcccgggtc,28,acryl,23863.25,1,23863.25
+527,APML long top predicted guide 3,ccgtgattccccccgccagctgcccggg,28,acryl,24881.75,1,24881.75
+528,APML long top predicted guide 4,tcgcccgtccgcagcggccaccggtcgc,28,acryl,23843.0,1,23843.0
+529,APML long top predicted guide 5,ccttgttcccggccgcgccgaggctacg,28,acryl,31060.75,1,31060.75
+530,APML long top predicted guide 6,gccgtgccctggctcacagcccgcctcg,28,acryl,43556.75,1,43556.75
+531,APML long top predicted guide 7,gctgtgaaggccgtgcgttgcggccctt,28,acryl,50019.0,1,50019.0
+532,APML long top predicted guide 8,atttacgtgccgcgtgggggcgctcctc,28,acryl,15393.25,0,15393.25
+533,APML long top predicted guide 9,gctccacgggctcgctccgccccgaatg,28,acryl,49613.75,1,49613.75
+534,APML long top predicted guide 10,tcggtggacgccgtgctcctggcgcacc,28,acryl,21260.5,1,21260.5
+535,APML long top predicted guide 11,agactgtcccccgccccgcgttgacggc,28,acryl,24902.75,1,24902.75
+536,APML long top predicted guide 12,gtcacgccgggctcgcatgccccggctt,28,acryl,21086.25,1,21086.25
+537,APML long top predicted guide 13,catgccggctcgggactcccctgtcccg,28,acryl,15762.5,0,15762.5
+538,APML long top predicted guide 14,ggcggcgcgccactttcctagcacctgc,28,acryl,12542.0,0,12542.0
+539,APML long top predicted guide 15,tgccgacttccctgggccgggcctgatg,28,acryl,23752.0,1,23752.0
+540,APML long top predicted guide 16,cccgctcgccgaccgaccgtgtacgtgc,28,acryl,18725.25,0,18725.25
+541,APML long top predicted guide 17,ccgcgcggcgatcgtgtcccctccaggc,28,acryl,21741.5,1,21741.5
+542,APML long top predicted guide 18,cctctaggctgccgcttgccggcgcgca,28,acryl,11403.75,0,11403.75
+543,APML long top predicted guide 19,ttggcttcccccgatggggctggcatgg,28,acryl,13778.0,0,13778.0
+544,APML long top predicted guide 20,ccgcgtgaccccgcgtccgcttggaccg,28,acryl,34121.75,0,34121.75
