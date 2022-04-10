@@ -1,0 +1,40 @@
+auROC Class 0 (compiled): 0.5
+avg auROC Class 0 over folds: 0.5
+standard deviation of auROC Class 0: 0.0
+all values of auROC Class 0: [0.5 0.5 0.5]
+auROC Class 1 (compiled): 0.7129696614314087
+avg auROC Class 1 over folds: 0.7129983555078342
+standard deviation of auROC Class 1: 0.01178329492762038
+all values of auROC Class 1: [0.69973802 0.72836876 0.71088828]
+auROC Class 2 (compiled): 0.7038351319288229
+avg auROC Class 2 over folds: 0.7038540797956702
+standard deviation of auROC Class 2: 0.01365740930788812
+all values of auROC Class 2: [0.68747963 0.72091234 0.70317027]
+auROC Class 3 (compiled): 0.49988023952095806
+avg auROC Class 3 over folds: 0.499880086336304
+standard deviation of auROC Class 3: 9.790126963517891e-05
+all values of auROC Class 3: [0.49976019 0.5        0.49988007]
+auROC Micro Avg (compiled): 0.8023775708800169
+avg auROC Micro Avg over folds: 0.8023775601179448
+standard deviation of auROC Micro Avg: 0.00927667556721213
+all values of auROC Micro Avg: [0.79108481 0.81380671 0.80224116]
+auROC Macro Avg (compiled): 0.6041712582202974
+avg auROC Macro Avg over folds: 0.604183130409952
+standard deviation of auROC Macro Avg: 0.006377951301388296
+all values of auROC Macro Avg: [0.59674446 0.61232027 0.60348466]
+MCC Class 0 (compiled): 0.0
+avg MCC Class 0 over folds: 0.0
+standard deviation of MCC Class 0: 0.0
+all values of MCC Class 0: [0. 0. 0.]
+MCC Class 1 (compiled): 0.4272508131735458
+avg MCC Class 1 over folds: 0.4275496527389217
+standard deviation of MCC Class 1: 0.02415033006141457
+all values of MCC Class 1: [0.39901886 0.45807399 0.42555611]
+MCC Class 2 (compiled): 0.4096335672424977
+avg MCC Class 2 over folds: 0.40992480195001924
+standard deviation of MCC Class 2: 0.02783673491369481
+all values of MCC Class 2: [0.37542708 0.44359792 0.41074941]
+MCC Class 3 (compiled): -0.001678260792988356
+avg MCC Class 3 over folds: -0.001422259293059231
+standard deviation of MCC Class 3: 0.001049128030756133
+all values of MCC Class 3: [-0.0024993   0.         -0.00176748]
