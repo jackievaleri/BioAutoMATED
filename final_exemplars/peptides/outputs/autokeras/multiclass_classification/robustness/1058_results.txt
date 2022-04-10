@@ -1,0 +1,40 @@
+auROC Class 0 (compiled): 0.5140021269053526
+avg auROC Class 0 over folds: 0.515440003977098
+standard deviation of auROC Class 0: 0.012251350310019405
+all values of auROC Class 0: [0.52996795 0.51635206 0.5       ]
+auROC Class 1 (compiled): 0.494867792875505
+avg auROC Class 1 over folds: 0.49928741253424125
+standard deviation of auROC Class 1: 0.016808258424504518
+all values of auROC Class 1: [0.47835454 0.5195077  0.5       ]
+auROC Class 2 (compiled): 0.5100203518686716
+avg auROC Class 2 over folds: 0.5155406391914447
+standard deviation of auROC Class 2: 0.01742815749487137
+all values of auROC Class 2: [0.5067436  0.53987832 0.5       ]
+auROC Class 3 (compiled): 0.5
+avg auROC Class 3 over folds: 0.5
+standard deviation of auROC Class 3: 0.0
+all values of auROC Class 3: [0.5 0.5 0.5]
+auROC Micro Avg (compiled): 0.5381222432262129
+avg auROC Micro Avg over folds: 0.5380951869974532
+standard deviation of auROC Micro Avg: 0.020474876612123785
+all values of auROC Micro Avg: [0.54863078 0.55618508 0.5094697 ]
+auROC Macro Avg (compiled): 0.5047225679123822
+avg auROC Macro Avg over folds: 0.507567013925696
+standard deviation of auROC Macro Avg: 0.008183797223128312
+all values of auROC Macro Avg: [0.50376652 0.51893452 0.5       ]
+MCC Class 0 (compiled): 0.05468532918535143
+avg MCC Class 0 over folds: 0.05182609686101075
+standard deviation of MCC Class 0: 0.036649599082998266
+all values of MCC Class 0: [0.07831485 0.07716344 0.        ]
+MCC Class 1 (compiled): -0.017536400079588493
+avg MCC Class 1 over folds: -0.011390309097974534
+standard deviation of MCC Class 1: 0.05195062398048418
+all values of MCC Class 1: [-0.07994242  0.04577149  0.        ]
+MCC Class 2 (compiled): 0.02823129439166742
+avg MCC Class 2 over folds: 0.03734969177617422
+standard deviation of MCC Class 2: 0.041627552597707625
+all values of MCC Class 2: [0.01661603 0.09543304 0.        ]
+MCC Class 3 (compiled): 0.0
+avg MCC Class 3 over folds: 0.0
+standard deviation of MCC Class 3: 0.0
+all values of MCC Class 3: [0. 0. 0.]

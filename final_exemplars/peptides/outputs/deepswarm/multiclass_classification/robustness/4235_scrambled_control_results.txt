@@ -1,0 +1,40 @@
+auROC Class 0 (compiled): 0.532372923046089
+avg auROC Class 0 over folds: 0.5302536978730489
+standard deviation of auROC Class 0: 0.01682709602906507
+all values of auROC Class 0: [0.52850071 0.5516831  0.51057729]
+auROC Class 1 (compiled): 0.5282906252477418
+avg auROC Class 1 over folds: 0.5284354327386244
+standard deviation of auROC Class 1: 0.003582077206728277
+all values of auROC Class 1: [0.52715795 0.53331952 0.52482883]
+auROC Class 2 (compiled): 0.5066206020876705
+avg auROC Class 2 over folds: 0.5067667035544718
+standard deviation of auROC Class 2: 0.004299248355447137
+all values of auROC Class 2: [0.50184046 0.50614367 0.51231599]
+auROC Class 3 (compiled): 0.5542815811776208
+avg auROC Class 3 over folds: 0.5548272111398558
+standard deviation of auROC Class 3: 0.004807237809250973
+all values of auROC Class 3: [0.55437949 0.54917621 0.56092593]
+auROC Micro Avg (compiled): 0.5378327750743764
+avg auROC Micro Avg over folds: 0.5377287829812084
+standard deviation of auROC Micro Avg: 0.003073450750168887
+all values of auROC Micro Avg: [0.53835966 0.54113768 0.53368901]
+auROC Macro Avg (compiled): 0.5305492755504893
+avg auROC Macro Avg over folds: 0.5305436857203909
+standard deviation of auROC Macro Avg: 0.0035590393418319646
+all values of auROC Macro Avg: [0.52844224 0.53555523 0.52763359]
+MCC Class 0 (compiled): 0.039981359394816014
+avg MCC Class 0 over folds: 0.03684293485442645
+standard deviation of MCC Class 0: 0.012372084074943016
+all values of MCC Class 0: [0.04833759 0.04251959 0.01967163]
+MCC Class 1 (compiled): 0.009963325410832067
+avg MCC Class 1 over folds: 0.010629959486307204
+standard deviation of MCC Class 1: 0.0055411562775709204
+all values of MCC Class 1: [0.01176023 0.01678036 0.00334928]
+MCC Class 2 (compiled): -0.02005150107549692
+avg MCC Class 2 over folds: -0.019748937808648996
+standard deviation of MCC Class 2: 0.012080818162061996
+all values of MCC Class 2: [-0.03658843 -0.01382774 -0.00883064]
+MCC Class 3 (compiled): 0.08918096757089085
+avg MCC Class 3 over folds: 0.08983615543695127
+standard deviation of MCC Class 3: 0.0027547951176633617
+all values of MCC Class 3: [0.08927254 0.08677954 0.09345639]

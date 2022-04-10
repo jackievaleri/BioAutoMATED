@@ -1,0 +1,40 @@
+auROC Class 0 (compiled): 0.5011126865965575
+avg auROC Class 0 over folds: 0.5016178266178266
+standard deviation of auROC Class 0: 0.0022879523444985887
+all values of auROC Class 0: [0.50485348 0.5        0.5       ]
+auROC Class 1 (compiled): 0.49957308116048477
+avg auROC Class 1 over folds: 0.4992952641752577
+standard deviation of auROC Class 1: 0.00099664696124073
+all values of auROC Class 1: [0.49788579 0.5        0.5       ]
+auROC Class 2 (compiled): 0.4983726914925825
+avg auROC Class 2 over folds: 0.5000540930400289
+standard deviation of auROC Class 2: 7.649911083875914e-05
+all values of auROC Class 2: [0.50016228 0.5        0.5       ]
+auROC Class 3 (compiled): 0.5
+avg auROC Class 3 over folds: 0.5
+standard deviation of auROC Class 3: 0.0
+all values of auROC Class 3: [0.5 0.5 0.5]
+auROC Micro Avg (compiled): 0.5362318840579711
+avg auROC Micro Avg over folds: 0.5362066128709188
+standard deviation of auROC Micro Avg: 0.0190468213700246
+all values of auROC Micro Avg: [0.55240793 0.54674221 0.5094697 ]
+auROC Macro Avg (compiled): 0.49976461481240625
+avg auROC Macro Avg over folds: 0.5002417959582783
+standard deviation of auROC Macro Avg: 0.00034195112352421994
+all values of auROC Macro Avg: [0.50072539 0.5        0.5       ]
+MCC Class 0 (compiled): 0.008018310314900684
+avg MCC Class 0 over folds: 0.006715592099664678
+standard deviation of MCC Class 0: 0.009497281426711397
+all values of MCC Class 0: [0.02014678 0.         0.        ]
+MCC Class 1 (compiled): -0.003557031119791189
+avg MCC Class 1 over folds: -0.003472117246719282
+standard deviation of MCC Class 1: 0.004910315300459938
+all values of MCC Class 1: [-0.01041635  0.          0.        ]
+MCC Class 2 (compiled): -0.009512818504474139
+avg MCC Class 2 over folds: 0.0001920240555767503
+standard deviation of MCC Class 2: 0.00027156302369852524
+all values of MCC Class 2: [0.00057607 0.         0.        ]
+MCC Class 3 (compiled): 0.0
+avg MCC Class 3 over folds: 0.0
+standard deviation of MCC Class 3: 0.0
+all values of MCC Class 3: [0. 0. 0.]
