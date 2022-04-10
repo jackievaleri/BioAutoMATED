@@ -1,0 +1,15 @@
+2022-01-17 19:33:23,592 - files.py - write 911 bytes to './final_exemplars/S4_augmentation_tests/toeholds_small_rev_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-17 19:33:23,592 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-17 19:33:24,073 - files.py - write 4424 bytes to './final_exemplars/S4_augmentation_tests/toeholds_small_rev_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-17 19:33:24,073 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-17 19:33:24,421 - files.py - write 30160 bytes to './final_exemplars/S4_augmentation_tests/toeholds_small_rev_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-17 19:33:24,422 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-17 19:33:25,021 - files.py - write 980 bytes to './final_exemplars/S4_augmentation_tests/toeholds_small_rev_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-17 19:33:25,022 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-17 19:33:25,332 - files.py - write 980 bytes to './final_exemplars/S4_augmentation_tests/toeholds_small_rev_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-17 19:33:25,332 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-17 19:33:25,645 - files.py - write 1223 bytes to './final_exemplars/S4_augmentation_tests/toeholds_small_rev_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-17 19:33:25,646 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-17 19:44:43,918 - connectionpool.py - Starting new HTTPS connection (1): pypi.org:443
+2022-01-17 19:44:43,998 - connectionpool.py - https://pypi.org:443 "GET /pypi/tpot/json HTTP/1.1" 301 212
+2022-01-17 19:44:44,030 - connectionpool.py - https://pypi.org:443 "GET /pypi/TPOT/json HTTP/1.1" 200 11943

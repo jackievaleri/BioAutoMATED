@@ -1,0 +1,39 @@
+2022-01-18 13:27:12,143 - files.py - write 911 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:12,143 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:12,787 - files.py - write 4424 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:12,787 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:13,183 - files.py - write 30160 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:13,183 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:13,797 - files.py - write 956 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:13,798 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:14,132 - files.py - write 972 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:14,133 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:14,469 - files.py - write 1008 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:14,470 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:14,808 - files.py - write 1031 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:14,808 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:15,143 - files.py - write 1078 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:15,144 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:15,482 - files.py - write 1097 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:15,482 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:15,811 - files.py - write 1097 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:15,812 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:16,144 - files.py - write 1326 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:16,145 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:16,485 - files.py - write 1166 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:16,486 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:16,832 - files.py - write 1391 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:16,832 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:17,169 - files.py - write 1326 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:17,169 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:17,515 - files.py - write 1550 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:17,515 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:17,857 - files.py - write 1274 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:17,858 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:18,199 - files.py - write 1616 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:18,200 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:27:18,539 - files.py - write 1612 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_comp_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 13:27:18,539 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 13:51:28,959 - connectionpool.py - Starting new HTTPS connection (1): pypi.org:443
+2022-01-18 13:51:29,085 - connectionpool.py - https://pypi.org:443 "GET /pypi/tpot/json HTTP/1.1" 301 212
+2022-01-18 13:51:29,118 - connectionpool.py - https://pypi.org:443 "GET /pypi/TPOT/json HTTP/1.1" 200 11943

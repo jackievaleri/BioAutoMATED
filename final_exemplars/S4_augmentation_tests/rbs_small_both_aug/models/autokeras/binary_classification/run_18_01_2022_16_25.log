@@ -1,0 +1,9 @@
+2022-01-18 16:56:19,589 - files.py - write 911 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 16:56:19,590 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 16:56:19,957 - files.py - write 4424 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 16:56:19,958 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 16:56:20,307 - files.py - write 30160 bytes to './final_exemplars/S4_augmentation_tests/rbs_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-01-18 16:56:20,307 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-01-18 21:27:51,107 - connectionpool.py - Starting new HTTPS connection (1): pypi.org:443
+2022-01-18 21:27:51,201 - connectionpool.py - https://pypi.org:443 "GET /pypi/tpot/json HTTP/1.1" 301 212
+2022-01-18 21:27:51,233 - connectionpool.py - https://pypi.org:443 "GET /pypi/TPOT/json HTTP/1.1" 200 11943
