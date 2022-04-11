@@ -1,3 +1,5 @@
+![BioSeq_AutoML_Logo_V2-01](https://user-images.githubusercontent.com/33818756/162773707-71a2f591-3789-4b4e-9939-256617cc8b5f.png)
+
 # BioSeq-AutoML
 Automated machine learning for analyzing, interpreting, and designing biological sequences.
 
