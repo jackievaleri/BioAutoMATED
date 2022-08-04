@@ -1132,7 +1132,10 @@ class AutoMLRegressor(AutoMLBackend):
         g = sns.jointplot(x_tot, y_tot, kind="reg", color="cornflowerblue")
         g.ax_joint.text = self.r2
         g.plot_joint(plt.scatter, c="cornflowerblue", s=4, linewidth=1, marker=".", alpha=0.08)
-        g.plot_joint(sns.kdeplot, zorder=0, color="grey", n_levels=6, shade=False)
+        try:
+            g.plot_joint(sns.kdeplot, zorder=0, color="grey", n_levels=6, shade=False)
+        except: # if discrete, then need hist instead of kde
+            g.plot_joint(sns.histplot, zorder=0, color="grey", alpha=0.05)
         g.ax_joint.collections[0].set_alpha(0)
         g.set_axis_labels("Predicted", "Experimental");
 

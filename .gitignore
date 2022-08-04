@@ -1,2 +1,7 @@
 
 clean_data/raw/newQC_toehold_data.csv
+.DS_Store
+final_exemplars/.DS_Store
+final_exemplars/synthetic_nucleic_acids/.DS_Store
+final_exemplars/synthetic_nucleic_acids/outputs/.DS_Store
+final_exemplars/synthetic_nucleic_acids/outputs/deepswarm/.DS_Store
