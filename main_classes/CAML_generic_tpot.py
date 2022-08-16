@@ -7,7 +7,7 @@
 import sys
 sys.path.insert(1, 'main_classes/')
 from CAML_generic_automl_classes import *
-from CAML_interpret_helpers import plot_mutagenesis, plot_rawseqlogos
+from CAML_interpret_helpers import plot_ft_importance, plot_mutagenesis, plot_rawseqlogos
 from CAML_integrated_design_helpers import integrated_design
 
 # import system libraries
@@ -531,6 +531,10 @@ class TPOTClassification(AutoMLClassifier):
             if not os.path.isdir(self.output_folder + 'interpretation/'):
                 os.mkdir(self.output_folder + 'interpretation/')
 
+            print("Plotting feature importances...")
+            with suppress_stdout(self.verbosity):
+                plot_ft_importance(oh_data_input, final_model_path, final_model_name, self.output_folder + 'interpretation/', '_feature_importances.png')
+
             # in silico mutagenesis     
             print("Generating in silico mutagenesis plots...")
             with suppress_stdout(self.verbosity):
@@ -910,6 +914,10 @@ class TPOTRegression(AutoMLRegressor):
             # make folder
             if not os.path.isdir(self.output_folder + 'interpretation/'):
                 os.mkdir(self.output_folder + 'interpretation/')
+
+            print("Plotting feature importances...")
+            with suppress_stdout(self.verbosity):
+                plot_ft_importance(oh_data_input, final_model_path, final_model_name, self.output_folder + 'interpretation/', '_feature_importances.png')
 
             # in silico mutagenesis     
             print("Generating in silico mutagenesis plots...")

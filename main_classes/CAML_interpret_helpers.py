@@ -40,7 +40,57 @@ from keras.initializers import glorot_uniform
 from keras.layers import BatchNormalization
 import autokeras
 
-############## PART 2: ACTIVATION MAP AND SALIENCY MAP FUNCTIONS ##############
+############## PART 2: FEATURE IMPORTANCE FUNCTIONS ##############
+
+def plot_ft_importance(oh_data_input, final_model_path, final_model_name, plot_path, plot_name):
+    """wrapper function for plotting in silico mutagenesis
+    Parameters
+    ----------
+    oh_data_input : list of sequences converted to one-hot encoded matrix inputs 
+    final_model_path : str representing folder with final model
+    final_model_name : str representing name of final model
+    plot_path : str representing folder where plots are to be located
+    plot_name : str representing name of plot
+    
+    Returns
+    -------
+    None
+    """ 
+    seq_len = len(list(oh_data_input[0][0]))
+    
+    with open(final_model_path+final_model_name, 'rb') as file:  
+        model = pickle.load(file)
+    feature_names = [f"{i}" for i in range(seq_len)]
+    try:
+        importances = model.feature_importances_
+    except:
+        print("No feature importances can be computed from this model.")
+        return()
+    
+    forest_importances = pd.Series(importances, index=feature_names)
+    fig, ax = plt.subplots(figsize = (6,4), dpi = 300)
+    try:
+        std = np.std([tree.feature_importances_ for tree in model.estimators_], axis=0)
+        forest_importances.plot.bar(yerr=std, ax=ax)
+    except:
+        forest_importances.plot.bar(ax=ax)
+
+    ax.set_xlabel('Position', fontsize=20)
+    ax.set_ylabel("Feature Importance", fontsize=20)
+    plt.tick_params(length = 10)
+    ax.spines['left'].set_visible(True)
+    ax.spines['bottom'].set_visible(True)
+    ax.spines['right'].set_visible(False)
+    ax.spines['top'].set_visible(False)
+    ax.set_xticks(np.arange(0, seq_len, 10))
+    ax.set_xticklabels([str(x) for x in np.arange(0, seq_len, 10)], fontsize = 20, rotation = 0)
+    ax.set_yticklabels([str(np.round(x,2)) for x in ax.get_yticks()], fontsize = 20)
+
+    plt.tight_layout()
+    plt.savefig(plot_path+final_model_name.split('.pkl')[0] + plot_name)
+    plt.savefig(plot_path+final_model_name.split('.pkl')[0] + plot_name.split('.png')[0] + '.svg')    
+
+############## PART 3: ACTIVATION MAP AND SALIENCY MAP FUNCTIONS ##############
 
 def plot_saliency_maps(numerical_data_input, oh_data_input, alph, final_model_path, final_model_name, plot_path, plot_name, sequence_type, interpret_params):
     """plot saliency maps with trained models
@@ -364,7 +414,7 @@ def plot_seqlogos(arr, alph, sequence_type, plot_path, plot_name, lenarr):
     plt.savefig(plot_path + plot_name)
     plt.savefig(plot_path + plot_name.split('.png')[0] + '.svg')
 
-############## PART 3: IN SILICO MUTAGENESIS FUNCTIONS ##############
+############## PART 4: IN SILICO MUTAGENESIS FUNCTIONS ##############
 
 def get_one_bp_mismatches(seq, smallalph, sequence_type):
     """finds all one bp mismatches - allegedly O(nk^2) where k = size of the sequence
@@ -707,7 +757,7 @@ def plot_mutagenesis(numerical_data_input, oh_data_input, alph, numerical, numer
 
     print('In silico mutagenesis plot saved to ' + plot_path+final_model_name.split('.h5')[0] + plot_name)
 
-############## PART 4: RAW SEQUENCE LOGO FUNCTIONS ##############
+############## PART 5: RAW SEQUENCE LOGO FUNCTIONS ##############
 
 def plot_rawseqlogos(arr, fullalph, sequence_type, plot_path, plot_name, lenarr):
     """plots the raw experimental input sequences as sequence logos
