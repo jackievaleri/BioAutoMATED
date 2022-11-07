@@ -21,7 +21,7 @@ DeepSwarm:
   max_depth: 2
   metrics: binary_crossentropy
   reuse_patience: 1
-  save_folder: ./final_exemplars/synthetic_nucleic_acids/models/deepswarm/binary_classification/
+  save_folder: ./final_exemplars/TEST_synthetic_nucleic_acids/models/deepswarm/binary_classification/
   spatial_nodes:
   - InputNode
   - Conv2DNode

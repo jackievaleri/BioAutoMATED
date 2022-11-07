@@ -5,3 +5,11 @@ final_exemplars/.DS_Store
 final_exemplars/synthetic_nucleic_acids/.DS_Store
 final_exemplars/synthetic_nucleic_acids/outputs/.DS_Store
 final_exemplars/synthetic_nucleic_acids/outputs/deepswarm/.DS_Store
+clean_data/raw/flip/sampled.csv
+final_exemplars/peptides/outputs/tpot/regression/final_model_tpot_regression.pkl
+final_exemplars/toeholds/outputs/autokeras/regression/design/sequences_all_methods.csv
+final_exemplars/toeholds/outputs/deepswarm/binary_classification/design/sequences_all_methods.csv
+final_exemplars/toeholds/outputs/tpot/multiclass_classification/design/sequences_all_methods.csv
+final_exemplars/toeholds/outputs/tpot/regression/design/sequences_all_methods.csv
+final_exemplars/toeholds/outputs/deepswarm/regression/design/sequences_all_methods.csv
+final_exemplars/toeholds/outputs/tpot/multiclass_classification/design/sequences_top_ten_percent_all_methods.csv

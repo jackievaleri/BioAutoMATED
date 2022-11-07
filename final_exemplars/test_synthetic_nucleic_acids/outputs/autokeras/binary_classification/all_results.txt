@@ -1,0 +1,24 @@
+auROC Class 0 (compiled): 0.5120147387814186
+avg auROC Class 0 over folds: 0.5106482145418041
+standard deviation of auROC Class 0: 0.01064821454180409
+all values of auROC Class 0: [0.5        0.52129643]
+auROC Class 1 (compiled): 0.5120147387814187
+avg auROC Class 1 over folds: 0.5106482145418041
+standard deviation of auROC Class 1: 0.010648214541804035
+all values of auROC Class 1: [0.5        0.52129643]
+auROC Micro Avg (compiled): 0.736
+avg auROC Micro Avg over folds: 0.736
+standard deviation of auROC Micro Avg: 0.020000000000000018
+all values of auROC Micro Avg: [0.756 0.716]
+auROC Macro Avg (compiled): 0.5120147387814186
+avg auROC Macro Avg over folds: 0.5106482145418041
+standard deviation of auROC Macro Avg: 0.01064821454180409
+all values of auROC Macro Avg: [0.5        0.52129643]
+MCC Class 0 (compiled): 0.055485378079879466
+avg MCC Class 0 over folds: 0.035947962793144966
+standard deviation of MCC Class 0: 0.035947962793144966
+all values of MCC Class 0: [0.         0.07189593]
+MCC Class 1 (compiled): 0.055485378079879466
+avg MCC Class 1 over folds: 0.035947962793144966
+standard deviation of MCC Class 1: 0.035947962793144966
+all values of MCC Class 1: [0.         0.07189593]

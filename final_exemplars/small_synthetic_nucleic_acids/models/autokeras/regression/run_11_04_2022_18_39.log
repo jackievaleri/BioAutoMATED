@@ -1,0 +1,131 @@
+2022-04-11 19:39:46,810 - files.py - write 911 bytes to './final_exemplars/small_synthetic_nucleic_acids/outputs/autokeras/regression/final_autokeras_regression_graph'
+2022-04-11 19:39:46,812 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_regression_graph']
+2022-04-11 19:39:47,389 - files.py - write 4424 bytes to './final_exemplars/small_synthetic_nucleic_acids/outputs/autokeras/regression/final_autokeras_regression_graph'
+2022-04-11 19:39:47,390 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_regression_graph']
+2022-04-11 19:39:47,790 - files.py - write 30160 bytes to './final_exemplars/small_synthetic_nucleic_acids/outputs/autokeras/regression/final_autokeras_regression_graph'
+2022-04-11 19:39:47,790 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_regression_graph']
+2022-04-11 19:39:48,474 - files.py - write 1441 bytes to './final_exemplars/small_synthetic_nucleic_acids/outputs/autokeras/regression/final_autokeras_regression_graph'
+2022-04-11 19:39:48,475 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_regression_graph']
+2022-04-11 19:39:48,837 - files.py - write 1489 bytes to './final_exemplars/small_synthetic_nucleic_acids/outputs/autokeras/regression/final_autokeras_regression_graph'
+2022-04-11 19:39:48,838 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_regression_graph']
+2022-04-11 19:39:49,211 - files.py - write 1871 bytes to './final_exemplars/small_synthetic_nucleic_acids/outputs/autokeras/regression/final_autokeras_regression_graph'
+2022-04-11 19:39:49,211 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_regression_graph']
+2022-04-11 19:39:49,573 - files.py - write 1922 bytes to './final_exemplars/small_synthetic_nucleic_acids/outputs/autokeras/regression/final_autokeras_regression_graph'
+2022-04-11 19:39:49,574 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_regression_graph']
+2022-04-11 19:40:31,429 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:31,435 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:31,851 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:31,859 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:31,885 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:31,893 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:31,938 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:31,945 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:31,992 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:32,003 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:54,739 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:54,746 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:55,174 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:55,182 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:55,209 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:55,217 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:55,262 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:55,269 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:55,318 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:40:55,329 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:20,781 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:20,788 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:21,225 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:21,233 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:21,261 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:21,269 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:21,316 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:21,323 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:21,372 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:21,383 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:21,677 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:21,684 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:22,551 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:22,560 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:22,588 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:22,597 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:22,647 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:22,654 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:22,702 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:22,714 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:49,914 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:49,920 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:50,323 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:50,331 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:50,357 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:50,365 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:50,409 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:50,416 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:50,463 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:41:50,474 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:07,202 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:07,209 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:07,608 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:07,616 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:07,641 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:07,649 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:07,691 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:07,697 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:07,743 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:07,753 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:32,658 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:32,664 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:33,058 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:33,067 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:33,093 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:33,100 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:33,144 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:33,151 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:33,196 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:33,207 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:33,475 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:33,481 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:34,281 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:34,289 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:34,315 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:34,323 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:34,370 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:34,377 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:34,422 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:42:34,434 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:43:24,380 - connectionpool.py - Starting new HTTPS connection (1): pypi.org:443
+2022-04-11 19:56:21,587 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:21,597 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:22,544 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:22,561 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:22,688 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:22,703 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:22,829 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:22,846 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:22,978 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:22,997 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,130 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,147 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,275 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,291 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,417 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,433 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,565 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,584 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,714 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,730 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,858 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:23,873 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,001 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,017 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,146 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,164 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,294 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,310 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,438 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,453 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,580 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,596 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,724 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,742 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,872 - _base.py - top of axes not in the figure, so title not moved
+2022-04-11 19:56:24,888 - _base.py - top of axes not in the figure, so title not moved
