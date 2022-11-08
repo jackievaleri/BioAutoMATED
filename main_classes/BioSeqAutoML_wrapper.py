@@ -20,7 +20,7 @@ from BioSeqAutoML_generic_tpot import TPOTClassification, TPOTRegression
 
 # enable multiprocessing in Forkserver mode
 import multiprocessing
-multiprocessing.set_start_method('forkserver')
+multiprocessing.set_start_method('spawn', force = True)
 
 ############## PART 2: HELPER FUNCTIONS ##############
 
