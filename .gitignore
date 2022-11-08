@@ -13,3 +13,6 @@ final_exemplars/toeholds/outputs/tpot/multiclass_classification/design/sequences
 final_exemplars/toeholds/outputs/tpot/regression/design/sequences_all_methods.csv
 final_exemplars/toeholds/outputs/deepswarm/regression/design/sequences_all_methods.csv
 final_exemplars/toeholds/outputs/tpot/multiclass_classification/design/sequences_top_ten_percent_all_methods.csv
+clean_data/raw/.DS_Store
+clean_data/.DS_Store
+.DS_Store
