@@ -18,7 +18,7 @@ from BioSeqAutoML_generic_autokeras import AutoKerasClassification, AutoKerasReg
 from BioSeqAutoML_generic_deepswarm import DeepSwarmClassification, DeepSwarmRegression
 from BioSeqAutoML_generic_tpot import TPOTClassification, TPOTRegression 
 
-# enable multiprocessing in Forkserver mode
+# enable multiprocessing in spawn mode
 import multiprocessing
 multiprocessing.set_start_method('spawn', force = True)
 
@@ -643,8 +643,6 @@ if __name__ == '__main__':
     parser.add_argument('-design_params', '--design_params', default={}, required=False, help='dict of extra design parameters')
 
     args = parser.parse_args()
-    print(args)
-
     if args.bin_threshold == None: # need to handle separately since it can be a float but defaults to NoneType
         run_bioseqml(args.task, args.data_folder, args.data_file, args.sequence_type, args.model_folder, args.output_folder, automl_search_techniques = args.automl_search_techniques, do_backup = args.do_backup, max_runtime_minutes = int(args.max_runtime_minutes), num_folds = int(args.num_folds), verbosity = int(args.verbosity),  do_auto_bin = bool(args.do_auto_bin), do_transform = bool(args.do_transform), input_col = args.input_col, target_col = args.target_col, pad_seqs = args.pad_seqs, augment_data = args.augment_data, dataset_robustness = bool(args.dataset_robustness), num_final_epochs = int(args.num_final_epochs), yaml_params = args.yaml_params, num_generations = int(args.num_generations), population_size = int(args.population_size), run_interpretation = bool(args.run_interpretation), interpret_params = args.interpret_params, run_design = bool(args.run_design), design_params = args.design_params)
     else:
