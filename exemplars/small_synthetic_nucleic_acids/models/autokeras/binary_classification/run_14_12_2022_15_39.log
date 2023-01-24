@@ -1,0 +1,72 @@
+2022-12-14 16:39:25,718 - files.py - write 911 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:25,719 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:26,125 - files.py - write 4424 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:26,125 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:26,478 - files.py - write 30160 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:26,479 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:27,096 - files.py - write 979 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:27,097 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:27,403 - files.py - write 980 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:27,403 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:27,718 - files.py - write 1048 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:27,718 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:28,036 - files.py - write 1041 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:28,037 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:28,354 - files.py - write 1111 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:28,354 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:28,668 - files.py - write 1335 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:28,668 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:28,982 - files.py - write 1336 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:28,982 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:29,298 - files.py - write 1172 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:29,298 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:29,615 - files.py - write 1381 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:29,615 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:29,936 - files.py - write 1396 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:29,936 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:30,246 - files.py - write 1236 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:30,246 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:30,561 - files.py - write 1221 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:30,561 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:30,872 - files.py - write 1449 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:30,872 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:31,185 - files.py - write 1466 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:31,185 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:31,502 - files.py - write 1401 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:31,502 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:31,819 - files.py - write 1468 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:31,819 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:32,140 - files.py - write 1240 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:32,140 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:32,457 - files.py - write 1238 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:32,458 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:32,769 - files.py - write 1298 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:32,769 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:33,091 - files.py - write 1401 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:33,091 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:33,409 - files.py - write 1412 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:33,410 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:33,731 - files.py - write 1415 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:33,731 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:34,046 - files.py - write 1397 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:34,047 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:34,358 - files.py - write 1398 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:34,358 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:34,676 - files.py - write 1397 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:34,677 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:34,988 - files.py - write 1400 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:34,989 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:35,303 - files.py - write 1399 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:35,304 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:35,624 - files.py - write 1401 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:35,624 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:35,936 - files.py - write 1468 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:35,937 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:36,261 - files.py - write 1695 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:36,262 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:36,584 - files.py - write 1353 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:36,584 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:39:36,893 - files.py - write 1414 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2022-12-14 16:39:36,894 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-14 16:43:46,578 - connectionpool.py - Starting new HTTPS connection (1): pypi.org:443
+2022-12-14 16:43:46,683 - connectionpool.py - https://pypi.org:443 "GET /pypi/tpot/json HTTP/1.1" 200 11946

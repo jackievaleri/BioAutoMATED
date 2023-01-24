@@ -1048,7 +1048,7 @@ class AutoMLRegressor(AutoMLBackend):
         None
 
         Returns
-        -------
+        -------s
         transformed_output : numpy array of transformed target values
         data_transformer : sklearn.preprocessing Scaler method
         """

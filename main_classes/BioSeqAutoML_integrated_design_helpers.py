@@ -14,6 +14,7 @@ import pandas as pd
 import seaborn as sns
 import random
 from tqdm import tqdm_notebook as tqdm
+import scipy.stats as sp
 from scipy.stats import sem, t
 from scipy import mean
 import logomaker
@@ -402,7 +403,10 @@ def compute_pairwise_distances(df, sequence_type, plot_path, plot_name, alph, se
             continue # we already plotted these
         seqs = list(typedf['seqs'])
         seqs, _ = AutoMLBackend.onehot_seqlist(seqs, sequence_type, alph, model_type)
-        plot_rawseqlogos(seqs, alph, sequence_type, plot_path, 'seq_logo_' + typeseq, seq_len)
+        try:
+            plot_rawseqlogos(seqs, alph, sequence_type, plot_path, 'seq_logo_' + typeseq, seq_len)
+        except:
+            print('No sequence logo could be computed for ' + typeseq + ' sequences.')
 
 ############## PART 4: STORM GRADIENT ASCENT / DIRECTED-DESIGN FUNCTIONS ##############
 
@@ -432,6 +436,15 @@ def run_gradient_ascent(input_seq, original_out, num_samples, final_model_path, 
     """
 
     # build generator network
+    # import features with help from https://stackoverflow.com/questions/53183865/unknown-initializer-glorotuniform-when-loading-keras-model
+    # import features with help from https://stackoverflow.com/questions/53183865/unknown-initializer-glorotuniform-when-loading-keras-model
+    with CustomObjectScope({'GlorotUniform': glorot_uniform(), 'BatchNormalizationV1': BatchNormalization()}): # , 'BatchNormalizationV1': BatchNormalization()
+        try:
+            model = load_model(final_model_path)
+        except:
+            model = tf.keras.models.load_model(final_model_path)        
+        model.load_weights(final_model_path)
+
     if bio_constraints is not None:
         _, seqprop_generator = build_generator(seq_length=seq_len, n_sequences=num_samples, batch_normalize_pwm=False,init_sequences = [input_seq],
                                               sequence_templates=[bio_constraints], pwm_transform_func=transform)# batch_normalize_pwm=True) # sequence_templates = bio_constraints
@@ -709,7 +722,7 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
     constraint_file_path = design_params.get('constraint_file_path','')
     de_novo_num_seqs_to_test = design_params.get('de_novo_num_seqs_to_test',100)
     storm_num_seqs_to_test = design_params.get('storm_num_seqs_to_test',5)   
-    num_of_optimization_rounds = design_params.get('num_of_optimization_rounds',3)
+    num_of_optimization_rounds = design_params.get('num_of_optimization_rounds',5)
 
     d = list(numerical)
     howmanyclasses = len(list(set(d)))
@@ -730,8 +743,11 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
     avg_preds, best_preds, worst_preds = None, None, None
     if howmanyclasses < 2:
         avg_preds, orig_preds_avg = get_denovo_seqs_predictions(oh, de_novo_num_seqs_to_test, alph, sequence_type, final_model_path, final_model_name, plot_path, 'seq_logo_average_original', seq_len, model_type, k, substitution_type, 0, constraints)
-        storm_avg_preds, _ = get_storm_seqs_predictions(oh, alph, final_model_path, final_model_name, plot_path, 'average', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, 0, constraints)
-    
+        try:
+            storm_avg_preds, _ = get_storm_seqs_predictions(oh, alph, final_model_path, final_model_name, plot_path, 'average', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, 0, constraints)
+        except:
+            storm_avg_preds = None
+            print('STORM module is not compatible with current model.')
     elif howmanyclasses < 3:
         possvals= list(set(d))
         classlabels = possvals
@@ -739,10 +755,15 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
             truthvals = [d1 == poss for d1 in d]
             classx = oh[truthvals]
             classx_preds, classx_preds_orig = get_denovo_seqs_predictions(classx, de_novo_num_seqs_to_test, alph, sequence_type, final_model_path, final_model_name, plot_path, 'seq_logo_class_' + str(poss) + '_original', seq_len, model_type, k, substitution_type, poss, constraints)
-            storm_classx_preds, _ = get_storm_seqs_predictions(classx, alph, final_model_path, final_model_name, plot_path, 'class_' + str(poss), seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, poss, constraints)
             classes.append(classx_preds)
             classes_orig.append(classx_preds_orig)
-            storm_classes.append(storm_classx_preds)
+            try:
+                storm_classx_preds, _ = get_storm_seqs_predictions(classx, alph, final_model_path, final_model_name, plot_path, 'class_' + str(poss), seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, poss, constraints)
+                storm_classes.append(storm_classx_preds)
+            except:
+                storm_classes = None
+                print('STORM module is not compatible with current model.')
+     
     else:
         if numericalbool:
             best = oh[d >= np.quantile(d, .9)]
@@ -752,10 +773,15 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
             best_preds, best_preds_orig = get_denovo_seqs_predictions(best, de_novo_num_seqs_to_test, alph, sequence_type, final_model_path, final_model_name, plot_path, 'seq_logo_best_original', seq_len, model_type, k, substitution_type, class_of_interest, constraints)
             worst_preds, worst_preds_orig = get_denovo_seqs_predictions(worst, de_novo_num_seqs_to_test, alph, sequence_type, final_model_path, final_model_name, plot_path, 'seq_logo_worst_original', seq_len, model_type, k, substitution_type, class_of_interest, constraints)
             avg_preds, orig_preds_avg = get_denovo_seqs_predictions(average, de_novo_num_seqs_to_test, alph, sequence_type, final_model_path, final_model_name, plot_path, 'seq_logo_average_original', seq_len, model_type, k, substitution_type, class_of_interest, constraints)
-            storm_best_preds, _ = get_storm_seqs_predictions(best, alph, final_model_path, final_model_name, plot_path, 'best', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
-            storm_worst_preds, _ = get_storm_seqs_predictions(worst, alph, final_model_path, final_model_name, plot_path, 'worst', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
-            storm_avg_preds, _ = get_storm_seqs_predictions(average, alph, final_model_path, final_model_name, plot_path, 'average', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
-
+            try:
+                storm_best_preds, _ = get_storm_seqs_predictions(best, alph, final_model_path, final_model_name, plot_path, 'best', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
+                storm_worst_preds, _ = get_storm_seqs_predictions(worst, alph, final_model_path, final_model_name, plot_path, 'worst', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
+                storm_avg_preds, _ = get_storm_seqs_predictions(average, alph, final_model_path, final_model_name, plot_path, 'average', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
+            except:
+                storm_best_preds = None
+                storm_worst_preds = None
+                storm_avg_preds = None
+                print('STORM module is not compatible with current model.')           
         else:
             possvals= list(set(d))
             classlabels = possvals
@@ -763,11 +789,15 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
                 truthvals = [d1 == poss for d1 in d]
                 classx = oh[truthvals]
                 classx_preds, classx_preds_orig = get_denovo_seqs_predictions(classx, de_novo_num_seqs_to_test, alph, sequence_type, final_model_path, final_model_name, plot_path, 'seq_logo_class_' + str(poss) + '_original', seq_len, model_type, k, substitution_type, class_of_interest, constraints)
-                storm_classx_preds, _ = get_storm_seqs_predictions(classx, alph, final_model_path, final_model_name, plot_path, 'class_' + str(poss), seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
                 classes.append(classx_preds)
                 classes_orig.append(classx_preds_orig)
-                storm_classes.append(storm_classx_preds)
-            
+                try:
+                    storm_classx_preds, _ = get_storm_seqs_predictions(classx, alph, final_model_path, final_model_name, plot_path, 'class_' + str(poss), seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
+                    storm_classes.append(storm_classx_preds)
+                except:
+                    storm_classes = None
+                    print('STORM module is not compatible with current model.')           
+                             
     # plot
     print("Plotting now...")
     x = list(range(0, seq_len))
@@ -789,7 +819,7 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
         avg_preds = avg_preds[avg_preds['preds'] >= np.quantile(avg_preds['preds'], 0.9)]
         top10dfplot.append(avg_preds)
 
-        if model_type == 'deepswarm':
+        if model_type == 'deepswarm' and storm_avg_preds is not None:
             plt.hist(storm_avg_preds['preds'], bins = numbins, alpha = 0.7, label = 'STORM-Random')
             storm_avg_preds['method'] = ['STORM-Random'] * len(storm_avg_preds)
             dfplot.append(storm_avg_preds)
@@ -816,7 +846,7 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
             classx = classx[classx['preds'] >= np.quantile(classx['preds'], 0.9)]
             top10dfplot.append(classx)
             
-            if model_type == 'deepswarm':
+            if model_type == 'deepswarm' and storm_classes is not None:
                 storm_classx = storm_classes[index]
                 plt.hist(storm_classx['preds'], bins = numbins, alpha = 0.7, label = 'STORM-Class ' + str(classlabels[index]))
                 storm_classx['method'] = ['STORM-Class' + str(classlabels[index])] * len(storm_classx)
@@ -840,7 +870,7 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
         worst_preds = worst_preds[worst_preds['preds'] >= np.quantile(worst_preds['preds'], 0.9)]
         top10dfplot.append(worst_preds)
         
-        if model_type == 'deepswarm':
+        if model_type == 'deepswarm' and storm_worst_preds is not None:
             plt.hist(storm_worst_preds['preds'], bins = numbins, alpha = 0.7, label = 'STORM-Bottom 10%')
             storm_worst_preds['method'] = ['STORM-Bottom 10%'] * len(storm_worst_preds)
             dfplot.append(storm_worst_preds)
@@ -861,13 +891,12 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
         best_preds = best_preds[best_preds['preds'] >= np.quantile(best_preds['preds'], 0.9)]
         top10dfplot.append(best_preds)
 
-        if model_type == 'deepswarm':
+        if model_type == 'deepswarm' and storm_best_preds is not None:
             plt.hist(storm_best_preds['preds'], bins = numbins, alpha = 0.7, label = 'STORM-Top 10%')
             storm_best_preds['method'] = ['STORM-Top 10%'] * len(storm_best_preds)
             dfplot.append(storm_best_preds)
             storm_best_preds = storm_best_preds[storm_best_preds['preds'] >= np.quantile(storm_best_preds['preds'], 0.9)]
             top10dfplot.append(storm_best_preds)
-
     
     # do at the end for more efficiency
     dfplot = pd.concat(dfplot)

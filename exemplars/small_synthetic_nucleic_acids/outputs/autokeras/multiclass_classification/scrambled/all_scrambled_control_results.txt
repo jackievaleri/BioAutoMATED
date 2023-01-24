@@ -1,0 +1,40 @@
+auROC Class 0 (compiled): 0.62752495936847
+avg auROC Class 0 over folds: 0.6301109790177238
+standard deviation of auROC Class 0: 0.027922368596420093
+all values of auROC Class 0: [0.62578529 0.6662658  0.59828185]
+auROC Class 1 (compiled): 0.5
+avg auROC Class 1 over folds: 0.5
+standard deviation of auROC Class 1: 0.0
+all values of auROC Class 1: [0.5 0.5 0.5]
+auROC Class 2 (compiled): 0.5702712465363429
+avg auROC Class 2 over folds: 0.5725091512099125
+standard deviation of auROC Class 2: 0.05577610306292439
+all values of auROC Class 2: [0.631135   0.58889872 0.49749373]
+auROC Class 3 (compiled): 0.5038308121195264
+avg auROC Class 3 over folds: 0.5038020655998184
+standard deviation of auROC Class 3: 0.00537693273629538
+all values of auROC Class 3: [0.5       0.5       0.5114062]
+auROC Micro Avg (compiled): 0.5860000000000001
+avg auROC Micro Avg over folds: 0.5859971748195302
+standard deviation of auROC Micro Avg: 0.02215771383266243
+all values of auROC Micro Avg: [0.58882236 0.61161161 0.55755756]
+auROC Macro Avg (compiled): 0.5504067545060848
+avg auROC Macro Avg over folds: 0.5516055489568636
+standard deviation of auROC Macro Avg: 0.017544308075751962
+all values of auROC Macro Avg: [0.56423007 0.56379113 0.52679544]
+MCC Class 0 (compiled): 0.23398076885075555
+avg MCC Class 0 over folds: 0.2399299055203223
+standard deviation of MCC Class 0: 0.05474358884415445
+all values of MCC Class 0: [0.22610041 0.3128132  0.1808761 ]
+MCC Class 1 (compiled): 0.0
+avg MCC Class 1 over folds: 0.0
+standard deviation of MCC Class 1: 0.0
+all values of MCC Class 1: [0. 0. 0.]
+MCC Class 2 (compiled): 0.13021404592695812
+avg MCC Class 2 over folds: 0.1338508497149308
+standard deviation of MCC Class 2: 0.10401865242404937
+all values of MCC Class 2: [ 0.24576491  0.16057545 -0.00478781]
+MCC Class 3 (compiled): 0.0482783111317695
+avg MCC Class 3 over folds: 0.02782590225737853
+standard deviation of MCC Class 3: 0.03935176835765284
+all values of MCC Class 3: [0.         0.         0.08347771]

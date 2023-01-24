@@ -1,8 +1,0 @@
-r2 (compiled): 1.0
-avg r2 over folds: 1.0
-standard deviation of r2: 0.0
-all MAE: [6.74945257e-15 9.27367621e-15 6.27640399e-15]
-std MAE: [6.49053993e-15 8.01740912e-15 6.23196346e-15]
-all r2: [1. 1. 1.]
-all pearson: [1. 1. 1.]
-all spearman: [0.99829678 0.99828145 0.99836625]

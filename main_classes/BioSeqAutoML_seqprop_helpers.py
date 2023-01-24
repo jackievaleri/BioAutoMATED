@@ -599,7 +599,7 @@ def loss_func_mod(predictor_outputs, target, class_of_interest, load_predictor_f
 # need to re-create EXACT SAME layers as final trained model
 # fix weights of layers so only input layer is modified
 def load_saved_predictor(model_path, seq_len, alph):
-    with CustomObjectScope({'GlorotUniform': glorot_uniform()}):
+    with CustomObjectScope({'GlorotUniform': glorot_uniform(), 'BatchNormalizationV1': BatchNormalization()}): # , 'BatchNormalizationV1': BatchNormalization()
         try:
             saved_model = load_model(model_path)
         except:
@@ -614,6 +614,7 @@ def load_saved_predictor(model_path, seq_len, alph):
                 predictor_model.get_layer(layer.name).trainable = False
 
     def _load_predictor_func(sequence_input, saved_model=saved_model) :
+
         # input space parameters 
         seq_length = seq_len
         num_letters = len(alph) # num nt 
@@ -624,8 +625,12 @@ def load_saved_predictor(model_path, seq_len, alph):
         if 'deepswarm' not in model_path: # reshapes if extra dimension in deepswarm input is not needed
             reshaped_input = Reshape(target_shape=(seq_len, num_letters),name='reshaped_input')(sequence_input)
 
+        print(reshaped_input)
+        print(type(reshaped_input))
+
         prior_layer = reshaped_input
         for layer in saved_model.layers:
+            print(layer)
             H = layer(prior_layer)
             prior_layer = H
         out_y = prior_layer 

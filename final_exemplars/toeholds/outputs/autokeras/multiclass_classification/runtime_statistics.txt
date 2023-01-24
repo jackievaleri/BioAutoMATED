@@ -1,6 +1,0 @@
-Elapsed time for autoML search : 121.45 minutes
-Elapsed time for scrambled control : 48.44 minutes
-Elapsed time for data ablation experiment : 147.53 minutes
-Elapsed time for interpretation : 0.28 minutes
-Elapsed time for design : 8.13 minutes
-Elapsed time for total : 339.02 minutes

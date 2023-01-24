@@ -1,0 +1,40 @@
+auROC Class 0 (compiled): 0.5
+avg auROC Class 0 over folds: 0.5
+standard deviation of auROC Class 0: 0.0
+all values of auROC Class 0: [0.5 0.5 0.5]
+auROC Class 1 (compiled): 0.8498960151997536
+avg auROC Class 1 over folds: 0.8501004596923193
+standard deviation of auROC Class 1: 0.016428224005855634
+all values of auROC Class 1: [0.85712837 0.86576426 0.82740875]
+auROC Class 2 (compiled): 0.8353033916417347
+avg auROC Class 2 over folds: 0.8355396406100054
+standard deviation of auROC Class 2: 0.01654721036077616
+all values of auROC Class 2: [0.83070276 0.85778656 0.8181296 ]
+auROC Class 3 (compiled): 0.5771135343168697
+avg auROC Class 3 over folds: 0.5817671439918564
+standard deviation of auROC Class 3: 0.042525822698273555
+all values of auROC Class 3: [0.5507386  0.64189745 0.55266538]
+auROC Micro Avg (compiled): 0.888888888888889
+avg auROC Micro Avg over folds: 0.8888888888888888
+standard deviation of auROC Micro Avg: 0.010861521801821442
+all values of auROC Micro Avg: [0.88762626 0.90277778 0.87626263]
+auROC Macro Avg (compiled): 0.6905782352895895
+avg auROC Macro Avg over folds: 0.6918518110735453
+standard deviation of auROC Macro Avg: 0.01781430303955389
+all values of auROC Macro Avg: [0.68464243 0.71636207 0.67455093]
+MCC Class 0 (compiled): 0.0
+avg MCC Class 0 over folds: 0.0
+standard deviation of MCC Class 0: 0.0
+all values of MCC Class 0: [0. 0. 0.]
+MCC Class 1 (compiled): 0.7009995218989379
+avg MCC Class 1 over folds: 0.7019817980715733
+standard deviation of MCC Class 1: 0.028999582875177884
+all values of MCC Class 1: [0.71349733 0.73031227 0.66213579]
+MCC Class 2 (compiled): 0.6722900478993958
+avg MCC Class 2 over folds: 0.6733500157429096
+standard deviation of MCC Class 2: 0.030726776601956347
+all values of MCC Class 2: [0.66156275 0.71546516 0.64302215]
+MCC Class 3 (compiled): 0.2130560629041907
+avg MCC Class 3 over folds: 0.23767194627295274
+standard deviation of MCC Class 3: 0.13797605775095106
+all values of MCC Class 3: [0.12392603 0.43184927 0.15724054]

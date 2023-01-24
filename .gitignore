@@ -16,3 +16,17 @@ final_exemplars/toeholds/outputs/tpot/multiclass_classification/design/sequences
 clean_data/raw/.DS_Store
 clean_data/.DS_Store
 .DS_Store
+clean_data/raw/avgfp/3102154/populations.zip
+exemplars/avgfp/models/deepswarm/regression/deepswarm_base_model.h5
+exemplars/avgfp/models/deepswarm/regression/deepswarm_topology.h5
+exemplars/avgfp/outputs/deepswarm/regression/deepswarm_deploy_model.h5
+exemplars/peptides/outputs/tpot/multiclass_classification/final_model_tpot_classification.pkl
+exemplars/toeholds/outputs/autokeras/binary_classification/design/sequences_all_methods.csv
+exemplars/toeholds/outputs/autokeras/multiclass_classification/design/sequences_all_methods.csv
+exemplars/toeholds/outputs/autokeras/regression/design/sequences_all_methods.csv
+exemplars/toeholds/outputs/deepswarm/binary_classification/design/sequences_all_methods.csv
+exemplars/toeholds/outputs/deepswarm/multiclass_classification/design/sequences_all_methods.csv
+exemplars/toeholds/outputs/deepswarm/regression/design/sequences_all_methods.csv
+exemplars/toeholds/outputs/tpot/binary_classification/design/sequences_all_methods.csv
+exemplars/toeholds/outputs/tpot/multiclass_classification/design/sequences_all_methods.csv
+exemplars/toeholds/outputs/tpot/regression/design/sequences_all_methods.csv

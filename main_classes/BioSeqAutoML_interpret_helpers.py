@@ -144,7 +144,14 @@ def plot_saliency_maps(numerical_data_input, oh_data_input, alph, final_model_pa
         # layer idx = what layer to maximize/minimize (i.e. output node)
         # seed_input = the one-hot encoded sequence whose path thru the model we are tracing 
         # filter_indices = what layer are we computing saliency w/ r.t. (i.e. input layer)
-        grad = visualize_saliency(model, layer_idx=saliency_map_layer_index, filter_indices=None, seed_input=X[idx], grad_modifier=saliency_map_grad_modifier)
+        try:
+            grad = visualize_saliency(model, layer_idx=saliency_map_layer_index, filter_indices=None, seed_input=X[idx], grad_modifier=saliency_map_grad_modifier)
+        except:
+            # re-initialize variables in the graph/model - sometimes needed with custom layers
+            with tf.Session() as sess:
+                sess.run(tf.global_variables_initializer())
+                grad = visualize_saliency(model, layer_idx=saliency_map_layer_index, filter_indices=None, seed_input=X[idx], grad_modifier=saliency_map_grad_modifier)
+
         grads.append(grad)
         
     # look at average saliency based on original nucleotide
@@ -171,10 +178,12 @@ def plot_saliency_maps(numerical_data_input, oh_data_input, alph, final_model_pa
         final_arr = pd.DataFrame(final_arr)
         sums = final_arr.sum(axis=1)
         sums = [s > np.quantile(sums, 0.90) for s in sums]
-        if sum(sums) > 26:
-            sums = [s > np.quantile(sums, 0.95) for s in sums] # 0.05 * 1027 (max) = 51
-        if sum(sums) > 26:
-            sums = [s > np.quantile(sums, 0.98) for s in sums]  # 0.02 * 1027 (max) = 21 
+        if sum(sums) > 26 or sum(sums) == 0: # get the top 26 characters
+            sums = list(final_arr.sum(axis=1))
+            sums.sort(reverse=True)
+            cutoff = sums[np.minimum(len(sums)-1,25)]
+            sums = final_arr.sum(axis=1) # need to get original, unsorted list back
+            sums = [s > cutoff for s in sums]
         alph = [i for (i, v) in zip(alph, sums) if v]
         final_arr = final_arr.iloc[sums,:]
         
@@ -259,7 +268,14 @@ def plot_activation_maps(numerical_data_input, oh_data_input, alph, final_model_
     # randomly draw samples (w/o replacement)
     rand_indices = np.random.choice(range(len(X)), num_show, replace=False)
     for idx in rand_indices:
-        grad = visualize_activation(model, layer_idx=class_activation_layer_index, filter_indices=None, seed_input=X[idx], grad_modifier=class_activation_grad_modifier)
+        try:
+            grad = visualize_activation(model, layer_idx=class_activation_layer_index, filter_indices=None, seed_input=X[idx], grad_modifier=class_activation_grad_modifier)
+        except:
+            # re-initialize variables in the graph/model - sometimes needed with custom layers
+            with tf.Session() as sess:
+                sess.run(tf.global_variables_initializer())
+                grad = visualize_saliency(model, layer_idx=class_activation_layer_index, filter_indices=None, seed_input=X[idx], grad_modifier=class_activation_grad_modifier)
+
         grads.append(grad)
         
     # look at average saliency based on original nucleotide
@@ -286,10 +302,12 @@ def plot_activation_maps(numerical_data_input, oh_data_input, alph, final_model_
         final_arr = pd.DataFrame(final_arr)
         sums = final_arr.sum(axis=1)
         sums = [s > np.quantile(sums, 0.90) for s in sums]
-        if sum(sums) > 26:
-            sums = [s > np.quantile(sums, 0.95) for s in sums] # 0.05 * 1027 (max) = 51
-        if sum(sums) > 26:
-            sums = [s > np.quantile(sums, 0.98) for s in sums]  # 0.02 * 1027 (max) = 21 
+        if sum(sums) > 26 or sum(sums) == 0: # get the top 26 characters
+            sums = list(final_arr.sum(axis=1))
+            sums.sort(reverse=True)
+            cutoff = sums[np.minimum(len(sums)-1,25)]
+            sums = final_arr.sum(axis=1) # need to get original, unsorted list back
+            sums = [s > cutoff for s in sums]
         alph = [i for (i, v) in zip(alph, sums) if v]
         final_arr = final_arr.iloc[sums,:]
     
@@ -743,7 +761,7 @@ def plot_mutagenesis(numerical_data_input, oh_data_input, alph, numerical, numer
 
     plt.legend(loc="upper left", markerscale = 1)
     ax.set_xlabel('Position', fontsize=20)
-    ax.set_ylabel("Std Dev of 1-mer Mismatch", fontsize=20)
+    ax.set_ylabel("Std Dev of Subunit Mismatch", fontsize=20)
     plt.tick_params(length = 10)
     ax.spines['left'].set_visible(True)
     ax.spines['bottom'].set_visible(True)
@@ -788,10 +806,12 @@ def plot_rawseqlogos(arr, fullalph, sequence_type, plot_path, plot_name, lenarr)
         final_arr = pd.DataFrame(nn_df)
         sums = final_arr.sum(axis=0)
         sums = [s > np.quantile(sums, 0.90) for s in sums]
-        if sum(sums) > 26:
-            sums = [s > np.quantile(sums, 0.95) for s in sums] # 0.05 * 1027 (max) = 51
-        if sum(sums) > 26:
-            sums = [s > np.quantile(sums, 0.98) for s in sums]  # 0.02 * 1027 (max) = 21 
+        if sum(sums) > 26 or sum(sums) == 0: # get the top 26 characters
+            sums = list(final_arr.sum(axis=1))
+            sums.sort(reverse=True)
+            cutoff = sums[np.minimum(len(sums)-1,25)]
+            sums = final_arr.sum(axis=1) # need to get original, unsorted list back
+            sums = [s > cutoff for s in sums]
         alph = [i for (i, v) in zip(fullalph, sums) if v]
         actualalph = alph # so it doesn't get overwritten by the labels a, b, c, etc.
     

@@ -1,8 +1,0 @@
-old_seqs,old_predicted_y,new_seqs,STORM_predicted_y,optimized_pwm,orig_model_predicted_y
-"['Rha', 'b1-2', 'Xyl', 'b1-3', 'Rha', 'a1-2', 'Rha', 'a1-2', 'Rha', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",1.0,"['Rha', 'b1-2', 'Xyl', 'b1-3', 'Rha', 'a1-2', 'Rha', 'a1-2', 'Rha', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",[0.9996948],"[[0.00101217 0.00101007 0.00101315 ... 0.00100837 0.00100884 0.00100764]
- [0.00105364 0.00105143 0.00105128 ... 0.00104949 0.00104841 0.00104929]
- [0.00115487 0.00115677 0.00114291 ... 0.00114746 0.0011444  0.00114691]
- ...
- [0.46474746 0.00303513 0.003741   ... 0.00287398 0.00302107 0.00303202]
- [0.7808634  0.00124317 0.0012604  ... 0.00123055 0.00122254 0.00121571]
- [0.74795914 0.00143794 0.00142492 ... 0.00141499 0.00140882 0.00140158]]",1.0

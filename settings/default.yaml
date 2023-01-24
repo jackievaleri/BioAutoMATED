@@ -1,6 +1,6 @@
 DeepSwarm:
   aco:
-    ant_count: 1
+    ant_count: 4
     greediness: 0.5
     pheromone:
       decay: 0.1
@@ -18,10 +18,10 @@ DeepSwarm:
   - DenseNode
   - DropoutFlatNode
   - BatchNormalizationFlatNode
-  max_depth: 2
+  max_depth: 3
   metrics: binary_crossentropy
   reuse_patience: 1
-  save_folder: ./final_exemplars/TEST_synthetic_nucleic_acids/models/deepswarm/binary_classification/
+  save_folder: ./exemplars/augmentation_tests/rbs_small_both_aug/models/deepswarm/binary_classification/
   spatial_nodes:
   - InputNode
   - Conv2DNode
@@ -113,7 +113,7 @@ Nodes:
     attributes:
       shape:
       - !!python/tuple
-        - 20
+        - 17
         - 4
         - 1
     transitions:
@@ -144,4 +144,4 @@ Nodes:
       Conv2DNode: 1.1
       FlattenNode: 1.0
     type: Pool2D
-max_depth: 2
+max_depth: 3
