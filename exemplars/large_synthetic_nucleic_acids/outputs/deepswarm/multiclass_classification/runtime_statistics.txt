@@ -1,5 +1,0 @@
-Elapsed time for autoML search : 14.33 minutes
-Elapsed time for scrambled control : 6.5 minutes
-Elapsed time for interpretation : 3.16 minutes
-Elapsed time for design : 81.51 minutes
-Elapsed time for total : 107.68 minutes

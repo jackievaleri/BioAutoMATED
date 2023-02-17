@@ -1,3 +1,0 @@
-2022-12-19 22:13:34,719 - files.py - write 911 bytes to './exemplars/large_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
-2022-12-19 22:13:34,719 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
-2022-12-20 01:57:06,633 - connectionpool.py - Starting new HTTPS connection (1): pypi.org:443

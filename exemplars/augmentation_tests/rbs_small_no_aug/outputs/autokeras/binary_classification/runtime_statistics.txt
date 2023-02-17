@@ -1,3 +1,0 @@
-Elapsed time for autoML search : 71.61 minutes
-Elapsed time for scrambled control : 10.43 minutes
-Elapsed time for total : 88.62 minutes
