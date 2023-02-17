@@ -1048,7 +1048,7 @@ class AutoMLRegressor(AutoMLBackend):
         None
 
         Returns
-        -------s
+        -------
         transformed_output : numpy array of transformed target values
         data_transformer : sklearn.preprocessing Scaler method
         """
@@ -1080,7 +1080,7 @@ class AutoMLRegressor(AutoMLBackend):
         Y : numpy array of true values of data/dataset
         score_Y : numpy array of predicted values
         file_tag : str of specific name to add to graph name
-        display : integer corresponding to display boolean
+        display : integer corresponding to display sboolean
 
         Returns
         -------
@@ -1141,7 +1141,8 @@ class AutoMLRegressor(AutoMLBackend):
 
         # save the figure
         g.savefig(report_path +'regression_' + file_tag + ".png", bbox_inches='tight', dpi=300)
-
+        if display:
+            plt.show()
         ad_pearson = pearson
         ad_spearman = spearman
         

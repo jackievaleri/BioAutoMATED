@@ -465,7 +465,7 @@ def run_gradient_ascent(input_seq, original_out, num_samples, final_model_path, 
 
     # fit loss model
     callbacks =[
-                EarlyStopping(monitor='loss', min_delta=0.001, patience=5, verbose=0, mode='auto'),
+                EarlyStopping(monitor='loss', min_delta=0.01, patience=2, verbose=0, mode='auto'),
                 #SeqPropMonitor(predictor=seqprop_predictor)#, plot_every_epoch=True, track_every_step=True, )#cse_start_pos=70, isoform_start=target_cut, isoform_end=target_cut+1, pwm_start=70-40, pwm_end=76+50, sequence_template=sequence_template, plot_pwm_indices=[0])
             ]
 
@@ -734,7 +734,7 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
     
     print("Reading in biological constraints...")
     constraints = read_bio_constraints(constraint_file_path, alph, sequence_type)
-            
+
     # get top, worst, average seqs
     classes = []
     classes_orig = []
@@ -745,7 +745,8 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
         avg_preds, orig_preds_avg = get_denovo_seqs_predictions(oh, de_novo_num_seqs_to_test, alph, sequence_type, final_model_path, final_model_name, plot_path, 'seq_logo_average_original', seq_len, model_type, k, substitution_type, 0, constraints)
         try:
             storm_avg_preds, _ = get_storm_seqs_predictions(oh, alph, final_model_path, final_model_name, plot_path, 'average', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, 0, constraints)
-        except:
+        except Exception as e:
+            print(e)
             storm_avg_preds = None
             print('STORM module is not compatible with current model.')
     elif howmanyclasses < 3:
@@ -760,7 +761,8 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
             try:
                 storm_classx_preds, _ = get_storm_seqs_predictions(classx, alph, final_model_path, final_model_name, plot_path, 'class_' + str(poss), seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, poss, constraints)
                 storm_classes.append(storm_classx_preds)
-            except:
+            except Exception as e:
+                print(e)
                 storm_classes = None
                 print('STORM module is not compatible with current model.')
      
@@ -769,15 +771,16 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
             best = oh[d >= np.quantile(d, .9)]
             worst = oh[d < np.quantile(d, .1)]
             average = oh[[(x < np.quantile(d, .8) and x > np.quantile(d, 0.2)) for x in d]]
-
             best_preds, best_preds_orig = get_denovo_seqs_predictions(best, de_novo_num_seqs_to_test, alph, sequence_type, final_model_path, final_model_name, plot_path, 'seq_logo_best_original', seq_len, model_type, k, substitution_type, class_of_interest, constraints)
             worst_preds, worst_preds_orig = get_denovo_seqs_predictions(worst, de_novo_num_seqs_to_test, alph, sequence_type, final_model_path, final_model_name, plot_path, 'seq_logo_worst_original', seq_len, model_type, k, substitution_type, class_of_interest, constraints)
             avg_preds, orig_preds_avg = get_denovo_seqs_predictions(average, de_novo_num_seqs_to_test, alph, sequence_type, final_model_path, final_model_name, plot_path, 'seq_logo_average_original', seq_len, model_type, k, substitution_type, class_of_interest, constraints)
             try:
+                print("Getting STORM predictions...")
                 storm_best_preds, _ = get_storm_seqs_predictions(best, alph, final_model_path, final_model_name, plot_path, 'best', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
                 storm_worst_preds, _ = get_storm_seqs_predictions(worst, alph, final_model_path, final_model_name, plot_path, 'worst', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
                 storm_avg_preds, _ = get_storm_seqs_predictions(average, alph, final_model_path, final_model_name, plot_path, 'average', seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
-            except:
+            except Exception as e:
+                print(e)
                 storm_best_preds = None
                 storm_worst_preds = None
                 storm_avg_preds = None
@@ -794,7 +797,8 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
                 try:
                     storm_classx_preds, _ = get_storm_seqs_predictions(classx, alph, final_model_path, final_model_name, plot_path, 'class_' + str(poss), seq_len, sequence_type, model_type, storm_num_seqs_to_test, target_y, num_of_optimization_rounds, class_of_interest, constraints)
                     storm_classes.append(storm_classx_preds)
-                except:
+                except Exception as e:
+                    print(e)                    
                     storm_classes = None
                     print('STORM module is not compatible with current model.')           
                              

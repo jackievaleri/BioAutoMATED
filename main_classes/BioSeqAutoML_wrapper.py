@@ -404,7 +404,7 @@ def run_bioseqml_regression(data_folder, data_file, sequence_type, model_folder,
         if not os.path.isdir(output_folder + run_folder):
             os.mkdir(output_folder + run_folder)
 
-        dsc = DeepSwarmRegression(data_path, model_folder + run_folder, output_folder + run_folder, max_runtime=max_runtime_minutes, num_folds=num_folds, sequence_type=sequence_type, verbosity=verbosity, do_transform=do_transform, yaml_params=yaml_params, num_final_epochs=num_final_epochs, input_col=input_col, target_col=target_col, pad_seqs=pad_seqs, augment_data=augment_data, dataset_robustness=dataset_robustness, run_interpretation = run_interpretation, interpret_params = interpret_params, run_design = run_design, design_params = design_params)
+        dsc = DeepSwarmRegression(data_path, model_folder + run_folder, output_folder + run_folder, max_runtime=max_runtime_minutes, num_folds=num_folds, sequence_type=sequence_type, do_transform=do_transform, verbosity=verbosity, yaml_params=yaml_params, num_final_epochs=num_final_epochs, input_col=input_col, target_col=target_col, pad_seqs=pad_seqs, augment_data=augment_data, dataset_robustness=dataset_robustness, run_interpretation = run_interpretation, interpret_params = interpret_params, run_design = run_design, design_params = design_params)
         dsc.run_system()
 
         # create backup folder

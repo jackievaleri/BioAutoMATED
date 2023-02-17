@@ -929,20 +929,15 @@ class DeepSwarmRegression(AutoMLRegressor):
             model_eval_metrics = model.evaluate(testing_features,testing_target)
 
             # need to inverse transform (if user wanted output to be transformed originally)
-            if self.do_transform:
-                testing_target_invtransf = transform_obj.inverse_transform(y[test].reshape(-1,1))
-                results_invtransf = transform_obj.inverse_transform(results.reshape(-1,1))
-                # reverse uniform transformation operation   
-                true_targets.extend(testing_target_invtransf)
-                predictions.extend(results_invtransf) # keep y_true, y_pred   
-            else: 
-                true_targets.extend(y[test])
-                predictions.extend(results) # keep y_true, y_pred  
+            testing_target_invtransf = transform_obj.inverse_transform(y[test].reshape(-1,1))
+            results_invtransf = transform_obj.inverse_transform(results.reshape(-1,1))
+            # reverse uniform transformation operation   
+            true_targets.extend(testing_target_invtransf)
+            predictions.extend(results_invtransf) # keep y_true, y_pred   
             compiled_seqs.extend(AutoMLBackend.reverse_onehot2seq(np.array(X)[test], alph, self.sequence_type, numeric = True))
 
             # save metrics
-            if self.do_transform:resulting_metrics = self.regression_performance_eval(self.output_folder+ 'deepswarm_', np.array(testing_target_invtransf), np.array(results_invtransf), str(fold_count), display = self.verbosity)
-            else: resulting_metrics = self.regression_performance_eval(self.output_folder+ 'deepswarm_', np.expand_dims(testing_target,1), np.expand_dims(results,1), str(fold_count), display = self.verbosity)
+            resulting_metrics = self.regression_performance_eval(self.output_folder+ 'deepswarm_', np.array(testing_target_invtransf), np.array(results_invtransf), str(fold_count), display = self.verbosity)
             cv_scores.append(resulting_metrics)
             del model
 
@@ -983,9 +978,7 @@ class DeepSwarmRegression(AutoMLRegressor):
 
         start1 = time()
         print('Conducting architecture search now...')
-        print(self.verbosity)
         with suppress_stdout(self.verbosity):
-
             # if user has specified an output folder that doesn't exist, create it 
             if not os.path.isdir(self.output_folder):
                 os.makedirs(self.output_folder)
@@ -994,12 +987,12 @@ class DeepSwarmRegression(AutoMLRegressor):
             numerical_data_input, oh_data_input, df_data_output, scrambled_numerical_data_input, scrambled_oh_data_input, alph = self.convert_input()
             self.df_data_output = df_data_output
 
-            # transform output (target) into bins 
+            # transform output (target)
             if self.do_transform:
                 transformed_output, transform_obj = self.transform_target()
             else: 
                 transformed_output = np.array(df_data_output) # don't do any modification to specified target! 
-                transform_obj = None
+                transform_obj = preprocessing.FunctionTransformer(func=None) # when func is None, identity transform applied
 
             # now, we have completed the pre-processing needed to feed our data into deepswarm
             # deepswarm input: numerical_data_input
@@ -1029,10 +1022,7 @@ class DeepSwarmRegression(AutoMLRegressor):
             cv_scores = cv_scores.transpose()
 
             # now get the compiled r2 and generate an overall plot 
-            if self.do_transform:
-                _, _, compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'deepswarm_', np.array(compiled_true), np.array(compiled_preds), file_tag='compiled', display = self.verbosity)
-            else:
-                _, _, compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'deepswarm_', np.expand_dims(compiled_true,1), np.expand_dims(compiled_preds,1), file_tag='compiled', display = self.verbosity)
+            _, _, compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'deepswarm_', np.array(compiled_true), np.array(compiled_preds), file_tag='compiled', display = self.verbosity)
 
             print('Metrics over folds: \n\tAverage r2: ', avg_r2_folds)
             print('\tStd of r2: ', std_r2_folds)
@@ -1063,11 +1053,8 @@ class DeepSwarmRegression(AutoMLRegressor):
             scr_cv_scores = scr_cv_scores.transpose()
 
             # now get the compiled metric and generate an overall plot 
-            if self.do_transform:
-                _, _, scr_compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'scrambled/', np.array(scr_compiled_true), np.array(scr_compiled_preds), file_tag='compiled', display = self.verbosity)
-            else:
-                _, _, scr_compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'scrambled/', np.expand_dims(scr_compiled_true,1), np.expand_dims(scr_compiled_preds,1), file_tag='compiled', display = self.verbosity)
-
+            _, _, scr_compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'scrambled/', np.array(scr_compiled_true), np.array(scr_compiled_preds), file_tag='compiled', display = self.verbosity)
+     
             print('Scrambled metrics over folds: ')
             print('Metrics over folds: \n\tAverage r2: ', scr_avg_r2_folds)
             print('\tStd of r2: ', scr_std_r2_folds)
@@ -1110,10 +1097,7 @@ class DeepSwarmRegression(AutoMLRegressor):
                     cv_scores = cv_scores.transpose()
 
                     # now get the compiled r2 and generate an overall plot 
-                    if self.do_transform: 
-                        _, _, compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'robustness/' + str(dataset_size) + '_', np.array(compiled_true), np.array(compiled_preds), file_tag='compiled', display = self.verbosity)
-                    else:
-                        _, _, compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'robustness/' + str(dataset_size) + '_', np.expand_dims(compiled_true,1), np.expand_dims(compiled_preds,1), file_tag='compiled', display = self.verbosity)
+                    _, _, compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'robustness/' + str(dataset_size) + '_', np.array(compiled_true), np.array(compiled_preds), file_tag='compiled', display = self.verbosity)
 
                     # write results to a text file for the user to read
                     results_file_path = self.write_results(avg_r2_folds, std_r2_folds, compiled_r2, cv_scores, scrambled = False, subset = str(dataset_size))
@@ -1129,10 +1113,7 @@ class DeepSwarmRegression(AutoMLRegressor):
                     scr_cv_scores = scr_cv_scores.transpose()
 
                     # now get the compiled metric and generate an overall plot 
-                    if self.do_transform:
-                        _, _, scr_compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'robustness/scrambled_' + str(dataset_size) + '_', np.array(scr_compiled_true), np.array(scr_compiled_preds), file_tag='compiled', display = self.verbosity)
-                    else:
-                        _, _, scr_compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'robustness/scrambled_' + str(dataset_size) + '_', np.expand_dims(scr_compiled_true,1), np.expand_dims(scr_compiled_preds,1), file_tag='compiled', display = self.verbosity)
+                    _, _, scr_compiled_r2, _, _ = self.regression_performance_eval(self.output_folder +'robustness/scrambled_' + str(dataset_size) + '_', np.array(scr_compiled_true), np.array(scr_compiled_preds), file_tag='compiled', display = self.verbosity)
 
                     # write results to a text file for the user to read
                     scr_results_file_path = self.write_results(scr_avg_r2_folds, scr_std_r2_folds, scr_compiled_r2, scr_cv_scores, scrambled=True, subset = str(dataset_size))

@@ -178,10 +178,10 @@ def plot_saliency_maps(numerical_data_input, oh_data_input, alph, final_model_pa
         final_arr = pd.DataFrame(final_arr)
         sums = final_arr.sum(axis=1)
         sums = [s > np.quantile(sums, 0.90) for s in sums]
-        if sum(sums) > 26 or sum(sums) == 0: # get the top 26 characters
+        if sum(sums) > 26 or sum(sums) == 0: # get the top 10 characters
             sums = list(final_arr.sum(axis=1))
             sums.sort(reverse=True)
-            cutoff = sums[np.minimum(len(sums)-1,25)]
+            cutoff = sums[np.minimum(len(sums)-1,10)]
             sums = final_arr.sum(axis=1) # need to get original, unsorted list back
             sums = [s > cutoff for s in sums]
         alph = [i for (i, v) in zip(alph, sums) if v]
@@ -302,10 +302,10 @@ def plot_activation_maps(numerical_data_input, oh_data_input, alph, final_model_
         final_arr = pd.DataFrame(final_arr)
         sums = final_arr.sum(axis=1)
         sums = [s > np.quantile(sums, 0.90) for s in sums]
-        if sum(sums) > 26 or sum(sums) == 0: # get the top 26 characters
+        if sum(sums) > 26 or sum(sums) == 0: # get the top 10 characters
             sums = list(final_arr.sum(axis=1))
             sums.sort(reverse=True)
-            cutoff = sums[np.minimum(len(sums)-1,25)]
+            cutoff = sums[np.minimum(len(sums)-1,10)]
             sums = final_arr.sum(axis=1) # need to get original, unsorted list back
             sums = [s > cutoff for s in sums]
         alph = [i for (i, v) in zip(alph, sums) if v]
@@ -806,10 +806,10 @@ def plot_rawseqlogos(arr, fullalph, sequence_type, plot_path, plot_name, lenarr)
         final_arr = pd.DataFrame(nn_df)
         sums = final_arr.sum(axis=0)
         sums = [s > np.quantile(sums, 0.90) for s in sums]
-        if sum(sums) > 26 or sum(sums) == 0: # get the top 26 characters
+        if sum(sums) > 26 or sum(sums) == 0: # get the top 10 characters
             sums = list(final_arr.sum(axis=1))
             sums.sort(reverse=True)
-            cutoff = sums[np.minimum(len(sums)-1,25)]
+            cutoff = sums[np.minimum(len(sums)-1,10)]
             sums = final_arr.sum(axis=1) # need to get original, unsorted list back
             sums = [s > cutoff for s in sums]
         alph = [i for (i, v) in zip(fullalph, sums) if v]

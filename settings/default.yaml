@@ -10,7 +10,7 @@ DeepSwarm:
   backend:
     batch_size: 64
     epochs: 5
-    loss: binary_crossentropy
+    loss: mean_squared_error
     patience: 5
     verbose: 0
   flat_nodes:
@@ -19,9 +19,9 @@ DeepSwarm:
   - DropoutFlatNode
   - BatchNormalizationFlatNode
   max_depth: 3
-  metrics: binary_crossentropy
+  metrics: loss
   reuse_patience: 1
-  save_folder: ./exemplars/augmentation_tests/rbs_small_both_aug/models/deepswarm/binary_classification/
+  save_folder: ./exemplars/manifold_bio_test/models/deepswarm/regression/
   spatial_nodes:
   - InputNode
   - Conv2DNode
@@ -113,8 +113,8 @@ Nodes:
     attributes:
       shape:
       - !!python/tuple
-        - 17
-        - 4
+        - 246
+        - 20
         - 1
     transitions:
       Conv2DNode: 1.0
@@ -122,11 +122,11 @@ Nodes:
   OutputNode:
     attributes:
       activation:
-      - Softmax
+      - Linear
       output_size:
-      - 2
+      - 1
       shape:
-      - 2
+      - 1
     transitions: {}
     type: Output
   Pool2DNode:
