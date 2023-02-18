@@ -1,0 +1,91 @@
+2023-01-22 20:48:02,154 - files.py - write 911 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:02,155 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:02,570 - files.py - write 4424 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:02,571 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:02,920 - files.py - write 30160 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:02,921 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:03,535 - files.py - write 980 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:03,535 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:03,853 - files.py - write 979 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:03,854 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:04,165 - files.py - write 1134 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:04,166 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:04,475 - files.py - write 985 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:04,475 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:04,781 - files.py - write 1244 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:04,781 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:05,096 - files.py - write 1154 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:05,096 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:05,422 - files.py - write 1084 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:05,423 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:05,744 - files.py - write 1133 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:05,744 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:06,059 - files.py - write 1210 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:06,059 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:06,371 - files.py - write 1083 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:06,372 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:06,689 - files.py - write 1094 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:06,690 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:06,998 - files.py - write 1184 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:06,999 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:07,305 - files.py - write 1142 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:07,306 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:07,638 - files.py - write 1152 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:07,639 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:07,966 - files.py - write 1133 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:07,966 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:08,282 - files.py - write 1083 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:08,283 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:08,590 - files.py - write 1277 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:08,590 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:08,897 - files.py - write 1218 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:08,898 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:09,205 - files.py - write 1268 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:09,206 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:09,517 - files.py - write 1229 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:09,517 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:09,827 - files.py - write 1310 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:09,827 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:10,141 - files.py - write 1152 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:10,141 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:10,461 - files.py - write 1133 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:10,462 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:10,771 - files.py - write 1157 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:10,772 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:11,086 - files.py - write 1211 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:11,087 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:11,397 - files.py - write 1160 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:11,397 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:11,709 - files.py - write 1040 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:11,710 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:12,023 - files.py - write 1133 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:12,023 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:12,326 - files.py - write 1387 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:12,326 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:12,633 - files.py - write 1152 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:12,633 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:12,943 - files.py - write 1379 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:12,943 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:48:13,259 - files.py - write 1044 bytes to './exemplars/augmentation_tests/toeholds_small_both_aug/outputs/autokeras/binary_classification/final_autokeras_classification_graph'
+2023-01-22 20:48:13,260 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2023-01-22 20:54:34,109 - connectionpool.py - Starting new HTTPS connection (1): pypi.org:443
+2023-01-22 20:54:34,228 - connectionpool.py - https://pypi.org:443 "GET /pypi/tpot/json HTTP/1.1" 200 12517
+2023-01-22 21:16:04,328 - utils.py - Code block execution exceeded 10 seconds timeout
+Traceback (most recent call last):
+  File "/anaconda2/envs/automl_py37/lib/python3.7/site-packages/stopit/utils.py", line 145, in wrapper
+    result = func(*args, **kwargs)
+  File "/anaconda2/envs/automl_py37/lib/python3.7/site-packages/tpot/decorators.py", line 57, in time_limited_call
+    func(*args)
+  File "/anaconda2/envs/automl_py37/lib/python3.7/site-packages/sklearn/pipeline.py", line 335, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/anaconda2/envs/automl_py37/lib/python3.7/site-packages/xgboost/core.py", line 436, in inner_f
+    return f(**kwargs)
+  File "/anaconda2/envs/automl_py37/lib/python3.7/site-packages/xgboost/sklearn.py", line 1187, in fit
+    callbacks=callbacks,
+  File "/anaconda2/envs/automl_py37/lib/python3.7/site-packages/xgboost/training.py", line 197, in train
+    early_stopping_rounds=early_stopping_rounds)
+  File "/anaconda2/envs/automl_py37/lib/python3.7/site-packages/xgboost/training.py", line 81, in _train_internal
+    bst.update(dtrain, i, obj)
+  File "/anaconda2/envs/automl_py37/lib/python3.7/site-packages/xgboost/core.py", line 1501, in update
+    dtrain.handle))
+stopit.utils.TimeoutException
