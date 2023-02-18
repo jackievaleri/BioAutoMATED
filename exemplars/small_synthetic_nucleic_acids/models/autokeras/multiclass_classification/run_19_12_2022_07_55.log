@@ -1,0 +1,123 @@
+2022-12-19 08:55:24,275 - files.py - write 911 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:24,275 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:24,647 - files.py - write 4424 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:24,647 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:25,007 - files.py - write 30160 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:25,007 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:25,628 - files.py - write 1133 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:25,628 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:25,953 - files.py - write 1133 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:25,953 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:26,265 - files.py - write 1356 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:26,266 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:26,580 - files.py - write 1187 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:26,581 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:26,900 - files.py - write 1440 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:26,900 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:27,206 - files.py - write 1429 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:27,206 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:27,528 - files.py - write 1356 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:27,528 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:27,844 - files.py - write 1405 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:27,844 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:28,163 - files.py - write 1422 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:28,164 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:28,479 - files.py - write 1417 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:28,480 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:28,790 - files.py - write 1466 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:28,790 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:29,108 - files.py - write 1579 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:29,108 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:29,422 - files.py - write 1689 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:29,423 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:29,735 - files.py - write 1627 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:29,735 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:30,054 - files.py - write 1411 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:30,055 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:30,372 - files.py - write 1649 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:30,373 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:30,685 - files.py - write 1711 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:30,685 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:31,000 - files.py - write 1478 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:31,000 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:31,311 - files.py - write 1466 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:31,311 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:31,622 - files.py - write 1782 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:31,623 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:31,936 - files.py - write 1484 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:31,936 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:32,255 - files.py - write 1529 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:32,255 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:32,566 - files.py - write 1541 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:32,567 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:32,870 - files.py - write 1546 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:32,870 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:33,186 - files.py - write 1541 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:33,186 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:33,500 - files.py - write 1547 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:33,500 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:33,811 - files.py - write 1547 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:33,811 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:34,122 - files.py - write 1547 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:34,123 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:34,437 - files.py - write 1559 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:34,438 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:34,748 - files.py - write 1593 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:34,748 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:35,059 - files.py - write 1559 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:35,060 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:35,375 - files.py - write 1638 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:35,376 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:35,706 - files.py - write 1605 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:35,706 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:36,037 - files.py - write 1659 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:36,037 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:36,358 - files.py - write 1593 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:36,358 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:36,679 - files.py - write 1593 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:36,680 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:36,996 - files.py - write 1659 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:36,996 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:37,307 - files.py - write 1656 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:37,307 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:37,620 - files.py - write 1638 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:37,620 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:37,939 - files.py - write 1654 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:37,939 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:38,252 - files.py - write 1659 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:38,252 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:38,573 - files.py - write 1772 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:38,574 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:38,900 - files.py - write 1656 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:38,900 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:39,214 - files.py - write 1638 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:39,214 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:39,533 - files.py - write 1656 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:39,533 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:39,848 - files.py - write 1638 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:39,848 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:40,156 - files.py - write 1683 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:40,157 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:40,466 - files.py - write 1638 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:40,466 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:40,820 - files.py - write 1701 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:40,820 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:41,132 - files.py - write 1651 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:41,133 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:41,450 - files.py - write 1704 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:41,450 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:41,772 - files.py - write 1714 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:41,772 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:42,091 - files.py - write 1701 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:42,092 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:42,406 - files.py - write 1704 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:42,406 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:42,712 - files.py - write 1683 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:42,712 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:43,034 - files.py - write 1701 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:43,034 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:43,346 - files.py - write 1701 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:43,347 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 08:55:43,661 - files.py - write 1683 bytes to './exemplars/small_synthetic_nucleic_acids/outputs/autokeras/multiclass_classification/final_autokeras_classification_graph'
+2022-12-19 08:55:43,662 - backend.py - run ['dot', '-Kdot', '-Tpdf', '-O', 'final_autokeras_classification_graph']
+2022-12-19 09:03:49,739 - connectionpool.py - Starting new HTTPS connection (1): pypi.org:443
