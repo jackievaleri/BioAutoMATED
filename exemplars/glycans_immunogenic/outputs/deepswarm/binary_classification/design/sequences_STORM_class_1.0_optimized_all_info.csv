@@ -1,0 +1,36 @@
+old_seqs,old_predicted_y,new_seqs,STORM_predicted_y,optimized_pwm,orig_model_predicted_y
+"['Man', 'a1-3', 'Xyl', 'b1-2', 'Rha', 'a1-4', 'Man', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",0.9998214840888977,"['Col', 'a1-3', 'Col', 'a1-6', 'Glc', 'a1-4', 'Gal', 'a1-3', 'GalNAc', 'b1-4', 'Glc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",[0.99640757],"[[0.00179142 0.00163033 0.0021867  ... 0.00139938 0.00139708 0.0014026 ]
+ [0.00103329 0.00106172 0.00105228 ... 0.00102408 0.0010185  0.00101846]
+ [0.00092008 0.00091986 0.00092363 ... 0.00092187 0.0009193  0.00092241]
+ ...
+ [0.38905707 0.00330538 0.00424467 ... 0.00410886 0.00371803 0.00361626]
+ [0.41284218 0.00193861 0.00361308 ... 0.00420135 0.00376165 0.00324827]
+ [0.43421736 0.00301982 0.00360467 ... 0.00427093 0.00386443 0.00348019]]",0.9999722
+"['Gal', 'a1-3', 'Gal', 'a1-4', 'Gal', 'b1-4', 'Glc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",0.9993565678596497,"['Rha', 'a1-4', 'GalNAcA', 'a1-3', 'QuiNAc', 'b1-4', 'Rha', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",[0.9986835],"[[0.00324707 0.00318501 0.00335567 ... 0.00302975 0.00302377 0.00303367]
+ [0.00096131 0.00096476 0.00096612 ... 0.00095145 0.00095055 0.0009501 ]
+ [0.00289903 0.00291176 0.00287649 ... 0.00286181 0.00285696 0.00285591]
+ ...
+ [0.3820218  0.00322486 0.00447781 ... 0.00411088 0.00360263 0.00349266]
+ [0.42752364 0.00286301 0.00328132 ... 0.00358841 0.00336712 0.00316393]
+ [0.44802856 0.0030357  0.00314981 ... 0.00335885 0.00322922 0.00313419]]",0.9999999
+"['Col', 'a1-3', 'Col', 'a1-6', 'Glc', 'a1-4', 'Gal', 'a1-3', 'GalNAc', 'b1-4', 'Glc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",0.9999722242355347,"['6dTal', 'a1-3', '6dTal', 'a1-2', 'Rha', 'a1-2', '6dTal', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",[0.99809796],"[[0.00132353 0.8059797  0.00141565 ... 0.00100182 0.00099875 0.00100115]
+ [0.001102   0.00114823 0.00114375 ... 0.00102283 0.00101779 0.001018  ]
+ [0.00276282 0.40876326 0.00277897 ... 0.00262822 0.00259976 0.00260545]
+ ...
+ [0.37169597 0.00323508 0.00475837 ... 0.00441869 0.00379404 0.00361982]
+ [0.41965508 0.00245484 0.00344246 ... 0.00408284 0.00362714 0.0031831 ]
+ [0.4420753  0.00301133 0.00332388 ... 0.00386657 0.00352576 0.00327271]]",0.99999666
+"['6dTal', 'a1-3', '6dTal', 'a1-2', 'Rha', 'a1-2', '6dTal', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",0.9999966621398926,"['Rha', 'a1-4', 'GalNAcA', 'a1-3', 'QuiNAc', 'b1-4', 'Rha', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",[0.99868387],"[[0.00324734 0.00318529 0.00335588 ... 0.00303009 0.00302409 0.003034  ]
+ [0.00096111 0.00096457 0.00096592 ... 0.00095126 0.00095036 0.00094992]
+ [0.00289908 0.00291179 0.00287654 ... 0.00286188 0.00285701 0.00285597]
+ ...
+ [0.38196394 0.0032252  0.00447815 ... 0.00411119 0.00360299 0.00349298]
+ [0.4274683  0.00286342 0.00328158 ... 0.00358865 0.00336738 0.00316422]
+ [0.44798478 0.00303598 0.00315    ... 0.00335897 0.00322939 0.00313439]]",0.9999999
+"['Rha', 'a1-4', 'GalNAcA', 'a1-3', 'QuiNAc', 'b1-4', 'Rha', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",0.9999998807907104,"['Rha', 'a1-4', 'GalNAcA', 'a1-3', 'QuiNAc', 'b1-4', 'Rha', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",[0.9986835],"[[0.00324706 0.00318499 0.00335567 ... 0.00302974 0.00302377 0.00303367]
+ [0.00096131 0.00096477 0.00096612 ... 0.00095145 0.00095055 0.0009501 ]
+ [0.00289903 0.00291176 0.00287648 ... 0.0028618  0.00285695 0.0028559 ]
+ ...
+ [0.38202313 0.00322485 0.00447779 ... 0.00411085 0.00360262 0.00349268]
+ [0.42752534 0.00286299 0.00328129 ... 0.00358841 0.0033671  0.00316392]
+ [0.44803017 0.00303569 0.00314981 ... 0.00335884 0.00322921 0.00313417]]",0.9999999

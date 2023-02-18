@@ -1,0 +1,66 @@
+old_seqs,old_predicted_y,new_seqs,STORM_predicted_y,optimized_pwm,orig_model_predicted_y
+"['NeuNAc', 'a2-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'NeuNAc', 'a2-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-6', 'Man', 'a1-6', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Gal', 'b1-4', 'GlcNAc', 'b1-4', 'Man', 'a1-3', 'Man', 'b1-4', 'GlcNAc', 'b1-4', 'Fuc', 'a1-6', 'GlcNAc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",0.9999969005584717,"['NeuNAc', 'a2-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'NeuNAc', 'a2-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-6', 'Man', 'a1-6', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Gal', 'b1-4', 'GlcNAc', 'b1-4', 'Man', 'a1-3', 'Man', 'b1-4', 'GlcNAc', 'b1-4', 'Fuc', 'a1-6', 'GlcNAc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",[0.98691505],"[[8.1219809e-04 1.8597820e-03 6.1266375e-04 ... 6.9865831e-03
+  7.0393216e-03 6.7963651e-03]
+ [5.1884297e-03 5.1683229e-03 5.0994535e-03 ... 5.3241001e-03
+  5.3229122e-03 5.3218212e-03]
+ [2.8763741e-04 2.7835072e-04 3.0316398e-04 ... 3.2005523e-04
+  3.4123304e-04 3.6082938e-04]
+ ...
+ [9.2209083e-01 2.3803508e-04 2.3463674e-04 ... 2.3581109e-04
+  2.3594088e-04 2.3670266e-04]
+ [9.2471331e-01 2.9615074e-04 2.5717192e-04 ... 2.5911973e-04
+  2.5867924e-04 2.6048440e-04]
+ [9.2696297e-01 2.7947762e-04 2.6350439e-04 ... 2.6187874e-04
+  2.6530097e-04 2.6376988e-04]]",0.9999969
+"['Fuc', 'a1-2', 'Gal', 'b1-4', 'Fuc', 'a1-3', 'GlcNAc', 'b1-3', 'Glc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",0.39408180117607117,"['Fuc', 'a1-2', 'GalNAc', 'a1-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Man', 'a1-6', 'NeuNAc', 'a2-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Man', 'a1-3', 'Man', 'b1-4', 'GlcNAc', 'b1-4', 'Fuc', 'a1-6', 'GlcNAc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",[0.9934516],"[[4.8655208e-04 4.9065723e-04 4.7433545e-04 ... 3.3875389e-03
+  3.3230891e-03 2.8268071e-03]
+ [3.7771600e-04 3.7719961e-04 3.8165267e-04 ... 1.3078974e-03
+  2.6546675e-03 2.2946522e-03]
+ [3.4092923e-04 3.5139875e-04 3.3297809e-04 ... 3.3384471e-04
+  3.3425601e-04 3.2995845e-04]
+ ...
+ [8.9643413e-01 3.4977339e-04 3.6655620e-04 ... 3.6458991e-04
+  3.5835378e-04 3.5672239e-04]
+ [8.9816678e-01 3.3050196e-04 3.6861337e-04 ... 3.8652090e-04
+  3.7972638e-04 3.6967071e-04]
+ [8.9232737e-01 3.7314594e-04 3.7473306e-04 ... 4.0022045e-04
+  3.9061453e-04 3.7870274e-04]]",0.9999993
+"['Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Man', 'a1-6', 'GlcNAc', 'b1-2', 'Man', 'a1-3', 'GlcNAc', 'b1-4', 'Man', 'b1-4', 'GlcNAc', 'b1-4', 'GlcNAc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",0.9801549315452576,"['Fuc', 'a1-2', 'GalNAc', 'a1-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Man', 'a1-6', 'NeuNAc', 'a2-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Man', 'a1-3', 'Man', 'b1-4', 'GlcNAc', 'b1-4', 'Fuc', 'a1-6', 'GlcNAc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",[0.99345183],"[[4.8655010e-04 4.9065100e-04 4.7434977e-04 ... 3.3875399e-03
+  3.3232465e-03 2.8265866e-03]
+ [3.7765771e-04 3.7715616e-04 3.8159342e-04 ... 1.3077642e-03
+  2.6540605e-03 2.2943374e-03]
+ [3.4092556e-04 3.5139750e-04 3.3297579e-04 ... 3.3384067e-04
+  3.3425319e-04 3.2995350e-04]
+ ...
+ [8.9643687e-01 3.4977411e-04 3.6656015e-04 ... 3.6459451e-04
+  3.5835695e-04 3.5672553e-04]
+ [8.9816886e-01 3.3046430e-04 3.6861160e-04 ... 3.8652311e-04
+  3.7972638e-04 3.6966824e-04]
+ [8.9233279e-01 3.7314004e-04 3.7473266e-04 ... 4.0021984e-04
+  3.9061296e-04 3.7870140e-04]]",0.9999993
+"['Fuc', 'a1-2', 'GalNAc', 'a1-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Man', 'a1-6', 'NeuNAc', 'a2-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Man', 'a1-3', 'Man', 'b1-4', 'GlcNAc', 'b1-4', 'Fuc', 'a1-6', 'GlcNAc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",0.9999992847442627,"['NeuNAc', 'a2-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'NeuNAc', 'a2-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-6', 'Man', 'a1-6', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Gal', 'b1-4', 'GlcNAc', 'b1-4', 'Man', 'a1-3', 'Man', 'b1-4', 'GlcNAc', 'b1-4', 'Fuc', 'a1-6', 'GlcNAc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",[0.98691434],"[[8.1211067e-04 1.8596466e-03 6.1261532e-04 ... 6.9867927e-03
+  7.0397169e-03 6.7966306e-03]
+ [5.1883389e-03 5.1683481e-03 5.0994544e-03 ... 5.3240601e-03
+  5.3229081e-03 5.3218012e-03]
+ [2.8765629e-04 2.7836661e-04 3.0319492e-04 ... 3.2006696e-04
+  3.4126133e-04 3.6085965e-04]
+ ...
+ [9.2209721e-01 2.3804218e-04 2.3464730e-04 ... 2.3582013e-04
+  2.3594589e-04 2.3670880e-04]
+ [9.2470169e-01 2.9618599e-04 2.5718388e-04 ... 2.5912735e-04
+  2.5869030e-04 2.6049631e-04]
+ [9.2695600e-01 2.7948938e-04 2.6350241e-04 ... 2.6187079e-04
+  2.6530406e-04 2.6377320e-04]]",0.9999969
+"['Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Man', 'a1-6', 'GlcNAc', 'b1-4', 'Man', 'a1-3', 'Man', 'b1-4', 'GlcNAc', 'b1-4', 'GlcNAc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",0.9783669114112854,"['Fuc', 'a1-2', 'GalNAc', 'a1-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Man', 'a1-6', 'NeuNAc', 'a2-3', 'Gal', 'b1-4', 'GlcNAc', 'b1-2', 'Man', 'a1-3', 'Man', 'b1-4', 'GlcNAc', 'b1-4', 'Fuc', 'a1-6', 'GlcNAc', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf', '6dAltf']",[0.9934528],"[[4.8654649e-04 4.9065117e-04 4.7434284e-04 ... 3.3875615e-03
+  3.3231950e-03 2.8265347e-03]
+ [3.7771725e-04 3.7719781e-04 3.8164118e-04 ... 1.3075680e-03
+  2.6547471e-03 2.2947395e-03]
+ [3.4092716e-04 3.5139796e-04 3.3297972e-04 ... 3.3384553e-04
+  3.3425551e-04 3.2996020e-04]
+ ...
+ [8.9643782e-01 3.4977085e-04 3.6655337e-04 ... 3.6458726e-04
+  3.5835375e-04 3.5671846e-04]
+ [8.9816964e-01 3.3050100e-04 3.6860965e-04 ... 3.8651645e-04
+  3.7972160e-04 3.6966399e-04]
+ [8.9233136e-01 3.7313998e-04 3.7473079e-04 ... 4.0021844e-04
+  3.9060976e-04 3.7869919e-04]]",0.9999993
