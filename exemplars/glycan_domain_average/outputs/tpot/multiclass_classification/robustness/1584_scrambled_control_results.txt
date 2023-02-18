@@ -1,0 +1,40 @@
+auROC Class 0 (compiled): 0.5
+avg auROC Class 0 over folds: 0.5
+standard deviation of auROC Class 0: 0.0
+all values of auROC Class 0: [0.5 0.5 0.5]
+auROC Class 1 (compiled): 0.6914796651946185
+avg auROC Class 1 over folds: 0.6917306860300076
+standard deviation of auROC Class 1: 0.011667246654159207
+all values of auROC Class 1: [0.69858012 0.67530593 0.701306  ]
+auROC Class 2 (compiled): 0.6783091788211277
+avg auROC Class 2 over folds: 0.6785517789251045
+standard deviation of auROC Class 2: 0.015593340248612312
+all values of auROC Class 2: [0.68375576 0.6573913  0.69450827]
+auROC Class 3 (compiled): 0.4993585631815266
+avg auROC Class 3 over folds: 0.49935897198830864
+standard deviation of auROC Class 3: 0.0004532777684612413
+all values of auROC Class 3: [0.5        0.49904031 0.49903661]
+auROC Micro Avg (compiled): 0.7853535353535354
+avg auROC Micro Avg over folds: 0.7853535353535354
+standard deviation of auROC Micro Avg: 0.009163106505503844
+all values of auROC Micro Avg: [0.78914141 0.77272727 0.79419192]
+auROC Macro Avg (compiled): 0.5922868517993183
+avg auROC Macro Avg over folds: 0.5924103592358552
+standard deviation of auROC Macro Avg: 0.0068211834842231
+all values of auROC Macro Avg: [0.59558397 0.58293439 0.59871272]
+MCC Class 0 (compiled): 0.0
+avg MCC Class 0 over folds: 0.0
+standard deviation of MCC Class 0: 0.0
+all values of MCC Class 0: [0. 0. 0.]
+MCC Class 1 (compiled): 0.3844828990728476
+avg MCC Class 1 over folds: 0.3853723974138586
+standard deviation of MCC Class 1: 0.02454435722698317
+all values of MCC Class 1: [0.39660898 0.35131219 0.40819602]
+MCC Class 2 (compiled): 0.35875186453164876
+avg MCC Class 2 over folds: 0.35964125581393036
+standard deviation of MCC Class 2: 0.032783374158117544
+all values of MCC Class 2: [0.36811636 0.31592898 0.39487843]
+MCC Class 3 (compiled): -0.004502551666193738
+avg MCC Class 3 over folds: -0.0035951773056337685
+standard deviation of MCC Class 3: 0.0025576022978092087
+all values of MCC Class 3: [ 0.         -0.00504923 -0.00573631]
