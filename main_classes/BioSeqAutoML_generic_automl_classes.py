@@ -192,7 +192,6 @@ def checkValidity(df_data_input, sequence_type):
     else:
         all_letters = ''.join(df_data_input)
     valid = [x in valid_letters for x in all_letters]
-    valid = list(set(valid))
 
     if all(valid): 
         print('Confirmed: All sequence characters are in alphabet')

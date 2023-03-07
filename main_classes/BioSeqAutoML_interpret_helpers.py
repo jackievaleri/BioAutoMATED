@@ -193,7 +193,7 @@ def plot_saliency_maps(numerical_data_input, oh_data_input, alph, final_model_pa
     font = {'size'   : 20}
     matplotlib.rc('font', **font)
     rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})   
-    fig, ax = plt.subplots(figsize = (seq_len / 4, np.maximum(len(alph) / 3.5, 3)), dpi = 300)
+    fig, ax = plt.subplots(figsize = (np.minimum(seq_len / 4, 100), np.maximum(len(alph) / 3.5, 3)), dpi = 300)
     plt.rcParams["figure.dpi"] = 300
         
     g = sns.heatmap(final_arr, cmap=cmap,  cbar_kws={"orientation": "vertical", "pad": 0.035, "fraction": 0.05})
@@ -316,7 +316,7 @@ def plot_activation_maps(numerical_data_input, oh_data_input, alph, final_model_
     font = {'size'   : 20}
     matplotlib.rc('font', **font)
     rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})   
-    fig, ax = plt.subplots(figsize = (seq_len / 4,np.maximum(len(alph) / 3.5, 3)), dpi = 300)
+    fig, ax = plt.subplots(figsize = (np.minimum(seq_len / 4, 100),np.maximum(len(alph) / 3.5, 3)), dpi = 300)
     plt.rcParams["figure.dpi"] = 300
     
     g = sns.heatmap(final_arr, cmap=cmap,  cbar_kws={"orientation": "vertical", "pad": 0.035, "fraction": 0.05})
@@ -393,7 +393,7 @@ def plot_seqlogos(arr, alph, sequence_type, plot_path, plot_name, lenarr):
     font = {'size'   : 20}
     matplotlib.rc('font', **font)
     rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})   
-    fig, ax = plt.subplots(figsize = (lenarr / 4,np.maximum(len(alph) / 3.5, 3)), dpi = 300)
+    fig, ax = plt.subplots(figsize = (np.minimum(lenarr / 4, 100) / 4,np.maximum(len(alph) / 3.5, 3)), dpi = 300)
     nn_df = nn_df.fillna(0)
 
     # here, we plot saliency values as weights and activation values as probabilities
@@ -857,7 +857,7 @@ def plot_rawseqlogos(arr, fullalph, sequence_type, plot_path, plot_name, lenarr)
     font = {'size'   : 20}
     matplotlib.rc('font', **font)
     rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})   
-    fig, ax = plt.subplots(figsize = (lenarr / 4,np.maximum(len(alph) / 3.5, 3)), dpi = 300)
+    fig, ax = plt.subplots(figsize = (np.minimum(lenarr / 4,100),np.maximum(len(alph) / 3.5, 3)), dpi = 300)
     nn_df = nn_df.fillna(0)
     nn_df = logomaker.transform_matrix(nn_df, from_type = 'counts', to_type = 'probability')
     if sequence_type != 'glycan':
