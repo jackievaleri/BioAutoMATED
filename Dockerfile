@@ -37,7 +37,7 @@ SHELL ["/bin/bash","-c"]
 RUN conda init
 RUN echo 'conda activate automl_py37' >> ~/.bashrc
 
-COPY BioSeqAutoML/ ./BioSeqAutoML/
+COPY BioAutoMATED/ ./BioAutoMATED/
 
 EXPOSE 8888                                           
 ENTRYPOINT ["jupyter", "notebook", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=''","--NotebookApp.password=''"]
