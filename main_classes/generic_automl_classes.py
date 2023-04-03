@@ -70,6 +70,15 @@ import autokeras
 # library containing list of glycoletters curated from SweetTalk - need to be flexible about directory location
 dir = os.getcwd()
 glycoletter_lib = None
+easy_places_to_try = ['main_classes/glycoletter_lib.pkl', '../main_classes/glycoletter_lib.pkl']
+for test in easy_places_to_try:
+    try:
+        filename = glob.glob(test, recursive = True)
+        with open(filename[0], 'rb') as file:
+            glycoletter_lib = pickle.load(file)
+    except:
+        continue
+# not in easy places, then search for it
 while glycoletter_lib is None:
     if dir == '/': # stop searching
         break
