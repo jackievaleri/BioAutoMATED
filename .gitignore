@@ -4,6 +4,7 @@ clean_data/raw/.DS_Store
 clean_data/.DS_Store
 .DS_Store
 clean_data/raw/avgfp/3102154/populations.zip
+clean_data/raw/flip/sampled.csv
 exemplars/avgfp/models/deepswarm/regression/deepswarm_base_model.h5
 exemplars/avgfp/models/deepswarm/regression/deepswarm_topology.h5
 exemplars/avgfp/outputs/deepswarm/regression/deepswarm_deploy_model.h5
