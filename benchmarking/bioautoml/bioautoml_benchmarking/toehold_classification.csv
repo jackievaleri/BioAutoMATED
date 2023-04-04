@@ -1,0 +1,2 @@
+ACC,std_ACC,MCC,std_MCC,F1,std_F1,balanced_ACC,std_balanced_ACC,kappa,std_kappa,gmean,std_gmean
+0.7694,0.00,0.5391,0.01,0.7729,0.00,0.7694,0.00,0.5388,0.01,0.7692,0.00
