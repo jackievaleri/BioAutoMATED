@@ -7,7 +7,8 @@ cd BioAutoML
 git submodule init
 git submodule update
 conda env create -f BioAutoML-env.yml -n bioautoml
-conda activate bioautoml```
+conda activate bioautoml
+```
 
 Note I did need to use an Ubuntu 18.04 virtual machine as this was incompatible with Mac OS.
 
@@ -17,7 +18,8 @@ First I confirmed that the test case study employed by the BioAutoML authors wor
 
 python BioAutoML-feature.py -fasta_train Case\ Studies/CS-I-A/E_coli/train/rRNA.fasta Case\ Studies/CS-I-A/E_coli/train/sRNA.fasta -fasta_label_train rRNA sRNA -fasta_test Case\ Studies/CS-I-A/E_coli/test/rRNA.fasta Case\ Studies/CS-I-A/E_coli/test/sRNA.fasta -fasta_label_test rRNA sRNA -output test_directory
 
-python BioAutoML+iFeature-protein.py -fasta_train MathFeature/Case\ Studies/CS-V/anticancer.fasta MathFeature/Case\ Studies/CS-V/non.fasta -fasta_label_train anticancer non -output cancertest```
+python BioAutoML+iFeature-protein.py -fasta_train MathFeature/Case\ Studies/CS-V/anticancer.fasta MathFeature/Case\ Studies/CS-V/non.fasta -fasta_label_train anticancer non -output cancertest
+```
 
 To benchmark the test datasets, I ran the following:
 
@@ -31,4 +33,5 @@ python BioAutoML-feature.py -fasta_train ../data/classification_hollerer_rbs_tra
 
 python BioAutoML-feature.py -fasta_train ../data/classification_hollerer_rbs_mediumtrain_posseqs.fasta ../data/classification_hollerer_rbs_mediumtrain_negseqs.fasta -fasta_label_train pos neg -output hollerer_rbs_mediumtrain
 
-python BioAutoML+iFeature-protein.py -fasta_train ../data/classification_train_NO_J_peptides_posseqs.fasta ../data/classification_train_NO_J_peptides_negseqs.fasta -fasta_label_train pos neg -output no_j_peptides_more_cpu -n_cpu 8```
+python BioAutoML+iFeature-protein.py -fasta_train ../data/classification_train_NO_J_peptides_posseqs.fasta ../data/classification_train_NO_J_peptides_negseqs.fasta -fasta_label_train pos neg -output no_j_peptides_more_cpu -n_cpu 8
+```
