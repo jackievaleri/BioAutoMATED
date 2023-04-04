@@ -1,4 +1,4 @@
-Downloaded from the following (link)[https://github.com/Bonidia/BioAutoML].
+Downloaded from the following [link](https://github.com/Bonidia/BioAutoML).
 
 Installed the environment in the following way:
 `git clone https://github.com/Bonidia/BioAutoML.git BioAutoML
