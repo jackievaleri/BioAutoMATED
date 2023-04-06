@@ -721,7 +721,11 @@ def integrated_design(numerical_data_input, oh_data_input, alph, numerical, nume
     k = design_params.get('k',1)
     substitution_type = design_params.get('substitution_type','random')
     target_y = design_params.get('target_y',1)
-    class_of_interest = design_params.get('class_of_interest',1)
+    if 'regression' in final_model_path:
+        class_of_interest = design_params.get('class_of_interest',0)
+    else:
+         class_of_interest = design_params.get('class_of_interest',1)
+       
     constraint_file_path = design_params.get('constraint_file_path','')
     de_novo_num_seqs_to_test = design_params.get('de_novo_num_seqs_to_test',100)
     storm_num_seqs_to_test = design_params.get('storm_num_seqs_to_test',5)   
