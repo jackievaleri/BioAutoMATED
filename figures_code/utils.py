@@ -197,9 +197,12 @@ def calc_time(folder, seq, model_type, task = 'autoML search', model_names = ['a
 ############## PART 3: PLOTTING FUNCTIONS ##############
 
 def plot_barplot(valdf, savepath, yaxis):
+    font = {'size'   : 16}
+    matplotlib.rc('font', **font)
+    
     valdf = reshape_for_plotting(valdf)  
 
-    plt.figure(figsize=(5,4), dpi=300)
+    plt.figure(figsize=(5.35,4), dpi=300)
     my_pal = {"Original": "cornflowerblue", "Scrambled": "lightgrey"}
     ax = sns.barplot(x = 'model_type', y = 'values', hue = 'scr', data=valdf, edgecolor='black', alpha = 1, linewidth = 1, palette = my_pal, ci = 'sd', errcolor = 'black', errwidth = 1.5, capsize = 0.2, saturation = 0.6)
     sns.swarmplot(x = 'model_type', y = 'values', hue = 'scr', data=valdf, dodge = True, edgecolor='black', alpha = 1, linewidth = 1, s = 6, palette = my_pal)
@@ -218,7 +221,8 @@ def plot_barplot(valdf, savepath, yaxis):
     plt.show()
     
 def plot_multicolumn_barplot(valdf, savepath, yaxis = None, multiclass = False, regression = False, add_rows = False, barplot = True):
-    
+    font = {'size'   : 24}
+    matplotlib.rc('font', **font)
     if multiclass:
         add_cols = ['Class']
     if regression:
@@ -257,6 +261,8 @@ def plot_multicolumn_barplot(valdf, savepath, yaxis = None, multiclass = False, 
     plt.show()
     
 def plot_lineplot(valdf, savepath, yaxis):
+    font = {'size'   : 16}
+    matplotlib.rc('font', **font)
     valdf = reshape_for_plotting(valdf, additional_cols = ['datasize'])
     valdf['$\it{Model}$'] = valdf['model_type']
     valdf['$\it{Data}$'] = valdf['scr']
@@ -277,6 +283,8 @@ def plot_lineplot(valdf, savepath, yaxis):
     plt.show()
     
 def plot_one_element_time(valdf, savepath, yaxis):
+    font = {'size'   : 16}
+    matplotlib.rc('font', **font)
     plt.figure(figsize=(3,4), dpi=300)
     my_pal = {"AutoKeras": "cornflowerblue", "DeepSwarm": "sandybrown", "TPOT": "grey"}
     ax = sns.barplot(data=valdf, edgecolor='black', alpha = 1, linewidth = 1, palette = my_pal)
@@ -290,6 +298,8 @@ def plot_one_element_time(valdf, savepath, yaxis):
     plt.show()
     
 def plot_all_time(valdf, savepath, yaxis):
+    font = {'size'   : 16}
+    matplotlib.rc('font', **font)
     fig, ax = plt.subplots(figsize=(6,4), dpi=300)
     colors = ['navy', 'cornflowerblue', 'sandybrown', 'rosybrown', 'grey']
     valdf.plot(kind='bar', stacked=True, color = colors, ax = ax, edgecolor='black', alpha = 1, linewidth = 1)
