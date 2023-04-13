@@ -49,6 +49,13 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
     * You can check what containers are running with the command `docker ps -a`.
     * Now, you should be able to copy your IP address plus the port number to access the code. Your IP address is localhost if you are running this guide on your machine, or your external IP address if you are running this on a virtual machine. For example, copy `localhost:8888` into your Web browser.
     * Then, open up the 01_BioAutoMATED_Small_System_Test_START_HERE.ipynb. Depending on where you are, you may need to first navigate into a folder called BioAutoMATED/. You should be able to run everything.
+
+6. To date, we have tested the Docker installation successfully on the following computers:
+    * Mac, Apple M1 chip with 32G memory, running Ventura 13.3
+    * Mac, Intel chip (2.6GHz 6-core Intel Core i7) with 16G memory, running Ventura 13.3
+    * Mac, Intel chip (2.4GHz 8-Core Intel Core i9) with 32G memory, running Ventura 13.1
+    * Linux, Intel Haswell with 32G memory, running Ubuntu 18.04
+
  
 ## Option #2: GitHub Download & Conda Installation
 
