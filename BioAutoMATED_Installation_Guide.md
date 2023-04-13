@@ -45,9 +45,13 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
     * After this stage, there should be a message saying where the image was downloaded to, for example “docker.io/jackievaleri/bioautomated:v5”. 
     * You can then start up the docker container: `docker run -dp 8888:8888 --shm-size 16G docker.io/jackievaleri/bioautomated:v5 [or the relevant location]`
         * For M1/2 Macs, you may see an error saying: “The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8)”. This relates to the issue raised in point #2. You can still proceed.
-        * We are using this `shm-size` flag to make AutoKeras play nicely with the Docker container, as detailed [here](https://github.com/keras-team/autokeras/issues/118).
+        * We are using this `shm-size` flag to make AutoKeras play nicely with the Docker container, as detailed [here](https://github.com/keras-team/autokeras/issues/118). You can lower this from 16G as needed to accommodate your computer swap memory size.
     * Now, you should be able to copy your IP address plus the port number to access the code. Your IP address is localhost if you are running this guide on your machine, or your external IP address if you are running this on a virtual machine. For example, copy `localhost:8888` into your Web browser.
     * Then, open up the 01_BioAutoMATED_Small_System_Test_START_HERE.ipynb. Depending on where you are, you may need to first navigate into a folder called BioAutoMATED/. You should be able to run everything.
+        * To run all cells, go to Cell --> Run All. After Cell 1, the following messages will appear if installations were successful: "Using TensorFlow backend. Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex." These messages indicate BioAutoMATED is running. 
+        * The last cell in this notebook will conclude successfully with the message "BioAutoMATED has concluded." if you information that DeepSwarm, AutoKeras, and TPOT is running, followed by the conclusion message, that means BioAutoMATED ran successfully! The results will be within exemplars/test/ or whatever folder you specified.
+        * If you would like to run another BioAutoMATED test within the same notebook, please be sure to restart your kernel before running so as to reset graph operations before another round of BioAutoMATED.
+
 
 6. Some additional helpful commands for using docker:
     * You can check what containers are running with the command `docker ps -a`.
