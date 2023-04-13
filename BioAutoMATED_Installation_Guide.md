@@ -49,7 +49,7 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
     * Now, you should be able to copy your IP address plus the port number to access the code. Your IP address is localhost if you are running this guide on your machine, or your external IP address if you are running this on a virtual machine. For example, copy `localhost:8888` into your Web browser.
     * Then, open up the 01_BioAutoMATED_Small_System_Test_START_HERE.ipynb. Depending on where you are, you may need to first navigate into a folder called BioAutoMATED/. You should be able to run everything.
         * To run all cells, go to Cell --> Run All. After Cell 1, the following messages will appear if installations were successful: "Using TensorFlow backend. Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex." These messages indicate BioAutoMATED is running. 
-        * The last cell in this notebook will conclude successfully with the message "BioAutoMATED has concluded." if you see information that DeepSwarm, AutoKeras, and TPOT is running, followed by the conclusion message, that means BioAutoMATED ran successfully! The results will be within exemplars/test/ or the folder you specified.
+        * The last cell in this notebook will conclude successfully with the message "BioAutoMATED has concluded." If you see information that DeepSwarm, AutoKeras, and TPOT is running, followed by the conclusion message, that means BioAutoMATED ran successfully! The results will be within exemplars/test/ or the folder you specified.
         * If you would like to run another BioAutoMATED test within the same notebook, please be sure to restart your kernel before running so as to reset graph operations before another round of BioAutoMATED.
 
 
@@ -59,10 +59,11 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
     * You can remove containers with the commance `docker rm [container-name]`.
     * You can check CPU and memory usage with the command `docker stats`. You can use CTRL+C to exit this view.
 
-7. To date, we have tested the Docker installation successfully on the following computers:
+7. To date, we have tested the Docker installation successfully on the following set-ups:
     * Mac, Apple M1 chip with 32G memory, running Ventura 13.3
     * Mac, Intel chip (2.6GHz 6-core Intel Core i7) with 16G memory, running Ventura 13.3
     * Mac, Intel chip (2.4GHz 8-Core Intel Core i9) with 32G memory, running Ventura 13.1
+    * Mac, Intel chip (2.2GHz 6-core Intel Core i7) with 16G memory, running Big Sur 11.7
     * Linux, Intel Haswell with 32G memory, running Ubuntu 18.04
 
  
