@@ -4,7 +4,7 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
 
 ## Option #1: Docker Installation (recommended, no package installations required after Docker)
 
-1.	Install Docker.
+1.	Install [Docker](https://docs.docker.com/get-docker/).
     * Download the app for your specific system by following the instructions on the Docker installation page. The current instructions are reproduced in part here for ease of use. Follow the Docker instructions for your specific system. 
     * For Macs with Intel Chip: macOS must be version 11 or newer. That is, Big Sur, Monterey, or Ventura. We recommend upgrading to the latest version of macOS. At least 4 GB of RAM is required.
     * For Macs with Apple Chip: macOS must be Ventura.
