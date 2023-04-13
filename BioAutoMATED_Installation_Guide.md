@@ -32,75 +32,75 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
         * `sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
 
 2.	For M1/2 Macs, we will need to make a change to default parameters because the performance of Docker on the new Apple silicon chips is still under development. 
-a.	Some details for those interested follow. If you are not interested, please go directly to b) to skip to implementation. The current situation: As we cannot support an aarch64/ARM64 build of the BioAutoMATED Docker container, we need to support the x86/AMD64 architecture to run on M1/2 Macs. Prior to January 2023, the best way to run x86/AMD64 architectures on M1/2 Macs was via emulation, which has extremely slow performance for BioAutoMATED and many other packages. This is a documented issue with Docker on M1/2 Macs, with more details here. In January 2023, an experimental feature was enabled to run x64/AMD64 architectures on M1/2 Macs via Rosetta virtualization. This is not as fast as natively running BioAutoMATED (again, consistent with reports from other packages) but is a great enhancement from the previous emulation option. We recommend using this experimental feature for best performance and we will be closely following updates on this problem to suggest alternatives if they are developed.
-b.	Go into Settings/General/ and select Use Virtualization Framework. M1/2 Mac users should go into the Features in Development selection and select “Use Rosetta for x86/amd64 emulation on Apple Silicon”. Note that to see this option, you must have Mac OS Ventura. You will need to restart Docker for changes to apply. A more detailed guide to these instructions can be found here. 
+     * Some details for those interested follow. If you are not interested, please go directly to b) to skip to implementation. The current situation: As we cannot support an aarch64/ARM64 build of the BioAutoMATED Docker container, we need to support the x86/AMD64 architecture to run on M1/2 Macs. Prior to January 2023, the best way to run x86/AMD64 architectures on M1/2 Macs was via emulation, which has extremely slow performance for BioAutoMATED and many other packages. This is a documented issue with Docker on M1/2 Macs, with more details here. In January 2023, an experimental feature was enabled to run x64/AMD64 architectures on M1/2 Macs via Rosetta virtualization. This is not as fast as natively running BioAutoMATED (again, consistent with reports from other packages) but is a great enhancement from the previous emulation option. We recommend using this experimental feature for best performance and we will be closely following updates on this problem to suggest alternatives if they are developed.
+    * Go into Settings/General/ and select Use Virtualization Framework. M1/2 Mac users should go into the Features in Development selection and select “Use Rosetta for x86/amd64 emulation on Apple Silicon”. Note that to see this option, you must have Mac OS Ventura. You will need to restart Docker for changes to apply. A more detailed guide to these instructions can be found here. 
 
 3.	Next, open terminal if it is not already open and navigate to a folder where you would like to work out of. For example, this may be your desktop: cd Desktop/. The next part of these instructions is adapted from the Docker installation instructions from the PyModulon package here.
 
 4.	Run the following command to test your Docker installation: “docker run hello-world” You should see something along the lines of “Hello from Docker! This message shows that your installation appears to be working correctly.” Do not proceed if you do not have this running successfully!
-a.	Before proceeding to the next step, make sure you do not have anything running on your IP address port 8888. We will be using this port for our Jupyter notebook.
+    * Before proceeding to the next step, make sure you do not have anything running on your IP address port 8888. We will be using this port for our Jupyter notebook.
 
 5.	Finally, you are ready to download the Docker repository and get started.
-a.	Pull the repository: docker pull jackievaleri/bioautomated:v5
-b.	After this stage, there should be a message saying where the image was downloaded to, for example “docker.io/jackievaleri/bioautomated:v5”. 
-c.	You can then start up the docker container: docker run -dp 8888:8888 --shm-size 16G docker.io/jackievaleri/bioautomated:v5 [or the relevant location]
-i.	For M1/2 Macs, you may see an error saying: “The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8)”. This relates to the issue raised in point #2. You can still proceed to localhost:8888.
-ii.	We are using this shm-size flag to make AutoKeras play nicely with the Docker container, as detailed here.
-d.	You can check what containers are running with the command docker ps -a.
-e.	Now, you should be able to copy your IP address plus the port number to access the code. Your IP address is localhost if you are running this guide on your machine, or your external IP address if you are running this on a virtual machine. For example, copy localhost:8888 into your Web browser.
-f.	Then, open up the 01_BioAutoMATED_Small_System_Test_START_HERE.ipynb. Depending on where you are, you may need to first navigate into a folder called BioAutoMATED/. You should be able to run everything.
+    * Pull the repository: `docker pull jackievaleri/bioautomated:v5`
+    * After this stage, there should be a message saying where the image was downloaded to, for example “docker.io/jackievaleri/bioautomated:v5”. 
+    * You can then start up the docker container: `docker run -dp 8888:8888 --shm-size 16G docker.io/jackievaleri/bioautomated:v5 [or the relevant location]`
+        * For M1/2 Macs, you may see an error saying: “The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8)”. This relates to the issue raised in point #2. You can still proceed.
+        * We are using this `shm-size` flag to make AutoKeras play nicely with the Docker container, as detailed here.
+    * You can check what containers are running with the command `docker ps -a`.
+    * Now, you should be able to copy your IP address plus the port number to access the code. Your IP address is localhost if you are running this guide on your machine, or your external IP address if you are running this on a virtual machine. For example, copy `localhost:8888` into your Web browser.
+    * Then, open up the 01_BioAutoMATED_Small_System_Test_START_HERE.ipynb. Depending on where you are, you may need to first navigate into a folder called BioAutoMATED/. You should be able to run everything.
  
 ## Option #2: GitHub Download & Conda Installation
 
 1.	First, download the repository from GitHub at: https://github.com/jackievaleri/BioAutoMATED or run the following command:
-a.	git clone https://github.com/jackievaleri/BioAutoMATED.git BioAutoMATED
+    * git clone https://github.com/jackievaleri/BioAutoMATED.git BioAutoMATED
 
 2.	If you do not already have conda, install Anaconda and add it to your path. For example, 
-a.	wget http://repo.continuum.io/archive/Anaconda3-5.3.1-Linux-x86_64.sh
-b.	sudo bash Anaconda3-5.3.1-Linux-x86_64.sh
-c.	export PATH=~/anaconda3/bin:$PATH
-d.	vim ~/.bashrc and add “export PATH=~/anaconda3/bin:$PATH” to the last line
-e.	source ~/.bashrc or reboot
-f.	Check that the install worked by trying: conda –version. There should be an output with your conda version.
+    * `wget http://repo.continuum.io/archive/Anaconda3-5.3.1-Linux-x86_64.sh`
+    * `sudo bash Anaconda3-5.3.1-Linux-x86_64.sh`
+    * `export PATH=~/anaconda3/bin:$PATH`
+    * `vim ~/.bashrc` and add `“export PATH=~/anaconda3/bin:$PATH”` to the last line
+    * `source ~/.bashrc` or reboot
+    * Check that the install worked by trying: `conda –version`. There should be an output with your conda version.
 
 3.	Install Python 3.7 if you do not already have it: conda install -c anaconda python=3.7
 
 4.	Create and activate a virtual environment called automl_py37 with python 3.7 from the environment.yml file.
-a.	conda env create -f environment.yml 
-b.	conda activate automl_py37
+    * `conda env create -f environment.yml`
+    * `conda activate automl_py37`
 
 5.	Finish with the last few installations that do not play well with conda:
-a.	Note: you should replace instances of “pip” and “python” with “pip3” and “python3”, respectively, if you have older installations of python2 on your computer. This will force the python3 path to be used.
-b.	pip install -r requirements.txt
-c.	pip install autokeras==0.4.0
-i.	Note, you may see this error: ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts. deepswarm 0.0.10 requires scikit-learn==0.20.3, but you have scikit-learn 0.20.2 which is incompatible.
-ii.	If you have this issue, you can use this instead: pip3 install autokeras==0.4.0 --no-deps
-iii.	Go ahead and proceed – scikit-learn incompatibilities have been factored in.
-d.	apt-get install graphviz graphviz-dev -y
-i.	For Mac, okay to use: brew install graphviz
-ii.	Note, you may see this error: Error: Failed to download resource "libpng"
-iii.	If you see this error, you can use pip3 install graphviz instead.
-e.	pip install pygraphviz
-f.	conda install -c conda-forge python-graphviz
-g.	git clone https://github.com/heuritech/convnets-keras.git
-h.	cd convnets-keras
-i.	python setup.py install
-j.	cd ..
-k.	pip install git+https://github.com/raghakot/keras-vis.git 
+    * Note: you should replace instances of `pip` and `python` with `pip3` and `python3`, respectively, if you have older installations of python2 on your computer. This will force the python3 path to be used.
+    * `pip install -r requirements.txt`
+    * `pip install autokeras==0.4.0`
+        * Note, you may see this error: `ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts. deepswarm 0.0.10 requires scikit-learn==0.20.3, but you have scikit-learn 0.20.2 which is incompatible.`
+       * If you have this issue, you can use this instead: `pip3 install autokeras==0.4.0 --no-deps`
+       * Go ahead and proceed – scikit-learn incompatibilities have been factored in.
+    * `apt-get install graphviz graphviz-dev -y`
+       * For Mac, okay to use: `brew install graphviz`
+       * Note, you may see this error: `Error: Failed to download resource "libpng"`
+       * If you see this error, you can use `pip3 install graphviz` instead.
+    * `pip install pygraphviz`
+    * `conda install -c conda-forge python-graphviz`
+    * `git clone https://github.com/heuritech/convnets-keras.git`
+    * `cd convnets-keras`
+    * `python setup.py install`
+    * `cd ..`
+    * `pip install git+https://github.com/raghakot/keras-vis.git`
 
 6.	Deactivate the conda environment and add the environment to your ipykernel: 
-a.	conda deactivate
-b.	python -m ipykernel install --user --name=automl_py37
+    * `conda deactivate`
+    * `python -m ipykernel install --user --name=automl_py37`
 
 7.	At this point, you should be able to use the command jupyter notebook, which should launch the Jupyter window in your web browser. Open up the notebook 01_BioAutoMATED_Small_System_Test_START_HERE.ipynb and select the kernel: automl_py37. 
-a.	Note: Tensorflow 1.13.1 does not currently run on Macs with M1 chips.
+    * Note: Tensorflow 1.13.1 does not currently run on Macs with M1 chips.
 
 8.	If you prefer to run BioAutoMATED in command line, navigate to the folder called BioAutoMATED. Then run the following:
-a.	conda activate automl_py37
-b.	python main_classes/wrapper.py -task binary_classification -data_folder ./clean_data/clean/ -data_file small_synthetic.csv -sequence_type nucleic_acid -model_folder ./exemplars/test_synthetic_nucleic_acids/models/ -output_folder ./exemplars/test_synthetic_nucleic_acids/outputs/ -verbosity 1 -input_col seq -target_col positive_score -max_runtime_minutes 10 -num_folds 2 -num_final_epochs 10 -num_generations 5 -population_size 5
+    * `conda activate automl_py37`
+    * `python main_classes/wrapper.py -task binary_classification -data_folder ./clean_data/clean/ -data_file small_synthetic.csv -sequence_type nucleic_acid -model_folder ./exemplars/test_synthetic_nucleic_acids/models/ -output_folder ./exemplars/test_synthetic_nucleic_acids/outputs/ -verbosity 1 -input_col seq -target_col positive_score -max_runtime_minutes 10 -num_folds 2 -num_final_epochs 10 -num_generations 5 -population_size 5`
 
-c.	This replicates the output of the small system test described in Step 7 above. For a full list of arguments and their meaning, please reference either the .ipynb notebook or the run_bioautomated function in the wrapper.py file.
-d.	Also, please note that you will have to make the test_synthetic_nucleic_acids/ folder in addition to the models/ and outputs/ subfolders if not already present.
+    * This replicates the output of the small system test described in Step 7 above. For a full list of arguments and their meaning, please reference either the .ipynb notebook or the run_bioautomated function in the wrapper.py file.
+    * Also, please note that you will have to make the test_synthetic_nucleic_acids/ folder in addition to the models/ and outputs/ subfolders if not already present.
 
 9.	To close the notebook, press Ctrl+C in terminal. All changes made to files in your current directory are saved to your local machine.
 
