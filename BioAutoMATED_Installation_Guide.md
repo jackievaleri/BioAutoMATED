@@ -107,15 +107,11 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
  
 ## Troubleshooting:
 
-* Problem: When I pull the Docker repository, I get a “permission denied” or “unauthorized: incorrect username or password” error.
+*Problem: When I pull the Docker repository, I get a “permission denied” or “unauthorized: incorrect username or password” error.
 * Solution: Login to your Docker account before pulling, for example with the command “docker login –username [your username]”.
 
-
-
-* Problem: The page buffers but never loads when I enter the address for the Jupyter notebook.
+*Problem: The page buffers but never loads when I enter the address for the Jupyter notebook.
 * Solution: This problem could be caused by a variety of issues, but we often see it when there is an issue connecting with the port. Check that port 8888 is available on your machine. If you are using a platform like Google Cloud Platform to make a virtual machine, it is also important to make a firewall rule for port 8888 if you are using a virtual machine on Google Cloud Platform, for instance. You may not want to use the 0.0.0.0/0 (open to everything) IP range if you have not specified which instances this firewall rule is applicable for, or else your system will be open to anyone.
   
-  
-  
-* Problem: I have an M1 or M2 Mac and Docker seems to be running slowly.
+*Problem: I have an M1 or M2 Mac and Docker seems to be running slowly.
 * Solution: We are working on optimizing the build for Macs with M1/2 Apple chips. Please see point #2 under the Docker installation instructions. Unfortunately, this is a wider problem with the new Apple silicon chips and we will be closely following developments in this space.
