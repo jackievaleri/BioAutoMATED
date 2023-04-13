@@ -1,8 +1,8 @@
-BioAutoMATED Installation Guide
+# BioAutoMATED Installation Guide
 
 There are two options for code installation: 1) Docker and 2) GitHub. We recommend using Docker because the package installations are automatically handled and guaranteed to work after Docker is successfully installed. For some users, you may wish to download the packages yourself from GitHub into a conda virtual environment. If you decide to go with this installation option, please ensure that your computer or environment can install TensorFlow v1.13.1 (with or without GPUs). Unfortunately, the new Macs with M1 chips cannot install this version of TensorFlow.
 
-Option #1: Docker Installation (recommended, no package installations required after Docker)
+## Option #1: Docker Installation (recommended, no package installations required after Docker)
 
 1.	Install Docker.
 a.	Download the app for your specific system by following the instructions on the Docker installation page. The current instructions are reproduced in part here for ease of use. Follow the Docker instructions for your specific system. 
@@ -47,7 +47,7 @@ d.	You can check what containers are running with the command docker ps -a.
 e.	Now, you should be able to copy your IP address plus the port number to access the code. Your IP address is localhost if you are running this guide on your machine, or your external IP address if you are running this on a virtual machine. For example, copy localhost:8888 into your Web browser.
 f.	Then, open up the 01_BioAutoMATED_Small_System_Test_START_HERE.ipynb. Depending on where you are, you may need to first navigate into a folder called BioAutoMATED/. You should be able to run everything.
  
-Option #2: GitHub Download & Conda Installation
+## Option #2: GitHub Download & Conda Installation
 
 1.	First, download the repository from GitHub at: https://github.com/jackievaleri/BioAutoMATED or run the following command:
 a.	git clone https://github.com/jackievaleri/BioAutoMATED.git BioAutoMATED
@@ -102,15 +102,13 @@ d.	Also, please note that you will have to make the test_synthetic_nucleic_acids
 9.	To close the notebook, press Ctrl+C in terminal. All changes made to files in your current directory are saved to your local machine.
 
  
-Troubleshooting:
+## Troubleshooting:
 
 Problem: When I pull the Docker repository, I get a “permission denied” or “unauthorized: incorrect username or password” error.
 Solution: Login to your Docker account before pulling, for example with the command “docker login –username [your username]”.
 
 Problem: The page buffers but never loads when I enter the address for the Jupyter notebook.
-Solution: This problem could be caused by a variety of issues, but we often see it when there is an issue connecting with the port. Check that port 8888 is available on your machine. If you are using a platform like Google Cloud Platform to make a virtual machine, it is also important to make a firewall rule for port 8888 if you are using a virtual machine on Google Cloud Platform, for instance. For example, here is the output of the GCP VM firewall rule below. You may not want to use the 0.0.0.0/0 (open to everything) IP range if you have not specified which instances this firewall rule is applicable for, or else your system will be open to anyone.
+Solution: This problem could be caused by a variety of issues, but we often see it when there is an issue connecting with the port. Check that port 8888 is available on your machine. If you are using a platform like Google Cloud Platform to make a virtual machine, it is also important to make a firewall rule for port 8888 if you are using a virtual machine on Google Cloud Platform, for instance. You may not want to use the 0.0.0.0/0 (open to everything) IP range if you have not specified which instances this firewall rule is applicable for, or else your system will be open to anyone.
   
-
 Problem: I have an M1 or M2 Mac and Docker seems to be running slowly.
 Solution: We are working on optimizing the build for Macs with M1/2 Apple chips. Please see point #2 under the Docker installation instructions. Unfortunately, this is a wider problem with the new Apple silicon chips and we will be closely following developments in this space.
-
