@@ -5,28 +5,31 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
 ## Option #1: Docker Installation (recommended, no package installations required after Docker)
 
 1.	Install Docker.
-a.	Download the app for your specific system by following the instructions on the Docker installation page. The current instructions are reproduced in part here for ease of use. Follow the Docker instructions for your specific system. 
-b.	For Macs with Intel Chip: macOS must be version 11 or newer. That is, Big Sur, Monterey, or Ventura. We recommend upgrading to the latest version of macOS. At least 4 GB of RAM is required.
-c.	For Macs with Apple Chip: macOS must be Ventura.
-d.	For Windows with WSL 2 backend: The requirements are as follows: The following hardware prerequisites are required to successfully run WSL 2 on Windows 10 or Windows 11:
-i.	64-bit processor with Second Level Address Translation (SLAT)
-ii.	4GB system RAM
-iii.	BIOS-level hardware virtualization support must be enabled in the BIOS settings. 
-iv.	Windows 11 64-bit: Home or Pro version 21H2 or higher, or Enterprise or Education version 21H2 or higher. Windows 10 64-bit: Home or Pro 2004 (build 19041) or higher, or Enterprise or Education 1909 (build 18363) or higher.
-v.	Enable the WSL 2 feature on Windows. For detailed instructions, refer to the Microsoft documentation.
-e.	For example, for MacOS running the Apple chip, you should double click Docker.dmg and then drag the Docker.dmg into the applications folder. Then, double click Docker.app in the Applications folder to start Docker. Docker should now be open on your computer at this point. 
-f.	For Linux environments, we used the following guidelines for installing Docker on a Linux instance (here, Ubuntu 18.04 LTS). Reproducing the code below for reference.
-i.	sudo apt-get update
-ii.	sudo apt-get install \
-ca-certificates \
-curl \
-gnupg \
-lsb-release
-iii.	sudo mkdir -m 0755 -p /etc/apt/keyrings
-iv.	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-v.	echo \ "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \ "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \ sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-vi.	sudo apt-get update
-vii.	sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    a. Download the app for your specific system by following the instructions on the Docker installation page. The current instructions are reproduced in part here for ease of use. Follow the Docker instructions for your specific system. 
+    b.	For Macs with Intel Chip: macOS must be version 11 or newer. That is, Big Sur, Monterey, or Ventura. We recommend upgrading to the latest version of macOS. At least 4 GB of RAM is required.
+    c.	For Macs with Apple Chip: macOS must be Ventura.
+    d.	For Windows with WSL 2 backend: The requirements are as follows: The following hardware prerequisites are required to successfully run WSL 2 on Windows 10 or Windows 11:
+        i.	64-bit processor with Second Level Address Translation (SLAT)
+        ii.	4GB system RAM
+        iii.	BIOS-level hardware virtualization support must be enabled in the BIOS settings. 
+        iv.	Windows 11 64-bit: Home or Pro version 21H2 or higher, or Enterprise or Education version 21H2 or higher. Windows 10 64-bit: Home or Pro 2004 (build 19041) or higher, or Enterprise or Education 1909 (build 18363) or higher.
+        v.	Enable the WSL 2 feature on Windows. For detailed instructions, refer to the Microsoft documentation.
+    e.	For example, for MacOS running the Apple chip, you should double click Docker.dmg and then drag the Docker.dmg into the applications folder. Then, double click Docker.app in the Applications folder to start Docker. Docker should now be open on your computer at this point. 
+    f.	For Linux environments, we used the following guidelines for installing Docker on a Linux instance (here, Ubuntu 18.04 LTS). Reproducing the code below for reference.
+        i.	`sudo apt-get update`
+        ii.	`sudo apt-get install \ 
+        ca-certificates \
+        curl \
+        gnupg \
+        lsb-release`
+        iii.	`sudo mkdir -m 0755 -p /etc/apt/keyrings`
+         iv.	`curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg`
+         v.	`echo \ 
+         "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \ 
+         "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | 
+         \ sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
+         vi.	`sudo apt-get update`
+         vii.	`sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
 
 2.	For M1/2 Macs, we will need to make a change to default parameters because the performance of Docker on the new Apple silicon chips is still under development. 
 a.	Some details for those interested follow. If you are not interested, please go directly to b) to skip to implementation. The current situation: As we cannot support an aarch64/ARM64 build of the BioAutoMATED Docker container, we need to support the x86/AMD64 architecture to run on M1/2 Macs. Prior to January 2023, the best way to run x86/AMD64 architectures on M1/2 Macs was via emulation, which has extremely slow performance for BioAutoMATED and many other packages. This is a documented issue with Docker on M1/2 Macs, with more details here. In January 2023, an experimental feature was enabled to run x64/AMD64 architectures on M1/2 Macs via Rosetta virtualization. This is not as fast as natively running BioAutoMATED (again, consistent with reports from other packages) but is a great enhancement from the previous emulation option. We recommend using this experimental feature for best performance and we will be closely following updates on this problem to suggest alternatives if they are developed.
