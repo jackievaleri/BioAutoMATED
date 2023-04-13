@@ -37,7 +37,7 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
 
 3.	Next, open terminal if it is not already open and navigate to a folder where you would like to work out of. For example, this may be your desktop: cd Desktop/. The next part of these instructions is adapted from the Docker installation instructions from the PyModulon package here.
 
-4.	Run the following command to test your Docker installation: “docker run hello-world” You should see something along the lines of “Hello from Docker! This message shows that your installation appears to be working correctly.” Do not proceed if you do not have this running successfully!
+4.	Run the following command to test your Docker installation: `docker run hello-world` You should see something along the lines of `Hello from Docker! This message shows that your installation appears to be working correctly.` Do not proceed if you do not have this running successfully!
     * Before proceeding to the next step, make sure you do not have anything running on your IP address port 8888. We will be using this port for our Jupyter notebook.
 
 5.	Finally, you are ready to download the Docker repository and get started.
@@ -46,11 +46,16 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
     * You can then start up the docker container: `docker run -dp 8888:8888 --shm-size 16G docker.io/jackievaleri/bioautomated:v5 [or the relevant location]`
         * For M1/2 Macs, you may see an error saying: “The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8)”. This relates to the issue raised in point #2. You can still proceed.
         * We are using this `shm-size` flag to make AutoKeras play nicely with the Docker container, as detailed [here](https://github.com/keras-team/autokeras/issues/118).
-    * You can check what containers are running with the command `docker ps -a`.
     * Now, you should be able to copy your IP address plus the port number to access the code. Your IP address is localhost if you are running this guide on your machine, or your external IP address if you are running this on a virtual machine. For example, copy `localhost:8888` into your Web browser.
     * Then, open up the 01_BioAutoMATED_Small_System_Test_START_HERE.ipynb. Depending on where you are, you may need to first navigate into a folder called BioAutoMATED/. You should be able to run everything.
 
-6. To date, we have tested the Docker installation successfully on the following computers:
+6. Some additional helpful commands for using docker:
+    * You can check what containers are running with the command `docker ps -a`.
+    * You can stop containers with the command `docker stop [container-name]`.
+    * You can remove containers with the commance `docker rm [container-name]`.
+    * You can check CPU and memory usage with the command `docker stats`. You can use CTRL+C to exit this view.
+
+7. To date, we have tested the Docker installation successfully on the following computers:
     * Mac, Apple M1 chip with 32G memory, running Ventura 13.3
     * Mac, Intel chip (2.6GHz 6-core Intel Core i7) with 16G memory, running Ventura 13.3
     * Mac, Intel chip (2.4GHz 8-Core Intel Core i9) with 32G memory, running Ventura 13.1
