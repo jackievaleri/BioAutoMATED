@@ -70,7 +70,7 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
 ## Option #2: GitHub Download & Conda Installation
 
 1.	First, download the repository from GitHub at: https://github.com/jackievaleri/BioAutoMATED or run the following command:
-    * git clone https://github.com/jackievaleri/BioAutoMATED.git BioAutoMATED
+    * `git clone https://github.com/jackievaleri/BioAutoMATED.git BioAutoMATED`
 
 2.	If you do not already have conda, install Anaconda and add it to your path. For example, 
     * `wget http://repo.continuum.io/archive/Anaconda3-5.3.1-Linux-x86_64.sh`
