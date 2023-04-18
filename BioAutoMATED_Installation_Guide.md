@@ -74,7 +74,7 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
 
 2.	If you do not already have conda, install Anaconda and add it to your path. For example, 
     * `wget http://repo.continuum.io/archive/Anaconda3-5.3.1-Linux-x86_64.sh`
-    * `sudo bash Anaconda3-5.3.1-Linux-x86_64.sh`
+    * `sudo bash Anaconda3-5.3.1-Linux-x86_64.sh` (or download from the Anaconda [website](https://www.anaconda.com))
     * `export PATH=~/anaconda3/bin:$PATH`
     * `vim ~/.bashrc` and add `“export PATH=~/anaconda3/bin:$PATH”` to the last line
     * `source ~/.bashrc` or reboot
