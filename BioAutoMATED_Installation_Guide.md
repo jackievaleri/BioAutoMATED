@@ -97,6 +97,7 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
        * For Mac, okay to use: `brew install graphviz`
        * Note, you may see this error: `Error: Failed to download resource "libpng"`
        * If you see this error, you can use `pip3 install graphviz` instead.
+       * If errors persist, Mac OS users can follow [this fix](https://stackoverflow.com/questions/68771708/error-when-installing-graphviz-on-mac-using-homebrew) and download graphviz with ports
     * `pip install pygraphviz`
     * `conda install -c conda-forge python-graphviz`
     * `git clone https://github.com/heuritech/convnets-keras.git`
