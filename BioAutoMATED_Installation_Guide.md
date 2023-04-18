@@ -80,7 +80,7 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
     * `source ~/.bashrc` or reboot
     * Check that the install worked by trying: `conda –version`. There should be an output with your conda version.
 
-3.	Install Python 3.7 if you do not already have it: conda install -c anaconda python=3.7
+3.	Install Python 3.7 if you do not already have it: `conda install -c anaconda python=3.7`
 
 4.	Create and activate a virtual environment called automl_py37 with python 3.7 from the environment.yml file.
     * `conda env create -f environment.yml`
