@@ -125,6 +125,9 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
 
 9.	To close the notebook, press Ctrl+C in terminal. All changes made to files in your current directory are saved to your local machine.
 
+10.	To date, we have tested the manual installation successfully on the following set-ups:
+    * Mac, Intel chip (2.2GHz 6-core Intel Core i7) with 16G memory, running Mojave 10.14
+    * Mac, Intel chip (2.2GHz 6-core Intel Core i7) with 16G memory, running Big Sur 11.7
  
 ## Troubleshooting:
 
