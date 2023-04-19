@@ -110,10 +110,10 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
     * `conda deactivate`
     * `python -m ipykernel install --user --name=automl_py37`
 
-7.	At this point, you should be able to use the command jupyter notebook, which should launch the Jupyter window in your web browser. Open up the notebook 01_BioAutoMATED_Small_System_Test_START_HERE.ipynb and select the kernel: automl_py37. 
+7.	At this point, you should be able to use the command `jupyter notebook`, which should launch the Jupyter window in your web browser. Open up the notebook 01_BioAutoMATED_Small_System_Test_START_HERE.ipynb and select the kernel: automl_py37. 
     * Note: Tensorflow 1.13.1 does not currently run on Macs with M1 chips.
     * We've noticed that depending on your OS, sometimes the notebook will say Error: No tensorflow module can be found. If you activate the conda environment and try the quick TensorFlow test of `python -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"`, you should get a valid output (Tensor("Sum:0", shape=(), dytpe=float32)). Despite TensorFlow being installed correctly in the virtual environment, it is not accessed properly by Jupyter! To fix this, you can try a couple things:
-        * `pip install tensorflow==1.13.1` within the conda environment worked for us! (as per [this issue](https://github.com/tensorflow/tensorflow/issues/44130)) Within the conda environment, you can then reinstall the ipykernel: `python3 -m ipykernel install --user --name automl_py37"`
+        * `pip install tensorflow==1.13.1` within the conda environment worked for us! (as per [this issue](https://github.com/tensorflow/tensorflow/issues/44130)) Within the conda environment, you can then reinstall the ipykernel: `python -m ipykernel install --user --name automl_py37"`
         * Additional fixes can be found [here](https://stackoverflow.com/questions/37061089/trouble-with-tensorflow-in-jupyter-notebook) and [here](https://www.heatonresearch.com/2019/09/03/tf-no-module-jupyter.html). 
 
 8.	If you prefer to run BioAutoMATED in command line, navigate to the folder called BioAutoMATED. Then run the following:
