@@ -139,3 +139,6 @@ Problem: The page buffers but never loads when I enter the address for the Jupyt
   
 Problem: I have an M1 or M2 Mac and Docker seems to be running slowly.
 * Solution: We are working on optimizing the build for Macs with M1/2 Apple chips. Please see point #2 under the Docker installation instructions. Unfortunately, this is a wider problem with the new Apple silicon chips and we will be closely following developments in this space.
+
+Problem: During the AutoKeras portion of my BioAutoMATED run, I see the error: "TimeoutError: Search Time too short. No model was found during the search time."
+* Solution: This error arises if the search time is too short for your machine to find a model in the allotted time. Raise the max_runtime_minutes argument in the second code cell from 10 to 60, and the error should not persist. Remember, if you re-run BioAutoMATED in the same Jupyter Notebook, we recommend restarting the kernel to fully reset the graph operations. 
