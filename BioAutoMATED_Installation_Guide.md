@@ -61,6 +61,7 @@ There are two options for code installation: 1) Docker and 2) GitHub. We recomme
 
 7. To date, we have tested the Docker installation successfully on the following set-ups:
     * Mac, Apple M1 chip with 32G memory, running Ventura 13.3
+    * Mac, Apple M1 chip with 64G memory, running Ventura 13.3
     * Mac, Intel chip (2.6GHz 6-core Intel Core i7) with 16G memory, running Ventura 13.3
     * Mac, Intel chip (2.4GHz 8-Core Intel Core i9) with 32G memory, running Ventura 13.1
     * Mac, Intel chip (2.2GHz 6-core Intel Core i7) with 16G memory, running Big Sur 11.7
