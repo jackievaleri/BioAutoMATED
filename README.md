@@ -8,3 +8,5 @@ The design choices underlying machine learning (ML) models present important bar
 
 # Installation Instructions
 Please find all installation instructions, for both GitHub and [DockerHub](https://hub.docker.com/r/jackievaleri/bioautomated) installations, in the provided [Installation Guide](https://github.com/jackievaleri/BioAutoMATED/blob/main/BioAutoMATED_Installation_Guide.md) file. 
+
+Feel free to reach out to jackievaleri8 "at" gmail "dot" com with questions.
